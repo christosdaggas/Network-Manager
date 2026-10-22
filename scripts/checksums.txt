@@ -1,0 +1,12 @@
+# Build tool checksums
+# Update these when changing pinned versions below.
+#
+# appimagetool
+# Download: https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-x86_64.AppImage
+# NOTE: The 'continuous' tag is a moving target. For reproducible builds,
+# pin to a specific release tag and update this checksum.
+#
+# linuxdeploy
+# Download: https://github.com/linuxdeploy/linuxdeploy/releases/download/continuous/linuxdeploy-x86_64.AppImage
+# NOTE: The 'continuous' tag is a moving target. For reproducible builds,
+# pin to a specific release tag and update this checksum.

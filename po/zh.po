@@ -1,0 +1,2093 @@
+# zh translation for Network Manager
+# Copyright (C) 2026 Christos A. Daggas
+# This file is distributed under the same license as the Network Manager package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: network-manager 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/christosdaggas/Network-Manager/"
+"issues\n"
+"POT-Creation-Date: 2026-10-22 15:24+0300\n"
+"PO-Revision-Date: 2026-10-22 15:00+0300\n"
+"Last-Translator: Christos A. Daggas <info@chrisdaggas.com>\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/application.rs:187
+msgid "First release, made for Fedora with the GNOME desktop"
+msgstr "首个版本，专为搭载 GNOME 桌面的 Fedora 打造"
+
+#: src/application.rs:188
+msgid ""
+"Save network and system settings as profiles and switch between them in one "
+"click"
+msgstr "将网络和系统设置保存为配置文件，并一键在它们之间切换"
+
+#: src/application.rs:189
+msgid "Network settings: IP addresses, DNS, routes, Wi-Fi and VPN connections"
+msgstr "网络设置：IP 地址、DNS、路由、Wi-Fi 和 VPN 连接"
+
+#: src/application.rs:190
+msgid ""
+"System settings: hostname, proxy, firewall zone, default printer and timezone"
+msgstr "系统设置：主机名、代理、防火墙区域、默认打印机和时区"
+
+#: src/application.rs:191
+msgid ""
+"Automatic switching based on the Wi-Fi network, the router or the time of day"
+msgstr "根据 Wi-Fi 网络、路由器或时间自动切换"
+
+#: src/application.rs:192
+msgid "Scheduled profile activation and a connection watchdog"
+msgstr "定时激活配置文件和连接监控"
+
+#: src/application.rs:193
+msgid "Scripts before and after a profile is applied, optionally sandboxed"
+msgstr "在应用配置文件前后运行脚本，可选沙盒隔离"
+
+#: src/application.rs:194
+msgid "Optional profile encryption with a passphrase"
+msgstr "可选的配置文件密码加密"
+
+#: src/application.rs:195
+msgid "System tray icon for quick profile switching"
+msgstr "用于快速切换配置文件的系统托盘图标"
+
+#: src/application.rs:196
+msgid "Dashboard with live network status and activity"
+msgstr "实时显示网络状态和活动的仪表板"
+
+#: src/application.rs:197
+msgid "Translated into 10 languages"
+msgstr "已翻译为 10 种语言"
+
+#: src/application.rs:287
+msgid "Network and system profile manager for Linux"
+msgstr "Linux 网络与系统配置文件管理器"
+
+#: src/application.rs:299 src/ui/main_window.rs:4176
+msgid "Preferences"
+msgstr "首选项"
+
+#: src/application.rs:302 src/ui/pages/settings_page.rs:123
+msgid "Appearance"
+msgstr "外观"
+
+#: src/application.rs:306
+msgid "Theme"
+msgstr "主题"
+
+#. TRANSLATORS: Color scheme option that follows the system setting
+#: src/application.rs:310
+msgid "Follow System"
+msgstr "跟随系统"
+
+#. TRANSLATORS: Color scheme option
+#. TRANSLATORS: theme button: light style
+#. TRANSLATORS: Color scheme option
+#: src/application.rs:312 src/ui/main_window.rs:4073
+#: src/ui/pages/settings_page.rs:130
+msgid "Light"
+msgstr "浅色"
+
+#. TRANSLATORS: Color scheme option
+#. TRANSLATORS: theme button: dark style
+#. TRANSLATORS: Color scheme option
+#: src/application.rs:314 src/ui/main_window.rs:4080
+#: src/ui/pages/settings_page.rs:132
+msgid "Dark"
+msgstr "深色"
+
+#: src/application.rs:319 src/ui/pages/settings_page.rs:137
+msgid "Color Scheme"
+msgstr "配色方案"
+
+#: src/application.rs:320
+msgid "Choose the application's appearance"
+msgstr "选择应用程序的外观"
+
+#: src/application.rs:352 src/ui/pages/settings_page.rs:261
+msgid "Behavior"
+msgstr "行为"
+
+#: src/application.rs:356
+msgid "Startup"
+msgstr "启动"
+
+#: src/application.rs:364
+msgid "Start on Login"
+msgstr "登录时启动"
+
+#: src/application.rs:365
+msgid "Automatically start Network Manager when you log in"
+msgstr "登录时自动启动网络管理器"
+
+#: src/application.rs:386
+msgid "Show System Tray Icon"
+msgstr "显示系统托盘图标"
+
+#: src/application.rs:387
+msgid "Display an icon in the system tray (AppIndicator on GNOME)"
+msgstr "在系统托盘中显示图标（GNOME 上使用 AppIndicator）"
+
+#: src/application.rs:407
+msgid "Tray icon unavailable. On GNOME, install the AppIndicator extension."
+msgstr "托盘图标不可用。在 GNOME 上，请安装 AppIndicator 扩展。"
+
+#: src/application.rs:423 src/ui/main_window.rs:51
+#: src/ui/pages/help_page.rs:104
+msgid "Profiles"
+msgstr "配置文件"
+
+#: src/application.rs:426
+msgid "Confirm Profile Switch"
+msgstr "确认切换配置文件"
+
+#: src/application.rs:427
+msgid "Ask for confirmation before switching profiles"
+msgstr "切换配置文件前请求确认"
+
+#: src/application.rs:672
+msgid "Connection lost! Check your network."
+msgstr "连接已断开！请检查您的网络。"
+
+#: src/models/adapter.rs:48 src/ui/widgets/network_card.rs:224
+msgid "Ethernet"
+msgstr "以太网"
+
+#: src/models/adapter.rs:49 src/ui/widgets/network_card.rs:225
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+#. TRANSLATORS: Virtual network adapter type (bridges, VLANs)
+#: src/models/adapter.rs:51
+msgid "Virtual"
+msgstr "虚拟"
+
+#. TRANSLATORS: Loopback network interface type
+#: src/models/adapter.rs:53
+msgid "Loopback"
+msgstr "环回"
+
+#. TRANSLATORS: Generic network interface type
+#: src/models/adapter.rs:55 src/ui/widgets/network_card.rs:230
+msgid "Network"
+msgstr "网络"
+
+#: src/models/templates.rs:63
+msgid "Basic home network setup with DHCP and default DNS"
+msgstr "使用 DHCP 和默认 DNS 的基本家庭网络设置"
+
+#: src/models/templates.rs:64
+msgid "Corporate network with static IP configuration"
+msgstr "使用静态 IP 配置的企业网络"
+
+#: src/models/templates.rs:65
+msgid "Secure configuration for untrusted public networks"
+msgstr "适用于不受信任的公共网络的安全配置"
+
+#: src/models/templates.rs:66
+msgid "Route all traffic through VPN connection"
+msgstr "通过 VPN 连接路由所有流量"
+
+#: src/models/templates.rs:67
+msgid "Local development with custom hosts and DNS"
+msgstr "使用自定义主机和 DNS 的本地开发环境"
+
+#: src/models/templates.rs:68
+msgid "Start with an empty profile"
+msgstr "从空配置文件开始"
+
+#. TRANSLATORS: Profile group name for the home network template
+#: src/models/templates.rs:94
+msgid "Home"
+msgstr "家庭"
+
+#. TRANSLATORS: Profile group name for the office network template
+#: src/models/templates.rs:119
+msgid "Work"
+msgstr "工作"
+
+#. TRANSLATORS: Profile group name for the public Wi-Fi template
+#: src/models/templates.rs:159
+msgid "Travel"
+msgstr "旅行"
+
+#: src/models/templates.rs:181
+msgid "Public WiFi Connected"
+msgstr "已连接到公共 Wi-Fi"
+
+#: src/models/templates.rs:182
+msgid "Remember: Use HTTPS and consider enabling VPN"
+msgstr "提醒：请使用 HTTPS 并考虑启用 VPN"
+
+#. TRANSLATORS: Profile group name for the VPN template
+#: src/models/templates.rs:191 src/ui/pages/settings_page.rs:574
+msgid "Security"
+msgstr "安全"
+
+#: src/models/templates.rs:201
+msgid "VPN Connected"
+msgstr "VPN 已连接"
+
+#: src/models/templates.rs:202
+msgid "All traffic is now routed through VPN"
+msgstr "所有流量现在都通过 VPN 路由"
+
+#. TRANSLATORS: Profile group name for the development template
+#. TRANSLATORS: profile template for software development work
+#: src/models/templates.rs:211 src/ui/main_window.rs:873
+msgid "Development"
+msgstr "开发"
+
+#: src/services/encryption.rs:269
+msgid "No encryption key set"
+msgstr "未设置加密密钥"
+
+#: src/services/encryption.rs:270
+#, rust-format
+msgid "Encryption failed: {error}"
+msgstr "加密失败：{error}"
+
+#: src/services/encryption.rs:271
+msgid "Decryption failed (wrong key or corrupted data)"
+msgstr "解密失败（密钥错误或数据已损坏）"
+
+#: src/services/encryption.rs:272
+#, rust-format
+msgid "Invalid data: {error}"
+msgstr "无效数据：{error}"
+
+#: src/services/encryption.rs:274
+#, rust-format
+msgid "Serialization failed: {error}"
+msgstr "序列化失败：{error}"
+
+#: src/tray.rs:71 src/ui/pages/dashboard_page.rs:293
+#: src/ui/pages/dashboard_page.rs:809
+msgid "No profile active"
+msgstr "没有活动的配置文件"
+
+#: src/tray.rs:84 src/ui/pages/dashboard_page.rs:253
+msgid "Network Manager"
+msgstr "网络管理器"
+
+#: src/tray.rs:103
+msgid "Open Network Manager"
+msgstr "打开网络管理器"
+
+#. TRANSLATORS: Tray menu entry naming the active profile
+#: src/tray.rs:112
+#, rust-format
+msgid "Active: {name}"
+msgstr "当前：{name}"
+
+#. TRANSLATORS: Watchdog failure action: switch to the fallback profile
+#: src/tray.rs:138 src/ui/main_window.rs:3031
+#: src/ui/pages/dashboard_page.rs:741 src/ui/pages/settings_page.rs:486
+msgid "Switch Profile"
+msgstr "切换配置文件"
+
+#: src/tray.rs:149 src/ui/main_window.rs:4214
+msgid "Quit"
+msgstr "退出"
+
+#: src/ui/encryption_dialog.rs:41 src/ui/main_window.rs:835
+#: src/ui/main_window.rs:1887 src/ui/main_window.rs:2952
+#: src/ui/main_window.rs:3209 src/ui/main_window.rs:3239
+#: src/ui/main_window.rs:5157 src/ui/pages/settings_page.rs:677
+msgid "Cancel"
+msgstr "取消"
+
+#: src/ui/encryption_dialog.rs:66
+msgid "Passphrase"
+msgstr "密码"
+
+#: src/ui/encryption_dialog.rs:73
+msgid "Confirm passphrase"
+msgstr "确认密码"
+
+#: src/ui/encryption_dialog.rs:113
+#, rust-format
+msgid "Use at least {n} character."
+msgid_plural "Use at least {n} characters."
+msgstr[0] "请至少使用 {n} 个字符。"
+
+#: src/ui/encryption_dialog.rs:124
+msgid "The passphrases do not match."
+msgstr "两次输入的密码不一致。"
+
+#: src/ui/main_window.rs:50 src/ui/main_window.rs:423
+#: src/ui/pages/help_page.rs:94
+msgid "Dashboard"
+msgstr "仪表板"
+
+#: src/ui/main_window.rs:52 src/ui/pages/help_page.rs:118
+msgid "Logs"
+msgstr "日志"
+
+#: src/ui/main_window.rs:53 src/ui/pages/help_page.rs:127
+msgid "Settings"
+msgstr "设置"
+
+#: src/ui/main_window.rs:54 src/ui/pages/help_page.rs:59
+msgid "Help"
+msgstr "帮助"
+
+#: src/ui/main_window.rs:363 src/ui/main_window.rs:815
+msgid "Collapse sidebar"
+msgstr "折叠侧边栏"
+
+#: src/ui/main_window.rs:430
+msgid "Main Menu"
+msgstr "主菜单"
+
+#: src/ui/main_window.rs:750
+msgid "New version available"
+msgstr "有新版本可用"
+
+#: src/ui/main_window.rs:758
+#, rust-format
+msgid "Version {version}"
+msgstr "版本 {version}"
+
+#: src/ui/main_window.rs:812
+msgid "Expand sidebar"
+msgstr "展开侧边栏"
+
+#: src/ui/main_window.rs:826 src/ui/pages/profiles_page.rs:76
+#: src/ui/pages/profiles_page.rs:147
+msgid "Create Profile"
+msgstr "创建配置文件"
+
+#: src/ui/main_window.rs:836
+msgid "Create"
+msgstr "创建"
+
+#: src/ui/main_window.rs:862
+msgid "Start From Template"
+msgstr "从模板开始"
+
+#: src/ui/main_window.rs:864
+msgid "Optionally start with a pre-configured template"
+msgstr "可选择从预配置的模板开始"
+
+#: src/ui/main_window.rs:867
+msgid "Blank (Empty)"
+msgstr "空白"
+
+#: src/ui/main_window.rs:868
+msgid "Home Network"
+msgstr "家庭网络"
+
+#: src/ui/main_window.rs:869
+msgid "Office Network"
+msgstr "办公网络"
+
+#: src/ui/main_window.rs:870
+msgid "Public WiFi"
+msgstr "公共 Wi-Fi"
+
+#: src/ui/main_window.rs:871
+msgid "VPN Only"
+msgstr "仅 VPN"
+
+#: src/ui/main_window.rs:876
+msgid "Template"
+msgstr "模板"
+
+#: src/ui/main_window.rs:877
+msgid "Pre-configured settings for common scenarios"
+msgstr "适用于常见场景的预配置设置"
+
+#: src/ui/main_window.rs:887 src/ui/main_window.rs:1912
+msgid "Profile Details"
+msgstr "配置文件详情"
+
+#. TRANSLATORS: profile name field
+#: src/ui/main_window.rs:891 src/ui/main_window.rs:1916
+msgid "Name"
+msgstr "名称"
+
+#. TRANSLATORS: profile description field
+#. TRANSLATORS: Schedule description entry
+#: src/ui/main_window.rs:896 src/ui/main_window.rs:1922
+#: src/ui/pages/settings_page.rs:1178
+msgid "Description"
+msgstr "描述"
+
+#: src/ui/main_window.rs:900 src/ui/main_window.rs:1929
+msgid "Group (optional)"
+msgstr "分组（可选）"
+
+#: src/ui/main_window.rs:914 src/ui/main_window.rs:2007
+msgid "Network Adapters"
+msgstr "网络适配器"
+
+#: src/ui/main_window.rs:915
+msgid ""
+"Configure settings for each network adapter. Each adapter can have its own "
+"IP, DNS, and state settings."
+msgstr ""
+"为每个网络适配器配置设置。每个适配器都可以有自己的 IP、DNS 和状态设置。"
+
+#: src/ui/main_window.rs:918 src/ui/main_window.rs:2011
+msgid "No network adapters detected"
+msgstr "未检测到网络适配器"
+
+#: src/ui/main_window.rs:944 src/ui/main_window.rs:2039
+msgid "Enable Adapter"
+msgstr "启用适配器"
+
+#: src/ui/main_window.rs:945 src/ui/main_window.rs:2040
+msgid "Configure this adapter in the profile"
+msgstr "在此配置文件中配置该适配器"
+
+#: src/ui/main_window.rs:956 src/ui/main_window.rs:2047
+msgid "DHCP (Automatic)"
+msgstr "DHCP（自动）"
+
+#: src/ui/main_window.rs:957 src/ui/main_window.rs:2048
+msgid "Static (Manual)"
+msgstr "静态（手动）"
+
+#. TRANSLATORS: IPv4 method: the adapter gets no IPv4 address
+#: src/ui/main_window.rs:959 src/ui/main_window.rs:2050
+msgid "Disabled"
+msgstr "禁用"
+
+#: src/ui/main_window.rs:962 src/ui/main_window.rs:2053
+msgid "IPv4 Configuration"
+msgstr "IPv4 配置"
+
+#: src/ui/main_window.rs:963 src/ui/main_window.rs:2054
+msgid "How to obtain IP address"
+msgstr "IP 地址获取方式"
+
+#: src/ui/main_window.rs:971 src/ui/main_window.rs:2067
+#: src/ui/pages/dashboard_page.rs:436
+msgid "IP Address"
+msgstr "IP 地址"
+
+#: src/ui/main_window.rs:977 src/ui/main_window.rs:2079
+msgid "Subnet Mask"
+msgstr "子网掩码"
+
+#: src/ui/main_window.rs:983 src/ui/main_window.rs:2090
+#: src/ui/pages/dashboard_page.rs:448
+msgid "Gateway"
+msgstr "网关"
+
+#: src/ui/main_window.rs:990 src/ui/main_window.rs:2103
+msgid "Automatic (from DHCP)"
+msgstr "自动（来自 DHCP）"
+
+#. TRANSLATORS: DNS method or proxy mode: entered by hand
+#: src/ui/main_window.rs:992 src/ui/main_window.rs:1125
+#: src/ui/main_window.rs:2105 src/ui/main_window.rs:2278
+msgid "Manual"
+msgstr "手动"
+
+#: src/ui/main_window.rs:995 src/ui/main_window.rs:2108
+msgid "DNS Configuration"
+msgstr "DNS 配置"
+
+#: src/ui/main_window.rs:1002 src/ui/main_window.rs:2115
+msgid "Primary DNS"
+msgstr "首选 DNS"
+
+#: src/ui/main_window.rs:1008 src/ui/main_window.rs:2126
+msgid "Secondary DNS"
+msgstr "备用 DNS"
+
+#: src/ui/main_window.rs:1016 src/ui/main_window.rs:2139
+msgid "WiFi Network (SSID)"
+msgstr "Wi-Fi 网络（SSID）"
+
+#: src/ui/main_window.rs:1090 src/ui/main_window.rs:2215
+msgid "VPN Connection"
+msgstr "VPN 连接"
+
+#: src/ui/main_window.rs:1092 src/ui/main_window.rs:2217
+msgid "Optionally connect to a VPN when this profile is active"
+msgstr "可选择在此配置文件处于活动状态时连接到 VPN"
+
+#: src/ui/main_window.rs:1096 src/ui/main_window.rs:2230
+msgid "Connect to VPN"
+msgstr "连接到 VPN"
+
+#: src/ui/main_window.rs:1097 src/ui/main_window.rs:2231
+msgid "Use a VPN connection from NetworkManager"
+msgstr "使用 NetworkManager 中的 VPN 连接"
+
+#: src/ui/main_window.rs:1103 src/ui/main_window.rs:2237
+msgid "VPN Connection Name"
+msgstr "VPN 连接名称"
+
+#: src/ui/main_window.rs:1118 src/ui/main_window.rs:2253
+msgid "Proxy Settings"
+msgstr "代理设置"
+
+#: src/ui/main_window.rs:1119 src/ui/main_window.rs:2254
+msgid "Configure system proxy via gsettings"
+msgstr "通过 gsettings 配置系统代理"
+
+#. TRANSLATORS: proxy mode: no proxy is used
+#. TRANSLATORS: No fallback profile selected
+#: src/ui/main_window.rs:1123 src/ui/main_window.rs:2276
+#: src/ui/pages/settings_page.rs:502 src/ui/pages/settings_page.rs:1869
+msgid "None"
+msgstr "无"
+
+#: src/ui/main_window.rs:1126 src/ui/main_window.rs:2279
+msgid "Automatic (PAC)"
+msgstr "自动（PAC）"
+
+#: src/ui/main_window.rs:1129 src/ui/main_window.rs:2282
+msgid "Proxy Mode"
+msgstr "代理模式"
+
+#: src/ui/main_window.rs:1136 src/ui/main_window.rs:2289
+msgid "HTTP Proxy"
+msgstr "HTTP 代理"
+
+#: src/ui/main_window.rs:1142 src/ui/main_window.rs:2300
+msgid "HTTPS Proxy"
+msgstr "HTTPS 代理"
+
+#: src/ui/main_window.rs:1148 src/ui/main_window.rs:2311
+msgid "No Proxy For"
+msgstr "不使用代理的主机"
+
+#: src/ui/main_window.rs:1154 src/ui/main_window.rs:2322
+msgid "PAC URL"
+msgstr "PAC 网址"
+
+#: src/ui/main_window.rs:1184 src/ui/main_window.rs:2358
+msgid "Scripts and Programs"
+msgstr "脚本和程序"
+
+#: src/ui/main_window.rs:1185 src/ui/main_window.rs:2359
+msgid "Run scripts when profile activates"
+msgstr "激活配置文件时运行脚本"
+
+#: src/ui/main_window.rs:1188 src/ui/main_window.rs:2387
+msgid "Run Pre-Script"
+msgstr "运行前置脚本"
+
+#: src/ui/main_window.rs:1189 src/ui/main_window.rs:2388
+msgid "Execute script before applying profile"
+msgstr "在应用配置文件之前执行脚本"
+
+#: src/ui/main_window.rs:1195 src/ui/main_window.rs:2394
+msgid "Pre-Script Path"
+msgstr "前置脚本路径"
+
+#: src/ui/main_window.rs:1201 src/ui/main_window.rs:2401
+msgid "Run Post-Script"
+msgstr "运行后置脚本"
+
+#: src/ui/main_window.rs:1202 src/ui/main_window.rs:2402
+msgid "Execute script after applying profile"
+msgstr "在应用配置文件之后执行脚本"
+
+#: src/ui/main_window.rs:1208 src/ui/main_window.rs:2408
+msgid "Post-Script Path"
+msgstr "后置脚本路径"
+
+#: src/ui/main_window.rs:1214 src/ui/main_window.rs:2415
+msgid "Run Program"
+msgstr "运行程序"
+
+#: src/ui/main_window.rs:1215 src/ui/main_window.rs:2416
+msgid "Launch an application when profile activates"
+msgstr "激活配置文件时启动应用程序"
+
+#: src/ui/main_window.rs:1221 src/ui/main_window.rs:2422
+msgid "Program Path"
+msgstr "程序路径"
+
+#: src/ui/main_window.rs:1226 src/ui/main_window.rs:2433
+msgid "Program Arguments"
+msgstr "程序参数"
+
+#: src/ui/main_window.rs:1587 src/ui/main_window.rs:4574
+#, rust-format
+msgid "Profile '{name}' created"
+msgstr "已创建配置文件“{name}”"
+
+#. TRANSLATORS: field name, listed in "{adapter}: invalid {fields}"
+#: src/ui/main_window.rs:1699
+msgid "IP address"
+msgstr "IP 地址"
+
+#. TRANSLATORS: field name, listed in "{adapter}: invalid {fields}"
+#: src/ui/main_window.rs:1706
+msgid "subnet mask or prefix"
+msgstr "子网掩码或前缀"
+
+#. TRANSLATORS: field name, listed in "{adapter}: invalid {fields}"
+#: src/ui/main_window.rs:1716
+msgid "gateway"
+msgstr "网关"
+
+#. TRANSLATORS: field name, listed in "{adapter}: invalid {fields}"
+#: src/ui/main_window.rs:1725
+msgid "primary DNS server"
+msgstr "首选 DNS 服务器"
+
+#. TRANSLATORS: field name, listed in "{adapter}: invalid {fields}"
+#: src/ui/main_window.rs:1729
+msgid "secondary DNS server"
+msgstr "备用 DNS 服务器"
+
+#. TRANSLATORS: {adapter} is an interface name such as wlp2s0,
+#. {fields} a comma-separated list of the field names above
+#: src/ui/main_window.rs:1736
+#, rust-format
+msgid "{adapter}: invalid {fields}"
+msgstr "{adapter}：{fields}无效"
+
+#: src/ui/main_window.rs:1875 src/ui/main_window.rs:2940
+#: src/ui/main_window.rs:3155
+msgid "Profile not found"
+msgstr "未找到配置文件"
+
+#: src/ui/main_window.rs:1879 src/ui/pages/profiles_page.rs:258
+msgid "Edit Profile"
+msgstr "编辑配置文件"
+
+#: src/ui/main_window.rs:1888 src/ui/pages/settings_page.rs:1163
+#: src/ui/pages/settings_page.rs:1541
+msgid "Save"
+msgstr "保存"
+
+#: src/ui/main_window.rs:2008
+msgid "Configure settings for each network adapter"
+msgstr "为每个网络适配器配置设置"
+
+#: src/ui/main_window.rs:2621
+msgid "Enter a profile name"
+msgstr "请输入配置文件名称"
+
+#: src/ui/main_window.rs:2886
+#, rust-format
+msgid "Profile '{name}' updated"
+msgstr "已更新配置文件“{name}”"
+
+#: src/ui/main_window.rs:2945
+msgid "Delete Profile?"
+msgstr "删除配置文件？"
+
+#: src/ui/main_window.rs:2947
+#, rust-format
+msgid ""
+"Are you sure you want to delete \"{name}\"? This action cannot be undone."
+msgstr "确定要删除“{name}”吗？此操作无法撤销。"
+
+#: src/ui/main_window.rs:2953
+msgid "Delete"
+msgstr "删除"
+
+#: src/ui/main_window.rs:3017
+#, rust-format
+msgid "Profile '{name}' deleted"
+msgstr "已删除配置文件“{name}”"
+
+#: src/ui/main_window.rs:3026
+msgid "No profiles available. Create one first!"
+msgstr "没有可用的配置文件。请先创建一个！"
+
+#: src/ui/main_window.rs:3045
+msgid "Select a profile to apply its network configuration:"
+msgstr "选择一个配置文件以应用其网络配置："
+
+#: src/ui/main_window.rs:3141 src/ui/main_window.rs:3271
+msgid "Another profile is still being applied"
+msgstr "另一个配置文件仍在应用中"
+
+#: src/ui/main_window.rs:3188
+#, rust-format
+msgid "This will apply {n} action to your system:"
+msgid_plural "This will apply {n} actions to your system:"
+msgstr[0] "这将对您的系统应用 {n} 项操作："
+
+#: src/ui/main_window.rs:3193
+#, rust-format
+msgid "{n} network action"
+msgid_plural "{n} network actions"
+msgstr[0] "{n} 项网络操作"
+
+#: src/ui/main_window.rs:3195
+#, rust-format
+msgid "{n} system action"
+msgid_plural "{n} system actions"
+msgstr[0] "{n} 项系统操作"
+
+#: src/ui/main_window.rs:3198
+#, rust-format
+msgid "{n} automation action"
+msgid_plural "{n} automation actions"
+msgstr[0] "{n} 项自动化操作"
+
+#: src/ui/main_window.rs:3205
+#, rust-format
+msgid "Apply '{name}'?"
+msgstr "应用“{name}”？"
+
+#: src/ui/main_window.rs:3210
+msgid "Apply"
+msgstr "应用"
+
+#: src/ui/main_window.rs:3232
+msgid "Security Warning"
+msgstr "安全警告"
+
+#: src/ui/main_window.rs:3234
+#, rust-format
+msgid ""
+"The profile '{name}' contains executable scripts or programs that have not "
+"been marked as trusted.\n"
+"\n"
+"Only run profiles from trusted sources."
+msgstr ""
+"配置文件“{name}”包含未被标记为受信任的可执行脚本或程序。\n"
+"\n"
+"请仅运行来自可信来源的配置文件。"
+
+#: src/ui/main_window.rs:3240
+msgid "Run Anyway"
+msgstr "仍然运行"
+
+#: src/ui/main_window.rs:3295
+#, rust-format
+msgid "Applying profile '{name}'…"
+msgstr "正在应用配置文件“{name}”…"
+
+#: src/ui/main_window.rs:3322
+#, rust-format
+msgid "Profile '{name}' could not be applied"
+msgstr "无法应用配置文件“{name}”"
+
+#: src/ui/main_window.rs:3409
+#, rust-format
+msgid "Profile '{name}' was not applied: a pre-script failed"
+msgstr "未应用配置文件“{name}”：前置脚本执行失败"
+
+#. TRANSLATORS: inserted as {skipped} at the end of the
+#. "Profile '{name}' applied …" messages
+#: src/ui/main_window.rs:3483
+#, rust-format
+msgid ", {n} skipped as unsupported or not applicable"
+msgid_plural ", {n} skipped as unsupported or not applicable"
+msgstr[0] "，{n} 项因不受支持或不适用而跳过"
+
+#: src/ui/main_window.rs:3493
+#, rust-format
+msgid "Profile '{name}' applied with {n} error{skipped}"
+msgid_plural "Profile '{name}' applied with {n} errors{skipped}"
+msgstr[0] "已应用配置文件“{name}”，出现 {n} 个错误{skipped}"
+
+#: src/ui/main_window.rs:3504
+#, rust-format
+msgid "Profile '{name}' applied ({n} action{skipped})"
+msgid_plural "Profile '{name}' applied ({n} actions{skipped})"
+msgstr[0] "已应用配置文件“{name}”（{n} 项操作{skipped}）"
+
+#: src/ui/main_window.rs:3513
+#, rust-format
+msgid "Profile '{name}' activated"
+msgstr "已激活配置文件“{name}”"
+
+#. TRANSLATORS: theme button: follow the system style
+#. TRANSLATORS: Color scheme option that follows the system setting
+#: src/ui/main_window.rs:4066 src/ui/pages/settings_page.rs:128
+msgid "System"
+msgstr "系统"
+
+#: src/ui/main_window.rs:4195 src/ui/pages/settings_page.rs:842
+msgid "About"
+msgstr "关于"
+
+#: src/ui/main_window.rs:4394 src/ui/pages/settings_page.rs:762
+msgid "Unlock Profiles"
+msgstr "解锁配置文件"
+
+#: src/ui/main_window.rs:4395
+msgid ""
+"Profile encryption is enabled. Enter your passphrase to load your profiles."
+msgstr "已启用配置文件加密。请输入密码以加载您的配置文件。"
+
+#: src/ui/main_window.rs:4397 src/ui/pages/settings_page.rs:765
+msgid "Unlock"
+msgstr "解锁"
+
+#: src/ui/main_window.rs:4402 src/ui/pages/settings_page.rs:653
+#: src/ui/pages/settings_page.rs:735 src/ui/pages/settings_page.rs:769
+msgid "Could not access the application."
+msgstr "无法访问应用程序。"
+
+#: src/ui/main_window.rs:4408 src/ui/pages/settings_page.rs:777
+msgid "That passphrase is not correct."
+msgstr "密码不正确。"
+
+#: src/ui/main_window.rs:4464
+#, rust-format
+msgid "v{version} available"
+msgstr "v{version} 可用"
+
+#: src/ui/main_window.rs:4479
+msgid "Profile changes were not saved. Unlock encryption in Settings first."
+msgstr "配置文件更改未保存。请先在设置中解锁加密。"
+
+#. TRANSLATORS: name of a duplicated profile
+#: src/ui/main_window.rs:4551
+#, rust-format
+msgid "{name} (Copy)"
+msgstr "{name}（副本）"
+
+#: src/ui/main_window.rs:4584
+msgid "Network Information"
+msgstr "网络信息"
+
+#: src/ui/main_window.rs:4611
+msgid "Default Route:"
+msgstr "默认路由："
+
+#: src/ui/main_window.rs:4620
+msgid "DNS Servers:"
+msgstr "DNS 服务器："
+
+#: src/ui/main_window.rs:4632
+msgid "Network info copied to clipboard"
+msgstr "网络信息已复制到剪贴板"
+
+#: src/ui/main_window.rs:4640
+msgid "Network Diagnostics"
+msgstr "网络诊断"
+
+#: src/ui/main_window.rs:4655
+msgid "Connectivity Test"
+msgstr "连通性测试"
+
+#: src/ui/main_window.rs:4656
+msgid "Test network connectivity to common servers"
+msgstr "测试到常用服务器的网络连通性"
+
+#: src/ui/main_window.rs:4659
+msgid "Host to ping"
+msgstr "要 ping 的主机"
+
+#: src/ui/main_window.rs:4663
+msgid "Run Ping Test"
+msgstr "运行 ping 测试"
+
+#: src/ui/main_window.rs:4691
+msgid ""
+"Invalid host. Only alphanumeric characters, dots, hyphens, and colons are "
+"allowed."
+msgstr "无效的主机。只允许字母、数字、点、连字符和冒号。"
+
+#: src/ui/main_window.rs:4695
+msgid "Running ping test..."
+msgstr "正在运行 ping 测试..."
+
+#: src/ui/main_window.rs:4710
+msgid "Ping failed:"
+msgstr "ping 失败："
+
+#: src/ui/main_window.rs:4713
+#, rust-format
+msgid "Error running ping: {error}"
+msgstr "运行 ping 时出错：{error}"
+
+#: src/ui/main_window.rs:4741
+msgid "DNS Lookup"
+msgstr "DNS 查询"
+
+#: src/ui/main_window.rs:4742
+msgid "Resolve domain names"
+msgstr "解析域名"
+
+#: src/ui/main_window.rs:4746
+msgid "Domain to lookup"
+msgstr "要查询的域名"
+
+#: src/ui/main_window.rs:4750
+msgid "Lookup DNS"
+msgstr "查询 DNS"
+
+#: src/ui/main_window.rs:4778
+msgid ""
+"Invalid domain. Only alphanumeric characters, dots, and hyphens are allowed."
+msgstr "无效的域名。只允许字母、数字、点和连字符。"
+
+#: src/ui/main_window.rs:4782
+msgid "Looking up…"
+msgstr "正在查询…"
+
+#: src/ui/main_window.rs:4794
+msgid "No DNS records found"
+msgstr "未找到 DNS 记录"
+
+#: src/ui/main_window.rs:4799
+msgid "DNS lookup failed:"
+msgstr "DNS 查询失败："
+
+#: src/ui/main_window.rs:4805
+msgid "DNS lookup tools (dig, host) not available"
+msgstr "DNS 查询工具（dig、host）不可用"
+
+#: src/ui/main_window.rs:4808
+msgid "DNS lookup failed"
+msgstr "DNS 查询失败"
+
+#: src/ui/main_window.rs:4826
+msgid "Quick Test Results"
+msgstr "快速测试结果"
+
+#: src/ui/main_window.rs:4830
+msgid "Internet Connectivity"
+msgstr "互联网连通性"
+
+#: src/ui/main_window.rs:4831 src/ui/main_window.rs:4837
+msgid "Checking…"
+msgstr "正在检查…"
+
+#: src/ui/main_window.rs:4836
+msgid "DNS Resolution"
+msgstr "DNS 解析"
+
+#. TRANSLATORS: internet connectivity test result
+#: src/ui/main_window.rs:4861 src/ui/widgets/network_card.rs:177
+msgid "Connected"
+msgstr "已连接"
+
+#. TRANSLATORS: internet connectivity test result
+#: src/ui/main_window.rs:4864
+msgid "No connection"
+msgstr "无连接"
+
+#. TRANSLATORS: DNS resolution test result
+#: src/ui/main_window.rs:4870
+msgid "DNS Working"
+msgstr "DNS 正常"
+
+#. TRANSLATORS: DNS resolution test result
+#: src/ui/main_window.rs:4873
+msgid "DNS Failed"
+msgstr "DNS 失败"
+
+#: src/ui/main_window.rs:4880
+msgid "Speed Test"
+msgstr "速度测试"
+
+#: src/ui/main_window.rs:4882
+msgid "Measure download/upload speed (uses speedtest-cli if available)"
+msgstr "测量下载/上传速度（如可用则使用 speedtest-cli）"
+
+#: src/ui/main_window.rs:4886
+msgid "Run Speed Test"
+msgstr "运行速度测试"
+
+#: src/ui/main_window.rs:4907
+msgid "Running speed test... (this may take a minute)"
+msgstr "正在运行速度测试...（可能需要一分钟）"
+
+#: src/ui/main_window.rs:4940
+#, rust-format
+msgid "Download: {speed} Mbps"
+msgstr "下载：{speed} Mbps"
+
+#: src/ui/main_window.rs:4942
+msgid "(speedtest-cli not installed for full test)"
+msgstr "（未安装 speedtest-cli，无法进行完整测试）"
+
+#: src/ui/main_window.rs:4945
+msgid "Could not parse speed result"
+msgstr "无法解析速度结果"
+
+#: src/ui/main_window.rs:4950
+msgid "Speed test tools not available."
+msgstr "速度测试工具不可用。"
+
+#: src/ui/main_window.rs:4951
+#, rust-format
+msgid "Install speedtest-cli: {command}"
+msgstr "安装 speedtest-cli：{command}"
+
+#: src/ui/main_window.rs:5023
+msgid "Refreshed"
+msgstr "已刷新"
+
+#: src/ui/main_window.rs:5032
+msgid "No profiles to export"
+msgstr "没有可导出的配置文件"
+
+#: src/ui/main_window.rs:5037 src/ui/pages/settings_page.rs:365
+#: src/ui/pages/settings_page.rs:391
+msgid "Export Profiles"
+msgstr "导出配置文件"
+
+#: src/ui/main_window.rs:5063
+#, rust-format
+msgid "Exported {n} profile"
+msgid_plural "Exported {n} profiles"
+msgstr[0] "已导出 {n} 个配置文件"
+
+#: src/ui/main_window.rs:5069 src/ui/main_window.rs:5074
+msgid "Export failed. Check logs for details."
+msgstr "导出失败。请查看日志了解详情。"
+
+#: src/ui/main_window.rs:5082
+msgid "JSON Files"
+msgstr "JSON 文件"
+
+#: src/ui/main_window.rs:5086
+msgid "All Files"
+msgstr "所有文件"
+
+#: src/ui/main_window.rs:5094 src/ui/pages/settings_page.rs:377
+#: src/ui/pages/settings_page.rs:393
+msgid "Import Profiles"
+msgstr "导入配置文件"
+
+#: src/ui/main_window.rs:5116
+msgid "Failed to read file. Check logs for details."
+msgstr "读取文件失败。请查看日志了解详情。"
+
+#: src/ui/main_window.rs:5134
+#, rust-format
+msgid "Invalid profile format: {error}"
+msgstr "无效的配置文件格式：{error}"
+
+#: src/ui/main_window.rs:5144
+msgid "No profiles found in file"
+msgstr "文件中未找到配置文件"
+
+#: src/ui/main_window.rs:5153
+msgid "Import Warning"
+msgstr "导入警告"
+
+#: src/ui/main_window.rs:5154
+msgid ""
+"The imported file contains profiles with executable scripts or programs.\n"
+"\n"
+"Do you want to import them with or without these automation actions?"
+msgstr ""
+"导入的文件包含带有可执行脚本或程序的配置文件。\n"
+"\n"
+"您要连同这些自动化操作一起导入，还是不带它们导入？"
+
+#: src/ui/main_window.rs:5158
+msgid "Import Without Scripts"
+msgstr "不带脚本导入"
+
+#: src/ui/main_window.rs:5159
+msgid "Import With Scripts"
+msgstr "连同脚本导入"
+
+#. TRANSLATORS: name of an imported profile
+#: src/ui/main_window.rs:5190
+#, rust-format
+msgid "{name} (Imported)"
+msgstr "{name}（已导入）"
+
+#: src/ui/main_window.rs:5216
+#, rust-format
+msgid "Imported {n} profile without automation actions"
+msgid_plural "Imported {n} profiles without automation actions"
+msgstr[0] "已导入 {n} 个配置文件（不含自动化操作）"
+
+#: src/ui/main_window.rs:5225
+#, rust-format
+msgid "Imported {n} profile"
+msgid_plural "Imported {n} profiles"
+msgstr[0] "已导入 {n} 个配置文件"
+
+#: src/ui/pages/dashboard_page.rs:154
+msgid "Decorative network topology graphic"
+msgstr "装饰性网络拓扑图形"
+
+#: src/ui/pages/dashboard_page.rs:257
+msgid "Manage your system connectivity"
+msgstr "管理您的系统连接"
+
+#: src/ui/pages/dashboard_page.rs:285
+msgid "Active Profile"
+msgstr "当前配置文件"
+
+#: src/ui/pages/dashboard_page.rs:300 src/ui/pages/dashboard_page.rs:819
+#: src/ui/pages/profiles_page.rs:216 src/ui/widgets/profile_row.rs:75
+#: src/ui/widgets/profile_row.rs:122
+msgid "Inactive"
+msgstr "未激活"
+
+#: src/ui/pages/dashboard_page.rs:311 src/ui/pages/dashboard_page.rs:829
+msgid "Never applied"
+msgstr "从未应用"
+
+#: src/ui/pages/dashboard_page.rs:332
+msgid "Service Status"
+msgstr "服务状态"
+
+#: src/ui/pages/dashboard_page.rs:348
+msgid "Checking..."
+msgstr "正在检查..."
+
+#: src/ui/pages/dashboard_page.rs:354
+msgid "NetworkManager handles network configuration"
+msgstr "NetworkManager 负责网络配置"
+
+#: src/ui/pages/dashboard_page.rs:363 src/ui/pages/dashboard_page.rs:877
+msgid "Start Service"
+msgstr "启动服务"
+
+#: src/ui/pages/dashboard_page.rs:370
+msgid "Starting…"
+msgstr "正在启动…"
+
+#: src/ui/pages/dashboard_page.rs:422
+msgid "Current Network"
+msgstr "当前网络"
+
+#: src/ui/pages/dashboard_page.rs:460
+msgid "DNS Servers"
+msgstr "DNS 服务器"
+
+#. TRANSLATORS: Label for the type and name of the active connection
+#: src/ui/pages/dashboard_page.rs:475
+msgid "Connection"
+msgstr "连接"
+
+#: src/ui/pages/dashboard_page.rs:499
+msgid "Network Activity"
+msgstr "网络活动"
+
+#: src/ui/pages/dashboard_page.rs:549
+msgid "Network activity graph showing download and upload rates over time"
+msgstr "显示下载和上传速率随时间变化的网络活动图表"
+
+#: src/ui/pages/dashboard_page.rs:711
+msgid "Quick Actions"
+msgstr "快捷操作"
+
+#: src/ui/pages/dashboard_page.rs:716
+msgid "Refresh status or switch to another profile"
+msgstr "刷新状态或切换到其他配置文件"
+
+#: src/ui/pages/dashboard_page.rs:730
+msgid "Refresh"
+msgstr "刷新"
+
+#: src/ui/pages/dashboard_page.rs:745
+msgid "New Profile"
+msgstr "新建配置文件"
+
+#: src/ui/pages/dashboard_page.rs:815 src/ui/pages/profiles_page.rs:212
+#: src/ui/pages/profiles_page.rs:215 src/ui/widgets/profile_row.rs:121
+msgid "Active"
+msgstr "已激活"
+
+#: src/ui/pages/dashboard_page.rs:827
+#, rust-format
+msgid "Applied: {time}"
+msgstr "已应用：{time}"
+
+#. TRANSLATORS: State of the NetworkManager system service
+#: src/ui/pages/dashboard_page.rs:868
+msgid "Running"
+msgstr "运行中"
+
+#. TRANSLATORS: State of the NetworkManager system service
+#: src/ui/pages/dashboard_page.rs:871
+msgid "Not Running"
+msgstr "未运行"
+
+#. TRANSLATORS: Transfer rate in gigabytes per second
+#: src/ui/pages/dashboard_page.rs:937
+#, rust-format
+msgid "{speed} GB/s"
+msgstr "{speed} GB/s"
+
+#. TRANSLATORS: Transfer rate in megabytes per second
+#: src/ui/pages/dashboard_page.rs:940
+#, rust-format
+msgid "{speed} MB/s"
+msgstr "{speed} MB/s"
+
+#. TRANSLATORS: Transfer rate in kilobytes per second
+#: src/ui/pages/dashboard_page.rs:943
+#, rust-format
+msgid "{speed} KB/s"
+msgstr "{speed} KB/s"
+
+#. TRANSLATORS: Transfer rate in bytes per second
+#: src/ui/pages/dashboard_page.rs:946
+#, rust-format
+msgid "{speed} B/s"
+msgstr "{speed} B/s"
+
+#: src/ui/pages/dashboard_page.rs:969 src/ui/widgets/network_card.rs:125
+#: src/ui/widgets/network_card.rs:175
+msgid "Disconnected"
+msgstr "已断开"
+
+#: src/ui/pages/dashboard_page.rs:995
+#, rust-format
+msgid "Wi-Fi ({name})"
+msgstr "Wi-Fi（{name}）"
+
+#: src/ui/pages/dashboard_page.rs:996
+#, rust-format
+msgid "Ethernet ({name})"
+msgstr "以太网（{name}）"
+
+#: src/ui/pages/dashboard_page.rs:997
+#, rust-format
+msgid "VPN ({name})"
+msgstr "VPN（{name}）"
+
+#. TRANSLATORS: A network bridge connection and its name
+#: src/ui/pages/dashboard_page.rs:999
+#, rust-format
+msgid "Bridge ({name})"
+msgstr "网桥（{name}）"
+
+#: src/ui/pages/help_page.rs:64
+msgid "Learn how to use Network Manager"
+msgstr "了解如何使用网络管理器"
+
+#: src/ui/pages/help_page.rs:85
+msgid "About Network Manager"
+msgstr "关于网络管理器"
+
+#: src/ui/pages/help_page.rs:86
+msgid ""
+"Network Manager is a comprehensive system and network profile manager for "
+"Linux. It allows you to create, manage, and quickly switch between different "
+"network and system configuration profiles. Perfect for users who need "
+"different settings for home, work, or different network environments."
+msgstr ""
+"网络管理器是一款功能全面的 Linux 系统与网络配置文件管理器。它可以让您创建、管"
+"理不同的网络和系统配置文件，并在它们之间快速切换。非常适合需要在家庭、工作或"
+"不同网络环境中使用不同设置的用户。"
+
+#: src/ui/pages/help_page.rs:95
+msgid ""
+"The Dashboard provides an overview of your current network configuration. "
+"View your active network connections, IP addresses, and connection status. "
+"The active profile is displayed prominently, and you can quickly switch "
+"between profiles using the profile selector. Network statistics and "
+"connection health are updated in real-time."
+msgstr ""
+"仪表板提供当前网络配置的概览。您可以查看活动的网络连接、IP 地址和连接状态。当"
+"前活动的配置文件会醒目显示，您还可以使用配置文件选择器在配置文件之间快速切"
+"换。网络统计信息和连接健康状况会实时更新。"
+
+#: src/ui/pages/help_page.rs:105
+msgid ""
+"Profiles are the core feature of Network Manager. Each profile stores a "
+"complete set of network and system settings including:\n"
+"\n"
+"• Network configuration (IP, DNS, gateway)\n"
+"• Proxy settings\n"
+"• Firewall rules\n"
+"• System services to enable/disable\n"
+"• Custom scripts to run on activation\n"
+"\n"
+"Create profiles for different locations or use cases, then switch between "
+"them with a single click. Profiles can be exported and imported for backup "
+"or sharing."
+msgstr ""
+"配置文件是网络管理器的核心功能。每个配置文件都存储一整套网络和系统设置，包"
+"括：\n"
+"\n"
+"• 网络配置（IP、DNS、网关）\n"
+"• 代理设置\n"
+"• 防火墙规则\n"
+"• 要启用/禁用的系统服务\n"
+"• 激活时运行的自定义脚本\n"
+"\n"
+"为不同的地点或用途创建配置文件，然后一键在它们之间切换。配置文件可以导出和导"
+"入，用于备份或共享。"
+
+#: src/ui/pages/help_page.rs:119
+msgid ""
+"The Logs page shows network-related system events and profile switch "
+"history. View connection changes, profile activations, and any errors that "
+"occurred. Filter logs by type or search for specific events. Logs help you "
+"troubleshoot connectivity issues and track configuration changes over time."
+msgstr ""
+"日志页面显示与网络相关的系统事件和配置文件切换历史。您可以查看连接变化、配置"
+"文件激活情况以及发生的任何错误。可按类型筛选日志或搜索特定事件。日志可帮助您"
+"排查连接问题，并跟踪配置随时间的变化。"
+
+#: src/ui/pages/help_page.rs:128
+msgid ""
+"The Settings page allows you to configure application preferences. Set the "
+"default profile to activate at startup, configure automatic profile "
+"switching based on network detection, enable or disable system tray "
+"integration, and customize notification preferences. Advanced options "
+"include daemon configuration and privilege settings."
+msgstr ""
+"设置页面用于配置应用程序首选项。您可以设置启动时激活的默认配置文件，配置基于"
+"网络检测的自动切换，启用或禁用系统托盘集成，以及自定义通知首选项。高级选项包"
+"括守护进程配置和权限设置。"
+
+#: src/ui/pages/help_page.rs:137
+msgid "Profile Features"
+msgstr "配置文件功能"
+
+#: src/ui/pages/help_page.rs:138
+msgid ""
+"Each profile can include:\n"
+"\n"
+"• Static or DHCP IP configuration\n"
+"• Custom DNS servers\n"
+"• HTTP/HTTPS/SOCKS proxy settings\n"
+"• Firewall zone assignment\n"
+"• VPN connection settings\n"
+"• System services to start/stop\n"
+"• Pre/post activation scripts\n"
+"• Network interface selection"
+msgstr ""
+"每个配置文件可以包括：\n"
+"\n"
+"• 静态或 DHCP IP 配置\n"
+"• 自定义 DNS 服务器\n"
+"• HTTP/HTTPS/SOCKS 代理设置\n"
+"• 防火墙区域分配\n"
+"• VPN 连接设置\n"
+"• 要启动/停止的系统服务\n"
+"• 激活前/后脚本\n"
+"• 网络接口选择"
+
+#: src/ui/pages/help_page.rs:151
+msgid "Tips"
+msgstr "提示"
+
+#: src/ui/pages/help_page.rs:152
+msgid ""
+"• Create a 'Default' profile as a baseline configuration.\n"
+"• Use descriptive profile names like 'Home WiFi' or 'Office Wired'.\n"
+"• Test profiles before relying on them in critical situations.\n"
+"• Export important profiles for backup.\n"
+"• Use the system tray for quick profile switching.\n"
+"• Check logs if a profile switch doesn't work as expected."
+msgstr ""
+"• 创建一个“默认”配置文件作为基准配置。\n"
+"• 使用描述性的配置文件名称，例如“家庭 Wi-Fi”或“办公室有线”。\n"
+"• 在关键场合依赖配置文件之前，请先进行测试。\n"
+"• 导出重要的配置文件以作备份。\n"
+"• 使用系统托盘快速切换配置文件。\n"
+"• 如果配置文件切换未按预期工作，请查看日志。"
+
+#: src/ui/pages/logs_page.rs:128
+msgid "Application Logs"
+msgstr "应用程序日志"
+
+#: src/ui/pages/logs_page.rs:136
+msgid "Search logs..."
+msgstr "搜索日志..."
+
+#. TRANSLATORS: Log filter: show entries of every level
+#: src/ui/pages/logs_page.rs:145
+msgid "All"
+msgstr "全部"
+
+#. TRANSLATORS: Log level filter
+#: src/ui/pages/logs_page.rs:147
+msgid "Info"
+msgstr "信息"
+
+#. TRANSLATORS: Log level filter
+#: src/ui/pages/logs_page.rs:149
+msgid "Warning"
+msgstr "警告"
+
+#. TRANSLATORS: Log level filter
+#: src/ui/pages/logs_page.rs:151 src/ui/pages/profiles_page.rs:218
+#: src/ui/widgets/network_card.rs:178 src/ui/widgets/profile_row.rs:124
+msgid "Error"
+msgstr "错误"
+
+#: src/ui/pages/logs_page.rs:160
+msgid "Clear Logs"
+msgstr "清除日志"
+
+#: src/ui/pages/logs_page.rs:164 src/ui/pages/logs_page.rs:305
+msgid "Export Logs"
+msgstr "导出日志"
+
+#: src/ui/pages/profiles_page.rs:72
+msgid "Search profiles..."
+msgstr "搜索配置文件..."
+
+#: src/ui/pages/profiles_page.rs:85
+msgid "Import profiles from file"
+msgstr "从文件导入配置文件"
+
+#: src/ui/pages/profiles_page.rs:91
+msgid "Export profiles to file"
+msgstr "将配置文件导出到文件"
+
+#: src/ui/pages/profiles_page.rs:143
+msgid "No Profiles Yet"
+msgstr "尚无配置文件"
+
+#: src/ui/pages/profiles_page.rs:144
+msgid "Create your first network profile to get started"
+msgstr "创建您的第一个网络配置文件以开始使用"
+
+#: src/ui/pages/profiles_page.rs:179
+msgid "Loading profiles..."
+msgstr "正在加载配置文件..."
+
+#: src/ui/pages/profiles_page.rs:217 src/ui/widgets/profile_row.rs:123
+msgid "Applying"
+msgstr "正在应用"
+
+#: src/ui/pages/profiles_page.rs:237
+msgid "Apply Profile (Enter)"
+msgstr "应用配置文件（Enter）"
+
+#: src/ui/pages/profiles_page.rs:241
+msgid "Already active"
+msgstr "已处于活动状态"
+
+#: src/ui/pages/profiles_page.rs:272
+msgid "Duplicate Profile"
+msgstr "复制配置文件"
+
+#: src/ui/pages/profiles_page.rs:285
+msgid "Delete Profile"
+msgstr "删除配置文件"
+
+#: src/ui/pages/settings_page.rs:138
+msgid "Select the application color scheme"
+msgstr "选择应用程序配色方案"
+
+#: src/ui/pages/settings_page.rs:186
+msgid "Auto-Switch"
+msgstr "自动切换"
+
+#: src/ui/pages/settings_page.rs:187
+msgid "Automatically activate profiles based on conditions"
+msgstr "根据条件自动激活配置文件"
+
+#: src/ui/pages/settings_page.rs:191
+msgid "Enable Auto-Switch"
+msgstr "启用自动切换"
+
+#: src/ui/pages/settings_page.rs:192
+msgid "Activate profiles when conditions match"
+msgstr "条件匹配时激活配置文件"
+
+#: src/ui/pages/settings_page.rs:206 src/ui/pages/settings_page.rs:457
+msgid "Check Interval"
+msgstr "检查间隔"
+
+#: src/ui/pages/settings_page.rs:207
+msgid "Seconds between condition checks"
+msgstr "两次条件检查之间的秒数"
+
+#: src/ui/pages/settings_page.rs:221
+msgid "Allow Scripts During Auto-Switch"
+msgstr "自动切换时允许运行脚本"
+
+#: src/ui/pages/settings_page.rs:222
+msgid "Run automation actions when auto-switching profiles"
+msgstr "自动切换配置文件时运行自动化操作"
+
+#: src/ui/pages/settings_page.rs:239 src/ui/pages/settings_page.rs:1694
+msgid "Auto-Switch Rules"
+msgstr "自动切换规则"
+
+#: src/ui/pages/settings_page.rs:240
+msgid "Configure conditions for automatic profile switching"
+msgstr "配置自动切换配置文件的条件"
+
+#: src/ui/pages/settings_page.rs:265
+msgid "Desktop Notifications"
+msgstr "桌面通知"
+
+#: src/ui/pages/settings_page.rs:266
+msgid "Show notifications for profile changes"
+msgstr "配置文件更改时显示通知"
+
+#: src/ui/pages/settings_page.rs:280
+msgid "Start Minimized"
+msgstr "启动时最小化"
+
+#: src/ui/pages/settings_page.rs:281
+msgid "Minimize to system tray on startup"
+msgstr "启动时最小化到系统托盘"
+
+#: src/ui/pages/settings_page.rs:298
+msgid "Storage"
+msgstr "存储"
+
+#: src/ui/pages/settings_page.rs:303
+msgid "Profiles Directory"
+msgstr "配置文件目录"
+
+#: src/ui/pages/settings_page.rs:308 src/ui/pages/settings_page.rs:336
+msgid "Open folder"
+msgstr "打开文件夹"
+
+#: src/ui/pages/settings_page.rs:331
+msgid "Logs File"
+msgstr "日志文件"
+
+#. TRANSLATORS: Shown as Pango markup, so write "&" as "&amp;"
+#: src/ui/pages/settings_page.rs:361
+msgid "Backup &amp; Restore"
+msgstr "备份与恢复"
+
+#: src/ui/pages/settings_page.rs:366
+msgid "Save all profiles to a backup file"
+msgstr "将所有配置文件保存到备份文件"
+
+#: src/ui/pages/settings_page.rs:378
+msgid "Restore profiles from a backup file"
+msgstr "从备份文件恢复配置文件"
+
+#: src/ui/pages/settings_page.rs:399
+msgid "Scheduling"
+msgstr "计划"
+
+#: src/ui/pages/settings_page.rs:400
+msgid "Automatically activate profiles at specific times"
+msgstr "在指定时间自动激活配置文件"
+
+#: src/ui/pages/settings_page.rs:404
+msgid "Enable Scheduled Activation"
+msgstr "启用定时激活"
+
+#: src/ui/pages/settings_page.rs:405
+msgid "Automatically switch profiles based on schedule"
+msgstr "按计划自动切换配置文件"
+
+#: src/ui/pages/settings_page.rs:420 src/ui/pages/settings_page.rs:1003
+msgid "Manage Schedules"
+msgstr "管理计划"
+
+#: src/ui/pages/settings_page.rs:421
+msgid "Configure time-based profile activations"
+msgstr "配置基于时间的配置文件激活"
+
+#: src/ui/pages/settings_page.rs:442
+msgid "Connection Watchdog"
+msgstr "连接监控"
+
+#: src/ui/pages/settings_page.rs:444
+msgid "Monitor network connectivity and take action on failures"
+msgstr "监控网络连通性并在故障时采取措施"
+
+#: src/ui/pages/settings_page.rs:449
+msgid "Enable Watchdog"
+msgstr "启用连接监控"
+
+#: src/ui/pages/settings_page.rs:450
+msgid "Periodically check network connectivity"
+msgstr "定期检查网络连通性"
+
+#: src/ui/pages/settings_page.rs:458
+msgid "Seconds between connectivity checks"
+msgstr "两次连通性检查之间的秒数"
+
+#: src/ui/pages/settings_page.rs:465 src/ui/pages/settings_page.rs:1742
+msgid "Ping Target"
+msgstr "Ping 目标"
+
+#: src/ui/pages/settings_page.rs:472
+msgid "Failure Threshold"
+msgstr "失败阈值"
+
+#: src/ui/pages/settings_page.rs:473
+msgid "Failed checks before taking action"
+msgstr "采取措施前的失败检查次数"
+
+#. TRANSLATORS: Watchdog failure action: show a notification
+#: src/ui/pages/settings_page.rs:482
+msgid "Notify"
+msgstr "通知"
+
+#. TRANSLATORS: Watchdog failure action: reconnect the network
+#: src/ui/pages/settings_page.rs:484
+msgid "Reconnect"
+msgstr "重新连接"
+
+#. TRANSLATORS: Watchdog failure action; "NetworkManager" is the
+#. name of the system service
+#: src/ui/pages/settings_page.rs:489
+msgid "Restart NetworkManager"
+msgstr "重启 NetworkManager"
+
+#: src/ui/pages/settings_page.rs:494
+msgid "Failure Action"
+msgstr "失败时的操作"
+
+#: src/ui/pages/settings_page.rs:495
+msgid "Action when connectivity is lost"
+msgstr "连接丢失时执行的操作"
+
+#: src/ui/pages/settings_page.rs:504
+msgid "Fallback Profile"
+msgstr "备用配置文件"
+
+#: src/ui/pages/settings_page.rs:505
+msgid "Profile to switch to when connectivity fails"
+msgstr "连接失败时要切换到的配置文件"
+
+#: src/ui/pages/settings_page.rs:575
+msgid "Script execution and profile security settings"
+msgstr "脚本执行和配置文件安全设置"
+
+#: src/ui/pages/settings_page.rs:580
+msgid "No Sandboxing"
+msgstr "不使用沙盒"
+
+#: src/ui/pages/settings_page.rs:584
+msgid "Script Sandboxing"
+msgstr "脚本沙盒"
+
+#: src/ui/pages/settings_page.rs:585
+msgid "Method for isolating script execution"
+msgstr "隔离脚本执行的方式"
+
+#: src/ui/pages/settings_page.rs:594
+msgid "Profile Encryption"
+msgstr "配置文件加密"
+
+#: src/ui/pages/settings_page.rs:595
+msgid "Encrypt saved profiles with a passphrase"
+msgstr "使用密码加密已保存的配置文件"
+
+#: src/ui/pages/settings_page.rs:602
+msgid "Change Passphrase…"
+msgstr "更改密码…"
+
+#: src/ui/pages/settings_page.rs:609
+msgid "Unlock Profiles…"
+msgstr "解锁配置文件…"
+
+#: src/ui/pages/settings_page.rs:646
+msgid "Enable Profile Encryption"
+msgstr "启用配置文件加密"
+
+#: src/ui/pages/settings_page.rs:647
+msgid ""
+"Choose a passphrase. It is never saved to disk, so you will need to enter it "
+"each time you start the app."
+msgstr "请选择一个密码。密码永远不会保存到磁盘，因此每次启动应用时都需要输入。"
+
+#: src/ui/pages/settings_page.rs:649
+msgid "Enable"
+msgstr "启用"
+
+#: src/ui/pages/settings_page.rs:674
+msgid "Disable Profile Encryption?"
+msgstr "禁用配置文件加密？"
+
+#: src/ui/pages/settings_page.rs:675
+msgid "Saved profiles will be written to disk without encryption."
+msgstr "已保存的配置文件将以未加密形式写入磁盘。"
+
+#: src/ui/pages/settings_page.rs:678
+msgid "Disable"
+msgstr "禁用"
+
+#: src/ui/pages/settings_page.rs:728
+msgid "Change Encryption Passphrase"
+msgstr "更改加密密码"
+
+#: src/ui/pages/settings_page.rs:729
+msgid "Choose a new passphrase for your saved profiles."
+msgstr "为已保存的配置文件选择一个新密码。"
+
+#: src/ui/pages/settings_page.rs:731
+msgid "Change"
+msgstr "更改"
+
+#: src/ui/pages/settings_page.rs:763
+msgid "Enter the passphrase you chose when encryption was enabled."
+msgstr "请输入启用加密时设置的密码。"
+
+#: src/ui/pages/settings_page.rs:800
+msgid "Keyboard Shortcuts"
+msgstr "键盘快捷键"
+
+#: src/ui/pages/settings_page.rs:801
+msgid "Quick access shortcuts for profile switching"
+msgstr "用于快速切换配置文件的快捷键"
+
+#: src/ui/pages/settings_page.rs:805
+msgid "Enable Profile Hotkeys"
+msgstr "启用配置文件热键"
+
+#: src/ui/pages/settings_page.rs:806
+msgid "Use keyboard shortcuts to switch profiles"
+msgstr "使用键盘快捷键切换配置文件"
+
+#: src/ui/pages/settings_page.rs:821 src/ui/pages/settings_page.rs:1394
+msgid "Configure Hotkeys"
+msgstr "配置热键"
+
+#: src/ui/pages/settings_page.rs:822
+msgid "Assign keyboard shortcuts to profiles"
+msgstr "为配置文件分配键盘快捷键"
+
+#. TRANSLATORS: Application version row
+#: src/ui/pages/settings_page.rs:846
+msgid "Version"
+msgstr "版本"
+
+#: src/ui/pages/settings_page.rs:852
+msgid "Project Website"
+msgstr "项目网站"
+
+#: src/ui/pages/settings_page.rs:873
+msgid "Report an Issue"
+msgstr "报告问题"
+
+#: src/ui/pages/settings_page.rs:928
+msgid "(No profiles available)"
+msgstr "（没有可用的配置文件）"
+
+#: src/ui/pages/settings_page.rs:1011 src/ui/pages/settings_page.rs:1157
+msgid "Add Schedule"
+msgstr "添加计划"
+
+#: src/ui/pages/settings_page.rs:1043
+msgid "No Schedules"
+msgstr "没有计划"
+
+#: src/ui/pages/settings_page.rs:1044
+msgid ""
+"Add a schedule to automatically activate profiles at specific times.\n"
+"\n"
+"Click the + button to create your first schedule."
+msgstr ""
+"添加计划以在指定时间自动激活配置文件。\n"
+"\n"
+"点击 + 按钮创建您的第一个计划。"
+
+#: src/ui/pages/settings_page.rs:1055
+msgid ""
+"Schedules use cron format: minute hour day-of-month month day-of-week\n"
+"Example: \"30 9 * * 1-5\" = 9:30 AM on weekdays"
+msgstr ""
+"计划使用 cron 格式：分钟 小时 日期 月份 星期\n"
+"示例：“30 9 * * 1-5” = 工作日上午 9:30"
+
+#: src/ui/pages/settings_page.rs:1101
+msgid "Unknown profile"
+msgstr "未知配置文件"
+
+#. TRANSLATORS: Appended to a schedule or hotkey that is turned off
+#: src/ui/pages/settings_page.rs:1106 src/ui/pages/settings_page.rs:1496
+msgid "disabled"
+msgstr "已禁用"
+
+#: src/ui/pages/settings_page.rs:1125
+msgid "Delete Schedule"
+msgstr "删除计划"
+
+#: src/ui/pages/settings_page.rs:1174
+msgid "Schedule Information"
+msgstr "计划信息"
+
+#. TRANSLATORS: Default description for a new schedule
+#: src/ui/pages/settings_page.rs:1180
+msgid "Daily Work Profile"
+msgstr "每日工作配置文件"
+
+#: src/ui/pages/settings_page.rs:1188 src/ui/pages/settings_page.rs:1559
+msgid "Profile"
+msgstr "配置文件"
+
+#: src/ui/pages/settings_page.rs:1189
+msgid "Profile to activate on schedule"
+msgstr "按计划激活的配置文件"
+
+#: src/ui/pages/settings_page.rs:1198
+msgid "Activation Time"
+msgstr "激活时间"
+
+#: src/ui/pages/settings_page.rs:1202
+msgid "Hour (0-23)"
+msgstr "小时（0-23）"
+
+#: src/ui/pages/settings_page.rs:1208
+msgid "Minute (0-59)"
+msgstr "分钟（0-59）"
+
+#: src/ui/pages/settings_page.rs:1217
+msgid "Days of Week"
+msgstr "星期"
+
+#: src/ui/pages/settings_page.rs:1218
+msgid "Select days when the schedule should run"
+msgstr "选择计划运行的日期"
+
+#: src/ui/pages/settings_page.rs:1222
+msgid "Monday"
+msgstr "星期一"
+
+#: src/ui/pages/settings_page.rs:1226
+msgid "Tuesday"
+msgstr "星期二"
+
+#: src/ui/pages/settings_page.rs:1230
+msgid "Wednesday"
+msgstr "星期三"
+
+#: src/ui/pages/settings_page.rs:1234
+msgid "Thursday"
+msgstr "星期四"
+
+#: src/ui/pages/settings_page.rs:1238
+msgid "Friday"
+msgstr "星期五"
+
+#: src/ui/pages/settings_page.rs:1242
+msgid "Saturday"
+msgstr "星期六"
+
+#: src/ui/pages/settings_page.rs:1246
+msgid "Sunday"
+msgstr "星期日"
+
+#: src/ui/pages/settings_page.rs:1262
+msgid "Options"
+msgstr "选项"
+
+#: src/ui/pages/settings_page.rs:1266
+msgid "Enabled"
+msgstr "启用"
+
+#: src/ui/pages/settings_page.rs:1267
+msgid "Schedule will trigger when enabled"
+msgstr "启用后计划将会触发"
+
+#. TRANSLATORS: A schedule that runs only once
+#: src/ui/pages/settings_page.rs:1274
+msgid "One-shot"
+msgstr "一次性"
+
+#: src/ui/pages/settings_page.rs:1275
+msgid "Run once then disable"
+msgstr "运行一次后禁用"
+
+#: src/ui/pages/settings_page.rs:1402 src/ui/pages/settings_page.rs:1535
+msgid "Add Hotkey"
+msgstr "添加热键"
+
+#: src/ui/pages/settings_page.rs:1414
+msgid "Profile Hotkeys"
+msgstr "配置文件热键"
+
+#: src/ui/pages/settings_page.rs:1415
+msgid "Global keyboard shortcuts for quick profile switching"
+msgstr "用于快速切换配置文件的全局键盘快捷键"
+
+#: src/ui/pages/settings_page.rs:1425
+msgid "No hotkeys configured. Click the + button to add one."
+msgstr "未配置热键。点击 + 按钮添加。"
+
+#: src/ui/pages/settings_page.rs:1439
+msgid "How to Use"
+msgstr "使用方法"
+
+#: src/ui/pages/settings_page.rs:1443
+msgid "About Hotkeys"
+msgstr "关于热键"
+
+#: src/ui/pages/settings_page.rs:1444
+msgid ""
+"Hotkeys work globally when the app is running. Press the shortcut to "
+"instantly switch to the assigned profile."
+msgstr "应用运行时热键全局有效。按下快捷键即可立即切换到所分配的配置文件。"
+
+#. TRANSLATORS: Heading of a warning about conflicting shortcuts
+#: src/ui/pages/settings_page.rs:1450
+msgid "Note"
+msgstr "注意"
+
+#: src/ui/pages/settings_page.rs:1452
+msgid "Some shortcuts may conflict with system or other application shortcuts."
+msgstr "某些快捷键可能与系统或其他应用程序的快捷键冲突。"
+
+#: src/ui/pages/settings_page.rs:1507
+msgid "Delete Hotkey"
+msgstr "删除热键"
+
+#: src/ui/pages/settings_page.rs:1551
+msgid "Hotkey Configuration"
+msgstr "热键配置"
+
+#: src/ui/pages/settings_page.rs:1560
+msgid "Profile to activate with this hotkey"
+msgstr "使用此热键激活的配置文件"
+
+#. TRANSLATORS: Keyboard modifier key name
+#: src/ui/pages/settings_page.rs:1569
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#. TRANSLATORS: Keyboard modifier key name
+#: src/ui/pages/settings_page.rs:1576
+msgid "Alt"
+msgstr "Alt"
+
+#. TRANSLATORS: Keyboard modifier key name
+#: src/ui/pages/settings_page.rs:1583
+msgid "Shift"
+msgstr "Shift"
+
+#. TRANSLATORS: Keyboard modifier key name (the Windows/logo key)
+#: src/ui/pages/settings_page.rs:1590
+msgid "Super"
+msgstr "Super"
+
+#. TRANSLATORS: The key pressed together with the modifiers
+#: src/ui/pages/settings_page.rs:1597
+msgid "Key"
+msgstr "按键"
+
+#. TRANSLATORS: Profile name shown when the hotkey's profile is missing
+#. TRANSLATORS: Placeholder for an interface whose name is not known yet
+#: src/ui/pages/settings_page.rs:1638 src/ui/widgets/network_card.rs:117
+msgid "Unknown"
+msgstr "未知"
+
+#: src/ui/pages/settings_page.rs:1721
+msgid "Available Rule Types"
+msgstr "可用规则类型"
+
+#: src/ui/pages/settings_page.rs:1722
+msgid "Rules are stored with each profile"
+msgstr "规则随每个配置文件一起存储"
+
+#: src/ui/pages/settings_page.rs:1726
+msgid "Wi-Fi SSID"
+msgstr "Wi-Fi SSID"
+
+#: src/ui/pages/settings_page.rs:1727
+msgid "Activate when connected to a specific network"
+msgstr "连接到特定网络时激活"
+
+#: src/ui/pages/settings_page.rs:1734
+msgid "Gateway MAC"
+msgstr "网关 MAC"
+
+#: src/ui/pages/settings_page.rs:1735
+msgid "Match by router MAC address"
+msgstr "按路由器 MAC 地址匹配"
+
+#: src/ui/pages/settings_page.rs:1743
+msgid "Activate when a host is reachable"
+msgstr "主机可达时激活"
+
+#: src/ui/pages/settings_page.rs:1750
+msgid "Time Window"
+msgstr "时间段"
+
+#: src/ui/pages/settings_page.rs:1751
+msgid "Activate during specific hours/days"
+msgstr "在特定小时/日期期间激活"
+
+#: src/ui/pages/settings_page.rs:1758
+msgid "Interface State"
+msgstr "接口状态"
+
+#: src/ui/pages/settings_page.rs:1759
+msgid "Match network interface up/down state"
+msgstr "匹配网络接口的启用/停用状态"
+
+#: src/ui/pages/settings_page.rs:1770
+msgid ""
+"Rules cannot be edited in the app yet. Rules included in imported profiles "
+"are checked automatically while Auto-Switch is enabled.\n"
+"Rules can be combined with AND/OR logic for complex matching."
+msgstr ""
+"目前尚无法在应用中编辑规则。启用自动切换后，导入的配置文件中包含的规则会被自"
+"动检查。\n"
+"规则可通过 AND/OR 逻辑组合，以实现复杂匹配。"
+
+#: src/ui/widgets/network_card.rs:176
+msgid "Connecting..."
+msgstr "正在连接..."
+
+#. TRANSLATORS: Connection state inside a screen-reader sentence
+#: src/ui/widgets/network_card.rs:211
+msgid "disconnected"
+msgstr "已断开"
+
+#. TRANSLATORS: Connection state inside a screen-reader sentence
+#: src/ui/widgets/network_card.rs:213
+msgid "connecting"
+msgstr "正在连接"
+
+#. TRANSLATORS: Connection state inside a screen-reader sentence
+#: src/ui/widgets/network_card.rs:215
+msgid "connected"
+msgstr "已连接"
+
+#. TRANSLATORS: Connection state inside a screen-reader sentence
+#. TRANSLATORS: Profile status inside a screen-reader sentence
+#: src/ui/widgets/network_card.rs:217 src/ui/widgets/profile_row.rs:109
+msgid "error"
+msgstr "错误"
+
+#: src/ui/widgets/network_card.rs:221
+msgid "no IP address"
+msgstr "无 IP 地址"
+
+#: src/ui/widgets/network_card.rs:226
+msgid "VPN"
+msgstr "VPN"
+
+#. TRANSLATORS: Network bridge interface type
+#: src/ui/widgets/network_card.rs:228
+msgid "Bridge"
+msgstr "网桥"
+
+#. TRANSLATORS: Screen-reader label for a network interface card, e.g.
+#. "wlan0 Wi-Fi interface, connected, 192.168.1.5"
+#: src/ui/widgets/network_card.rs:234
+#, rust-format
+msgid "{name} {type} interface, {state}, {ip}"
+msgstr "{name} {type} 接口，{state}，{ip}"
+
+#: src/ui/widgets/profile_row.rs:69
+msgid "Activate Profile"
+msgstr "激活配置文件"
+
+#. TRANSLATORS: Profile status inside a screen-reader sentence
+#: src/ui/widgets/profile_row.rs:103
+msgid "active"
+msgstr "已激活"
+
+#. TRANSLATORS: Profile status inside a screen-reader sentence
+#: src/ui/widgets/profile_row.rs:105
+msgid "inactive"
+msgstr "未激活"
+
+#. TRANSLATORS: Profile status inside a screen-reader sentence
+#: src/ui/widgets/profile_row.rs:107
+msgid "applying"
+msgstr "正在应用"
+
+#. TRANSLATORS: Screen-reader label for a profile row, e.g.
+#. "Profile Home, status: active"
+#: src/ui/widgets/profile_row.rs:113
+#, rust-format
+msgid "Profile {name}, status: {status}"
+msgstr "配置文件 {name}，状态：{status}"

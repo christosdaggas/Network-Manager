@@ -1,0 +1,39 @@
+Source: cd-network-manager
+Section: net
+Priority: optional
+Maintainer: Christos A. Daggas <info@chrisdaggas.com>
+Build-Depends: debhelper-compat (= 13),
+               cargo,
+               rustc (>= 1.75),
+               libgtk-4-dev (>= 4.14),
+               libadwaita-1-dev (>= 1.5),
+               libglib2.0-dev (>= 2.76),
+               pkg-config,
+               gettext
+Standards-Version: 4.6.2
+Homepage: https://chrisdaggas.com
+Vcs-Browser: https://github.com/christosdaggas/Network-Manager
+Vcs-Git: https://github.com/christosdaggas/Network-Manager.git
+Rules-Requires-Root: no
+
+Package: cd-network-manager
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         libgtk-4-1 (>= 4.14),
+         libadwaita-1-0 (>= 1.5),
+         network-manager,
+         policykit-1
+Description: Network and system profile manager for Linux
+ Network Manager is a Linux-native system and network profile
+ manager inspired by NetSetMan Pro (Windows). It allows you to create,
+ manage, and quickly switch between comprehensive network and system
+ configuration profiles.
+ .
+ Features include:
+  - Network configuration (IPv4/IPv6, DNS, routes, WiFi)
+  - VPN integration via NetworkManager
+  - System settings (hostname, hosts, proxy, firewall)
+  - Automation with pre/post scripts
+  - Rule-based automatic profile switching
+  - Polkit integration for security

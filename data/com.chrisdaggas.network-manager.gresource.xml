@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Network Manager - GResource Bundle
+  Copyright (C) 2026 Christos A. Daggas
+  SPDX-License-Identifier: MIT
+-->
+<gresources>
+  <gresource prefix="/com/chrisdaggas/network-manager">
+    <!-- Stylesheets -->
+    <file>style.css</file>
+
+    <!-- Images -->
+    <file alias="images/network-header.svg">images/network-header.svg</file>
+    
+    <!-- UI Templates (if using XML templates) -->
+    <!-- <file preprocess="xml-stripblanks">ui/window.ui</file> -->
+    <!-- <file preprocess="xml-stripblanks">ui/profile-editor.ui</file> -->
+    
+    <!-- Icons (symbolic) -->
+    <!-- <file preprocess="xml-stripblanks" alias="icons/scalable/actions/profile-symbolic.svg">icons/profile-symbolic.svg</file> -->
+  </gresource>
+</gresources>

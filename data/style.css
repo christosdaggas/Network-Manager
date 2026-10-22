@@ -1,0 +1,716 @@
+/* ============================================================
+ * Shell Layout (matches the Cleaner application)
+ * ============================================================ */
+
+/* Shell surfaces sampled from the light and dark references. */
+@define-color nm_light_sidebar_surface #ebebed;
+@define-color nm_light_content_surface #ffffff;
+@define-color nm_dark_sidebar_surface #2e2e32;
+@define-color nm_dark_content_surface #343437;
+
+window.background {
+    background-color: @window_bg_color;
+    color: @window_fg_color;
+}
+
+.network-manager-window-layout {
+    background-color: @window_bg_color;
+}
+
+.network-manager-sidebar {
+    background-color: @sidebar_bg_color;
+    color: @sidebar_fg_color;
+}
+
+.network-manager-content,
+.network-manager-view,
+.view.network-manager-view {
+    background-color: @headerbar_bg_color;
+    color: @view_fg_color;
+}
+
+/* Keep each half of the shell continuous from its header down. */
+headerbar.network-manager-content-header {
+    background-color: @headerbar_bg_color;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+}
+
+.network-manager-sidebar-header {
+    background-color: @sidebar_bg_color;
+    border: none;
+    box-shadow: none;
+}
+
+/* Light theme surfaces */
+.network-manager-light .network-manager-sidebar,
+.network-manager-light .network-manager-sidebar-header {
+    background-color: @nm_light_sidebar_surface;
+}
+
+.network-manager-light .network-manager-content,
+.network-manager-light .network-manager-view,
+.network-manager-light .view.network-manager-view,
+.network-manager-light headerbar.network-manager-content-header {
+    background-color: @nm_light_content_surface;
+}
+
+/* Dark theme surfaces */
+.network-manager-dark .network-manager-sidebar,
+.network-manager-dark .network-manager-sidebar-header {
+    background-color: @nm_dark_sidebar_surface;
+}
+
+.network-manager-dark .network-manager-content,
+.network-manager-dark .network-manager-view,
+.network-manager-dark .view.network-manager-view,
+.network-manager-dark headerbar.network-manager-content-header {
+    background-color: @nm_dark_content_surface;
+}
+
+/* Popup surfaces follow the content pane. */
+.network-manager-light popover.background > contents,
+.network-manager-light popover.menu > contents {
+    background-color: @nm_light_content_surface;
+}
+
+.network-manager-dark popover.background > contents,
+.network-manager-dark popover.menu > contents {
+    background-color: @nm_dark_content_surface;
+}
+
+/* High contrast: the window drops the light/dark surface classes so the stock
+   Adwaita colours apply; only the faint rules need strengthening. */
+.network-manager-high-contrast .dashboard-divider {
+    background-color: alpha(@window_fg_color, 0.5);
+}
+
+.network-manager-high-contrast box.dashboard-card.dashboard-column-end {
+    border-left-color: alpha(@window_fg_color, 0.5);
+}
+
+.network-manager-high-contrast .navigation-sidebar row:selected {
+    border-color: @accent_color;
+}
+
+/* Status bar at the bottom of the content pane */
+.app-status-bar {
+    min-height: 26px;
+    padding: 0 14px 6px 14px;
+    background-color: transparent;
+}
+
+.app-version-label {
+    color: alpha(@window_fg_color, 0.52);
+    font-size: 9pt;
+}
+
+/* ============================================================
+ * Status Indicators
+ * ============================================================ */
+
+.status-indicator {
+    border-radius: 50%;
+    min-width: 12px;
+    min-height: 12px;
+    background-color: @borders;
+}
+
+.status-indicator.active {
+    background-color: @success_color;
+}
+
+.status-indicator.inactive {
+    background-color: @borders;
+}
+
+.status-indicator.error {
+    background-color: @error_color;
+}
+
+.status-indicator.warning {
+    background-color: @warning_color;
+}
+
+.status-indicator.applying {
+    background-color: @accent_color;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .status-indicator.applying {
+        animation: pulse 1s infinite;
+    }
+}
+
+/* ============================================================
+ * Profile Cards / List Rows
+ * ============================================================ */
+
+.profile-row {
+    padding: 12px;
+    margin: 4px 8px;
+    border-radius: 8px;
+    transition: background-color 200ms ease;
+    background-color: @card_bg_color;
+}
+
+.profile-row:hover {
+    background-color: alpha(@card_bg_color, 0.8);
+}
+
+.profile-row:selected {
+    background-color: alpha(@accent_color, 0.15);
+}
+
+/* Profiles list container - transparent background */
+.profiles-list {
+    background: transparent;
+}
+
+.profile-row .profile-name {
+    font-weight: 600;
+}
+
+.profile-row .profile-group {
+    font-size: 0.9em;
+    opacity: 0.7;
+}
+
+.profile-row .profile-last-applied {
+    font-size: 0.85em;
+    opacity: 0.6;
+}
+
+/* ============================================================
+ * Status Pills (Active/Inactive/Error badges)
+ * ============================================================ */
+
+.status-pill {
+    border-radius: 999px;
+    padding: 4px 12px;
+    font-weight: 600;
+    font-size: 11px;
+}
+
+.status-pill.active {
+    background-color: alpha(@success_color, 0.2);
+    color: @success_color;
+}
+
+.status-pill.inactive {
+    background-color: alpha(@borders, 0.3);
+    color: @window_fg_color;
+}
+
+.status-pill.error {
+    background-color: alpha(@error_color, 0.2);
+    color: @error_color;
+}
+
+.status-pill.applying {
+    background-color: alpha(@accent_color, 0.2);
+    color: @accent_color;
+}
+
+.status-pill.status-active {
+    background-color: alpha(@success_color, 0.2);
+    color: @success_color;
+}
+
+.status-pill.status-ready {
+    background-color: alpha(@accent_color, 0.15);
+    color: @accent_color;
+}
+
+/* Active profile row highlight */
+.profile-row.active-profile {
+    background-color: alpha(@success_color, 0.1);
+    border-left: 3px solid @success_color;
+}
+
+/* Button styling in profile rows */
+.profile-row button.flat.destructive-action {
+    color: @error_color;
+}
+
+.profile-row button.flat.destructive-action:hover {
+    background-color: alpha(@error_color, 0.15);
+}
+
+/* ============================================================
+ * Navigation Sidebar
+ * ============================================================ */
+
+/* Sidebar box styling */
+.sidebar-box {
+    background-color: @sidebar_bg_color;
+    transition: all 200ms ease-out;
+}
+
+/* Navigation row box - centers icons when collapsed */
+.nav-row-box {
+    min-height: 24px;
+}
+
+/* Navigation label transition */
+.nav-label {
+    transition: opacity 150ms ease-out;
+}
+
+.navigation-sidebar {
+    background-color: transparent;
+    color: @sidebar_fg_color;
+}
+
+.navigation-sidebar row {
+    margin: 2px 8px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0;
+    transition: background-color 160ms ease, border-color 160ms ease;
+}
+
+.navigation-sidebar row:hover {
+    background-color: alpha(@window_fg_color, 0.08);
+}
+
+.navigation-sidebar row:selected {
+    background-color: alpha(@accent_bg_color, 0.18);
+    border-color: alpha(@accent_color, 0.22);
+}
+
+.navigation-sidebar row:selected label,
+.navigation-sidebar row:selected image {
+    color: inherit;
+}
+
+.navigation-sidebar row image {
+    -gtk-icon-style: symbolic;
+}
+
+/* ---- Collapsed sidebar overrides ---- */
+.sidebar-collapsed .navigation-sidebar row {
+    padding: 0;
+    margin: 2px 4px;
+}
+
+.sidebar-collapsed .navigation-sidebar .nav-row-box {
+    margin: 0;
+}
+
+/* ============================================================
+ * Dashboard Cards
+ * ============================================================ */
+
+/* Dashboard panels share the content surface so the page reads as a single
+   uninterrupted area rather than a stack of raised cards. */
+.dashboard-card,
+box.dashboard-card {
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+    /* Breathing room around each panel's content; the surface stays flat. */
+    padding: 12px 6px;
+    box-shadow: none;
+}
+
+.dashboard-card:hover,
+box.dashboard-card:hover {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+/* Flat rule between dashboard sections. */
+.dashboard-divider {
+    min-height: 1px;
+    margin: 8px 0;
+    background-color: alpha(@window_fg_color, 0.10);
+}
+
+/* The welcome header sits directly on its divider. */
+box.dashboard-card.dashboard-header {
+    padding-bottom: 0;
+}
+
+/* Compact panels (Quick Actions, Active Profile, Service Status) sit
+   tighter than the other dashboard panels. */
+box.dashboard-card.dashboard-card-compact {
+    padding: 4px 6px;
+}
+
+/* Second column of a dashboard row: a thin rule centred in the row's 24px
+   gap (declared after the compact rule so its padding wins). */
+box.dashboard-card.dashboard-column-end {
+    border-left: 1px solid alpha(@window_fg_color, 0.10);
+    padding-left: 24px;
+}
+
+/* Main dashboard title: between the title-1 and title-2 sizes. */
+.dashboard-title {
+    font-size: 19pt;
+    font-weight: 800;
+}
+
+.quick-actions button {
+    min-height: 28px;
+    padding: 2px 12px;
+}
+
+/* Accent-colored elements (uses system accent color) */
+.accent-colored {
+    color: @accent_color;
+}
+
+.dashboard-card .card-title {
+    font-weight: 600;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+
+.dashboard-card .card-value {
+    font-size: 1.8em;
+    font-weight: 800;
+    font-feature-settings: "tnum";
+}
+
+.dashboard-card .card-subtitle {
+    font-size: 0.9em;
+    opacity: 0.7;
+}
+
+/* ============================================================
+ * Action Groups (Profile Editor)
+ * ============================================================ */
+
+.action-group-header {
+    font-weight: 700;
+    font-size: 1.1em;
+    padding: 12px 0 8px 0;
+}
+
+.action-row {
+    padding: 8px 0;
+}
+
+.action-row.disabled {
+    opacity: 0.5;
+}
+
+.action-row .action-icon {
+    color: @accent_color;
+    margin-right: 12px;
+}
+
+/* ============================================================
+ * Apply Progress Overlay
+ * ============================================================ */
+
+.apply-overlay {
+    background-color: alpha(@window_bg_color, 0.95);
+}
+
+.apply-step {
+    padding: 8px 16px;
+    border-radius: 6px;
+}
+
+.apply-step.pending {
+    opacity: 0.6;
+}
+
+.apply-step.running {
+    background-color: alpha(@accent_color, 0.1);
+}
+
+.apply-step.success {
+    background-color: alpha(@success_color, 0.1);
+}
+
+.apply-step.error {
+    background-color: alpha(@error_color, 0.1);
+}
+
+.apply-step .step-icon.success {
+    color: @success_color;
+}
+
+.apply-step .step-icon.error {
+    color: @error_color;
+}
+
+.apply-step .step-icon.running {
+    color: @accent_color;
+}
+
+/* ============================================================
+ * Log View
+ * ============================================================ */
+
+.log-view {
+    font-family: monospace;
+    font-size: 10pt;
+}
+
+.log-entry.error {
+    color: @error_color;
+}
+
+.log-entry.warning {
+    color: @warning_color;
+}
+
+.log-entry.info {
+    color: @accent_color;
+}
+
+.log-timestamp {
+    opacity: 0.6;
+    font-size: 0.9em;
+}
+
+/* ============================================================
+ * Form Validation
+ * ============================================================ */
+
+.validation-error {
+    color: @error_color;
+    font-size: 0.85em;
+    margin-top: 4px;
+}
+
+entry.error {
+    border-color: @error_color;
+    box-shadow: 0 0 0 1px alpha(@error_color, 0.3);
+}
+
+entry.valid {
+    border-color: @success_color;
+}
+
+/* ============================================================
+ * Empty State
+ * ============================================================ */
+
+.empty-state {
+    padding: 48px;
+}
+
+.empty-state .empty-icon {
+    color: alpha(@window_fg_color, 0.3);
+    margin-bottom: 16px;
+}
+
+.empty-state .empty-title {
+    font-size: 1.4em;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.empty-state .empty-description {
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+
+/* ============================================================
+ * Semantic Colors
+ * ============================================================ */
+
+.success {
+    color: @success_color;
+}
+
+.warning {
+    color: @warning_color;
+}
+
+.error {
+    color: @error_color;
+}
+
+.accent {
+    color: @accent_color;
+}
+
+.dim-label {
+    opacity: 0.7;
+}
+
+/* ============================================================
+ * Typography
+ * ============================================================ */
+
+.title-1 {
+    font-size: 24pt;
+    font-weight: 800;
+}
+
+.title-2 {
+    font-size: 18pt;
+    font-weight: 700;
+}
+
+.title-3 {
+    font-size: 14pt;
+    font-weight: 600;
+}
+
+.heading {
+    font-weight: 600;
+}
+
+.caption {
+    font-size: 10pt;
+}
+
+.monospace {
+    font-family: monospace;
+}
+
+/* ============================================================
+ * Animations
+ * ============================================================ */
+
+@keyframes pulse {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* ============================================================
+ * Responsive / Adaptive Adjustments
+ * ============================================================ */
+
+/* Compact mode for narrow windows */
+.compact .dashboard-card {
+    padding: 12px;
+}
+
+.compact .profile-row {
+    padding: 8px;
+}
+
+/* ============================================================
+ * Theme Selector
+ * ============================================================ */
+
+.theme-selector {
+    border-radius: 50%;
+    border: 2px solid alpha(@window_fg_color, 0.3);
+    padding: 0;
+    margin: 0;
+}
+
+.theme-default {
+    background: conic-gradient(from 135deg, #ffffff 0deg, #ffffff 180deg, #1e1e1e 180deg, #1e1e1e 360deg);
+    background-size: 100% 100%;
+    background-origin: border-box;
+}
+
+.theme-light {
+    background-color: #ffffff;
+    border-color: alpha(@window_fg_color, 0.15);
+}
+
+.theme-dark {
+    background-color: #1e1e1e;
+}
+
+.theme-button {
+    padding: 4px;
+    min-width: 52px;
+    min-height: 52px;
+}
+
+.theme-button:checked {
+    background-color: alpha(@accent_color, 0.15);
+    border-radius: 50%;
+}
+
+.theme-button:checked .theme-selector {
+    border-color: @accent_color;
+    border-width: 3px;
+}
+
+.theme-check {
+    color: @accent_color;
+    background-color: @window_bg_color;
+    border-radius: 50%;
+    padding: 2px;
+    -gtk-icon-size: 16px;
+}
+
+/* ============================================================
+ * Menu Items
+ * ============================================================ */
+
+.menu-item {
+    border-radius: 6px;
+    margin: 1px 0;
+}
+
+.menu-item:hover {
+    background-color: alpha(@view_fg_color, 0.08);
+}
+
+popover.menu contents {
+    padding: 6px;
+}
+
+/* ============================================================
+ * Network Activity Graph
+ * ============================================================ */
+
+.network-graph {
+    border-radius: 8px;
+    background-color: transparent;
+    min-height: 96px;
+}
+
+/* Legend dots in the Network Activity heading, matching the graph lines. */
+.legend-download {
+    border-radius: 50%;
+    background-color: #3584e4;
+}
+
+.legend-upload {
+    border-radius: 50%;
+    background-color: #2ec27e;
+}
+
+/* ============================================================
+ * Update Banner
+ * ============================================================ */
+
+.update-banner {
+    background-color: alpha(#e74c3c, 0.15);
+    border: 1px solid alpha(#e74c3c, 0.3);
+    border-radius: 7px;
+    padding: 1px 7px;
+    margin: 0;
+    opacity: 1;
+}
+
+.update-banner .update-icon {
+    color: #e74c3c;
+}
+
+.update-banner .update-link {
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #e74c3c;
+    padding: 0;
+    min-height: 0;
+}
+
+.update-banner-label {
+    font-size: 0.85em;
+    font-weight: 600;
+    color: #e74c3c;
+}

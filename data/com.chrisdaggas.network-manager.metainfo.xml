@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Network Manager - AppStream Metainfo
+  Copyright (C) 2026 Christos A. Daggas
+  SPDX-License-Identifier: MIT
+-->
+<component type="desktop-application">
+  <id>com.chrisdaggas.network-manager</id>
+  
+  <name>Network Manager</name>
+  <summary>Manage network and system profiles</summary>
+  
+  <developer id="com.chrisdaggas">
+    <name>Christos A. Daggas</name>
+  </developer>
+  
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  
+  <description>
+    <p>
+      Network Manager is a Linux-native system and network profile manager 
+      inspired by NetSetMan Pro, redesigned for Linux best practices.
+    </p>
+    <p>Features:</p>
+    <ul>
+      <li>Create unlimited network and system profiles</li>
+      <li>Switch configurations manually, automatically, or via CLI</li>
+      <li>Manage IP addresses, DNS, routes, VPN, Wi-Fi profiles</li>
+      <li>Configure system settings: hostname, proxy, firewall, printer</li>
+      <li>Auto-switch profiles based on conditions (SSID, gateway, time)</li>
+      <li>Pre/post scripts for advanced automation</li>
+      <li>Non-blocking, responsive GTK4/libadwaita interface</li>
+    </ul>
+    <p>
+      The application follows GNOME Human Interface Guidelines and uses 
+      NetworkManager with your desktop's normal authorization prompts.
+    </p>
+  </description>
+  
+  <url type="homepage">https://chrisdaggas.com</url>
+  <url type="bugtracker">https://github.com/christosdaggas/Network-Manager/issues</url>
+  <url type="help">https://github.com/christosdaggas/Network-Manager#readme</url>
+  <url type="vcs-browser">https://github.com/christosdaggas/Network-Manager</url>
+  
+  <launchable type="desktop-id">com.chrisdaggas.network-manager.desktop</launchable>
+  
+  <branding>
+    <color type="primary" scheme_preference="light">#3584e4</color>
+    <color type="primary" scheme_preference="dark">#1a5fb4</color>
+  </branding>
+  
+  <screenshots>
+    <screenshot type="default">
+      <caption>Network Manager dashboard and feature overview</caption>
+      <image>https://raw.githubusercontent.com/christosdaggas/Network-Manager/main/docs/app.png</image>
+    </screenshot>
+  </screenshots>
+  
+  <content_rating type="oars-1.1" />
+  
+  <releases>
+    <release version="1.0.0" date="2026-10-22">
+      <description>
+        <p>First release, made for Fedora with the GNOME desktop:</p>
+        <ul>
+          <li>Save network and system settings as profiles and switch between them in one click</li>
+          <li>Network settings: IP addresses, DNS, routes, Wi-Fi and VPN connections</li>
+          <li>System settings: hostname, proxy, firewall zone, default printer and timezone</li>
+          <li>Automatic switching based on the Wi-Fi network, the router or the time of day</li>
+          <li>Scheduled profile activation and a connection watchdog</li>
+          <li>Scripts before and after a profile is applied, optionally sandboxed</li>
+          <li>Optional profile encryption with a passphrase</li>
+          <li>System tray icon for quick profile switching</li>
+          <li>Dashboard with live network status and activity</li>
+          <li>Translated into 10 languages</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+  
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
+  
+  <recommends>
+    <control>keyboard</control>
+    <control>pointing</control>
+    <control>touch</control>
+  </recommends>
+  
+  <supports>
+    <internet>offline-only</internet>
+  </supports>
+  
+  <keywords>
+    <keyword>network</keyword>
+    <keyword>profile</keyword>
+    <keyword>switch</keyword>
+    <keyword>IP</keyword>
+    <keyword>DNS</keyword>
+    <keyword>VPN</keyword>
+    <keyword>WiFi</keyword>
+    <keyword>firewall</keyword>
+  </keywords>
+  
+  <categories>
+    <category>System</category>
+    <category>Network</category>
+    <category>Settings</category>
+  </categories>
+  
+  <translation type="gettext">network-manager</translation>
+</component>

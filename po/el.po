@@ -1,0 +1,2162 @@
+# Greek translation for Network Manager
+# Copyright (C) 2026 Christos A. Daggas
+# This file is distributed under the same license as the Network Manager package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: network-manager 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/christosdaggas/Network-Manager/"
+"issues\n"
+"POT-Creation-Date: 2026-10-22 15:24+0300\n"
+"PO-Revision-Date: 2026-10-22 15:00+0300\n"
+"Last-Translator: Christos A. Daggas <info@chrisdaggas.com>\n"
+"Language-Team: Greek\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/application.rs:187
+msgid "First release, made for Fedora with the GNOME desktop"
+msgstr "Πρώτη έκδοση, φτιαγμένη για το Fedora με το περιβάλλον GNOME"
+
+#: src/application.rs:188
+msgid ""
+"Save network and system settings as profiles and switch between them in one "
+"click"
+msgstr ""
+"Αποθήκευση ρυθμίσεων δικτύου και συστήματος ως προφίλ και αλλαγή μεταξύ τους "
+"με ένα κλικ"
+
+#: src/application.rs:189
+msgid "Network settings: IP addresses, DNS, routes, Wi-Fi and VPN connections"
+msgstr ""
+"Ρυθμίσεις δικτύου: διευθύνσεις IP, DNS, διαδρομές, συνδέσεις Wi-Fi και VPN"
+
+#: src/application.rs:190
+msgid ""
+"System settings: hostname, proxy, firewall zone, default printer and timezone"
+msgstr ""
+"Ρυθμίσεις συστήματος: όνομα συστήματος, διακομιστής μεσολάβησης, ζώνη "
+"τείχους προστασίας, προεπιλεγμένος εκτυπωτής και ζώνη ώρας"
+
+#: src/application.rs:191
+msgid ""
+"Automatic switching based on the Wi-Fi network, the router or the time of day"
+msgstr ""
+"Αυτόματη εναλλαγή βάσει του δικτύου Wi-Fi, του δρομολογητή ή της ώρας της "
+"ημέρας"
+
+#: src/application.rs:192
+msgid "Scheduled profile activation and a connection watchdog"
+msgstr "Ενεργοποίηση προφίλ βάσει χρονοδιαγράμματος και επιτήρηση σύνδεσης"
+
+#: src/application.rs:193
+msgid "Scripts before and after a profile is applied, optionally sandboxed"
+msgstr ""
+"Σενάρια πριν και μετά την εφαρμογή ενός προφίλ, προαιρετικά σε απομόνωση"
+
+#: src/application.rs:194
+msgid "Optional profile encryption with a passphrase"
+msgstr "Προαιρετική κρυπτογράφηση προφίλ με φράση πρόσβασης"
+
+#: src/application.rs:195
+msgid "System tray icon for quick profile switching"
+msgstr "Εικονίδιο στην περιοχή ειδοποιήσεων για γρήγορη αλλαγή προφίλ"
+
+#: src/application.rs:196
+msgid "Dashboard with live network status and activity"
+msgstr "Πίνακας ελέγχου με ζωντανή κατάσταση και δραστηριότητα δικτύου"
+
+#: src/application.rs:197
+msgid "Translated into 10 languages"
+msgstr "Μετάφραση σε 10 γλώσσες"
+
+#: src/application.rs:287
+msgid "Network and system profile manager for Linux"
+msgstr "Διαχείριση προφίλ δικτύου και συστήματος για Linux"
+
+#: src/application.rs:299 src/ui/main_window.rs:4176
+msgid "Preferences"
+msgstr "Προτιμήσεις"
+
+#: src/application.rs:302 src/ui/pages/settings_page.rs:123
+msgid "Appearance"
+msgstr "Εμφάνιση"
+
+#: src/application.rs:306
+msgid "Theme"
+msgstr "Θέμα"
+
+#. TRANSLATORS: Color scheme option that follows the system setting
+#: src/application.rs:310
+msgid "Follow System"
+msgstr "Σύμφωνα με το σύστημα"
+
+#. TRANSLATORS: Color scheme option
+#. TRANSLATORS: theme button: light style
+#. TRANSLATORS: Color scheme option
+#: src/application.rs:312 src/ui/main_window.rs:4073
+#: src/ui/pages/settings_page.rs:130
+msgid "Light"
+msgstr "Φωτεινό"
+
+#. TRANSLATORS: Color scheme option
+#. TRANSLATORS: theme button: dark style
+#. TRANSLATORS: Color scheme option
+#: src/application.rs:314 src/ui/main_window.rs:4080
+#: src/ui/pages/settings_page.rs:132
+msgid "Dark"
+msgstr "Σκοτεινό"
+
+#: src/application.rs:319 src/ui/pages/settings_page.rs:137
+msgid "Color Scheme"
+msgstr "Χρωματικό σχήμα"
+
+#: src/application.rs:320
+msgid "Choose the application's appearance"
+msgstr "Επιλέξτε την εμφάνιση της εφαρμογής"
+
+#: src/application.rs:352 src/ui/pages/settings_page.rs:261
+msgid "Behavior"
+msgstr "Συμπεριφορά"
+
+#: src/application.rs:356
+msgid "Startup"
+msgstr "Εκκίνηση"
+
+#: src/application.rs:364
+msgid "Start on Login"
+msgstr "Εκκίνηση κατά τη σύνδεση"
+
+#: src/application.rs:365
+msgid "Automatically start Network Manager when you log in"
+msgstr "Αυτόματη εκκίνηση της Διαχείρισης Δικτύου κατά τη σύνδεσή σας"
+
+#: src/application.rs:386
+msgid "Show System Tray Icon"
+msgstr "Εμφάνιση εικονιδίου στην περιοχή ειδοποιήσεων"
+
+#: src/application.rs:387
+msgid "Display an icon in the system tray (AppIndicator on GNOME)"
+msgstr "Εμφάνιση εικονιδίου στην περιοχή ειδοποιήσεων (AppIndicator στο GNOME)"
+
+#: src/application.rs:407
+msgid "Tray icon unavailable. On GNOME, install the AppIndicator extension."
+msgstr ""
+"Το εικονίδιο της περιοχής ειδοποιήσεων δεν είναι διαθέσιμο. Στο GNOME, "
+"εγκαταστήστε την επέκταση AppIndicator."
+
+#: src/application.rs:423 src/ui/main_window.rs:51
+#: src/ui/pages/help_page.rs:104
+msgid "Profiles"
+msgstr "Προφίλ"
+
+#: src/application.rs:426
+msgid "Confirm Profile Switch"
+msgstr "Επιβεβαίωση αλλαγής προφίλ"
+
+#: src/application.rs:427
+msgid "Ask for confirmation before switching profiles"
+msgstr "Να ζητείται επιβεβαίωση πριν από την αλλαγή προφίλ"
+
+#: src/application.rs:672
+msgid "Connection lost! Check your network."
+msgstr "Η σύνδεση χάθηκε! Ελέγξτε το δίκτυό σας."
+
+#: src/models/adapter.rs:48 src/ui/widgets/network_card.rs:224
+msgid "Ethernet"
+msgstr "Ethernet"
+
+#: src/models/adapter.rs:49 src/ui/widgets/network_card.rs:225
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+#. TRANSLATORS: Virtual network adapter type (bridges, VLANs)
+#: src/models/adapter.rs:51
+msgid "Virtual"
+msgstr "Εικονικός"
+
+#. TRANSLATORS: Loopback network interface type
+#: src/models/adapter.rs:53
+msgid "Loopback"
+msgstr "Βρόχος επιστροφής"
+
+#. TRANSLATORS: Generic network interface type
+#: src/models/adapter.rs:55 src/ui/widgets/network_card.rs:230
+msgid "Network"
+msgstr "Δίκτυο"
+
+#: src/models/templates.rs:63
+msgid "Basic home network setup with DHCP and default DNS"
+msgstr "Βασική ρύθμιση οικιακού δικτύου με DHCP και προεπιλεγμένους DNS"
+
+#: src/models/templates.rs:64
+msgid "Corporate network with static IP configuration"
+msgstr "Εταιρικό δίκτυο με ρύθμιση στατικής IP"
+
+#: src/models/templates.rs:65
+msgid "Secure configuration for untrusted public networks"
+msgstr "Ασφαλής ρύθμιση για μη αξιόπιστα δημόσια δίκτυα"
+
+#: src/models/templates.rs:66
+msgid "Route all traffic through VPN connection"
+msgstr "Δρομολόγηση όλης της κίνησης μέσω σύνδεσης VPN"
+
+#: src/models/templates.rs:67
+msgid "Local development with custom hosts and DNS"
+msgstr "Τοπική ανάπτυξη με προσαρμοσμένα hosts και DNS"
+
+#: src/models/templates.rs:68
+msgid "Start with an empty profile"
+msgstr "Ξεκινήστε με ένα κενό προφίλ"
+
+#. TRANSLATORS: Profile group name for the home network template
+#: src/models/templates.rs:94
+msgid "Home"
+msgstr "Σπίτι"
+
+#. TRANSLATORS: Profile group name for the office network template
+#: src/models/templates.rs:119
+msgid "Work"
+msgstr "Εργασία"
+
+#. TRANSLATORS: Profile group name for the public Wi-Fi template
+#: src/models/templates.rs:159
+msgid "Travel"
+msgstr "Ταξίδι"
+
+#: src/models/templates.rs:181
+msgid "Public WiFi Connected"
+msgstr "Συνδεθήκατε σε δημόσιο Wi-Fi"
+
+#: src/models/templates.rs:182
+msgid "Remember: Use HTTPS and consider enabling VPN"
+msgstr "Υπενθύμιση: χρησιμοποιήστε HTTPS και σκεφτείτε να ενεργοποιήσετε VPN"
+
+#. TRANSLATORS: Profile group name for the VPN template
+#: src/models/templates.rs:191 src/ui/pages/settings_page.rs:574
+msgid "Security"
+msgstr "Ασφάλεια"
+
+#: src/models/templates.rs:201
+msgid "VPN Connected"
+msgstr "Το VPN συνδέθηκε"
+
+#: src/models/templates.rs:202
+msgid "All traffic is now routed through VPN"
+msgstr "Όλη η κίνηση δρομολογείται πλέον μέσω VPN"
+
+#. TRANSLATORS: Profile group name for the development template
+#. TRANSLATORS: profile template for software development work
+#: src/models/templates.rs:211 src/ui/main_window.rs:873
+msgid "Development"
+msgstr "Ανάπτυξη"
+
+#: src/services/encryption.rs:269
+msgid "No encryption key set"
+msgstr "Δεν έχει οριστεί κλειδί κρυπτογράφησης"
+
+#: src/services/encryption.rs:270
+#, rust-format
+msgid "Encryption failed: {error}"
+msgstr "Η κρυπτογράφηση απέτυχε: {error}"
+
+#: src/services/encryption.rs:271
+msgid "Decryption failed (wrong key or corrupted data)"
+msgstr "Η αποκρυπτογράφηση απέτυχε (λάθος κλειδί ή κατεστραμμένα δεδομένα)"
+
+#: src/services/encryption.rs:272
+#, rust-format
+msgid "Invalid data: {error}"
+msgstr "Μη έγκυρα δεδομένα: {error}"
+
+#: src/services/encryption.rs:274
+#, rust-format
+msgid "Serialization failed: {error}"
+msgstr "Η σειριοποίηση απέτυχε: {error}"
+
+#: src/tray.rs:71 src/ui/pages/dashboard_page.rs:293
+#: src/ui/pages/dashboard_page.rs:809
+msgid "No profile active"
+msgstr "Κανένα ενεργό προφίλ"
+
+#: src/tray.rs:84 src/ui/pages/dashboard_page.rs:253
+msgid "Network Manager"
+msgstr "Διαχείριση Δικτύου"
+
+#: src/tray.rs:103
+msgid "Open Network Manager"
+msgstr "Άνοιγμα της Διαχείρισης Δικτύου"
+
+#. TRANSLATORS: Tray menu entry naming the active profile
+#: src/tray.rs:112
+#, rust-format
+msgid "Active: {name}"
+msgstr "Ενεργό: {name}"
+
+#. TRANSLATORS: Watchdog failure action: switch to the fallback profile
+#: src/tray.rs:138 src/ui/main_window.rs:3031
+#: src/ui/pages/dashboard_page.rs:741 src/ui/pages/settings_page.rs:486
+msgid "Switch Profile"
+msgstr "Αλλαγή προφίλ"
+
+#: src/tray.rs:149 src/ui/main_window.rs:4214
+msgid "Quit"
+msgstr "Έξοδος"
+
+#: src/ui/encryption_dialog.rs:41 src/ui/main_window.rs:835
+#: src/ui/main_window.rs:1887 src/ui/main_window.rs:2952
+#: src/ui/main_window.rs:3209 src/ui/main_window.rs:3239
+#: src/ui/main_window.rs:5157 src/ui/pages/settings_page.rs:677
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: src/ui/encryption_dialog.rs:66
+msgid "Passphrase"
+msgstr "Φράση πρόσβασης"
+
+#: src/ui/encryption_dialog.rs:73
+msgid "Confirm passphrase"
+msgstr "Επιβεβαίωση φράσης πρόσβασης"
+
+#: src/ui/encryption_dialog.rs:113
+#, rust-format
+msgid "Use at least {n} character."
+msgid_plural "Use at least {n} characters."
+msgstr[0] "Χρησιμοποιήστε τουλάχιστον {n} χαρακτήρα."
+msgstr[1] "Χρησιμοποιήστε τουλάχιστον {n} χαρακτήρες."
+
+#: src/ui/encryption_dialog.rs:124
+msgid "The passphrases do not match."
+msgstr "Οι φράσεις πρόσβασης δεν ταιριάζουν."
+
+#: src/ui/main_window.rs:50 src/ui/main_window.rs:423
+#: src/ui/pages/help_page.rs:94
+msgid "Dashboard"
+msgstr "Πίνακας ελέγχου"
+
+#: src/ui/main_window.rs:52 src/ui/pages/help_page.rs:118
+msgid "Logs"
+msgstr "Αρχεία καταγραφής"
+
+#: src/ui/main_window.rs:53 src/ui/pages/help_page.rs:127
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: src/ui/main_window.rs:54 src/ui/pages/help_page.rs:59
+msgid "Help"
+msgstr "Βοήθεια"
+
+#: src/ui/main_window.rs:363 src/ui/main_window.rs:815
+msgid "Collapse sidebar"
+msgstr "Σύμπτυξη πλευρικής στήλης"
+
+#: src/ui/main_window.rs:430
+msgid "Main Menu"
+msgstr "Κύριο μενού"
+
+#: src/ui/main_window.rs:750
+msgid "New version available"
+msgstr "Διατίθεται νέα έκδοση"
+
+#: src/ui/main_window.rs:758
+#, rust-format
+msgid "Version {version}"
+msgstr "Έκδοση {version}"
+
+#: src/ui/main_window.rs:812
+msgid "Expand sidebar"
+msgstr "Ανάπτυξη πλευρικής στήλης"
+
+#: src/ui/main_window.rs:826 src/ui/pages/profiles_page.rs:76
+#: src/ui/pages/profiles_page.rs:147
+msgid "Create Profile"
+msgstr "Δημιουργία προφίλ"
+
+#: src/ui/main_window.rs:836
+msgid "Create"
+msgstr "Δημιουργία"
+
+#: src/ui/main_window.rs:862
+msgid "Start From Template"
+msgstr "Έναρξη από πρότυπο"
+
+#: src/ui/main_window.rs:864
+msgid "Optionally start with a pre-configured template"
+msgstr "Προαιρετικά, ξεκινήστε με ένα προρυθμισμένο πρότυπο"
+
+#: src/ui/main_window.rs:867
+msgid "Blank (Empty)"
+msgstr "Κενό"
+
+#: src/ui/main_window.rs:868
+msgid "Home Network"
+msgstr "Οικιακό δίκτυο"
+
+#: src/ui/main_window.rs:869
+msgid "Office Network"
+msgstr "Δίκτυο γραφείου"
+
+#: src/ui/main_window.rs:870
+msgid "Public WiFi"
+msgstr "Δημόσιο Wi-Fi"
+
+#: src/ui/main_window.rs:871
+msgid "VPN Only"
+msgstr "Μόνο VPN"
+
+#: src/ui/main_window.rs:876
+msgid "Template"
+msgstr "Πρότυπο"
+
+#: src/ui/main_window.rs:877
+msgid "Pre-configured settings for common scenarios"
+msgstr "Έτοιμες ρυθμίσεις για συνήθεις περιπτώσεις"
+
+#: src/ui/main_window.rs:887 src/ui/main_window.rs:1912
+msgid "Profile Details"
+msgstr "Στοιχεία προφίλ"
+
+#. TRANSLATORS: profile name field
+#: src/ui/main_window.rs:891 src/ui/main_window.rs:1916
+msgid "Name"
+msgstr "Όνομα"
+
+#. TRANSLATORS: profile description field
+#. TRANSLATORS: Schedule description entry
+#: src/ui/main_window.rs:896 src/ui/main_window.rs:1922
+#: src/ui/pages/settings_page.rs:1178
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: src/ui/main_window.rs:900 src/ui/main_window.rs:1929
+msgid "Group (optional)"
+msgstr "Ομάδα (προαιρετικό)"
+
+#: src/ui/main_window.rs:914 src/ui/main_window.rs:2007
+msgid "Network Adapters"
+msgstr "Προσαρμογείς δικτύου"
+
+#: src/ui/main_window.rs:915
+msgid ""
+"Configure settings for each network adapter. Each adapter can have its own "
+"IP, DNS, and state settings."
+msgstr ""
+"Ρυθμίστε κάθε προσαρμογέα δικτύου. Κάθε προσαρμογέας μπορεί να έχει τις "
+"δικές του ρυθμίσεις IP, DNS και κατάστασης."
+
+#: src/ui/main_window.rs:918 src/ui/main_window.rs:2011
+msgid "No network adapters detected"
+msgstr "Δεν εντοπίστηκαν προσαρμογείς δικτύου"
+
+#: src/ui/main_window.rs:944 src/ui/main_window.rs:2039
+msgid "Enable Adapter"
+msgstr "Ενεργοποίηση προσαρμογέα"
+
+#: src/ui/main_window.rs:945 src/ui/main_window.rs:2040
+msgid "Configure this adapter in the profile"
+msgstr "Ρύθμιση αυτού του προσαρμογέα στο προφίλ"
+
+#: src/ui/main_window.rs:956 src/ui/main_window.rs:2047
+msgid "DHCP (Automatic)"
+msgstr "DHCP (αυτόματα)"
+
+#: src/ui/main_window.rs:957 src/ui/main_window.rs:2048
+msgid "Static (Manual)"
+msgstr "Στατική (χειροκίνητα)"
+
+#. TRANSLATORS: IPv4 method: the adapter gets no IPv4 address
+#: src/ui/main_window.rs:959 src/ui/main_window.rs:2050
+msgid "Disabled"
+msgstr "Απενεργοποιημένη"
+
+#: src/ui/main_window.rs:962 src/ui/main_window.rs:2053
+msgid "IPv4 Configuration"
+msgstr "Ρύθμιση IPv4"
+
+#: src/ui/main_window.rs:963 src/ui/main_window.rs:2054
+msgid "How to obtain IP address"
+msgstr "Τρόπος λήψης διεύθυνσης IP"
+
+#: src/ui/main_window.rs:971 src/ui/main_window.rs:2067
+#: src/ui/pages/dashboard_page.rs:436
+msgid "IP Address"
+msgstr "Διεύθυνση IP"
+
+#: src/ui/main_window.rs:977 src/ui/main_window.rs:2079
+msgid "Subnet Mask"
+msgstr "Μάσκα υποδικτύου"
+
+#: src/ui/main_window.rs:983 src/ui/main_window.rs:2090
+#: src/ui/pages/dashboard_page.rs:448
+msgid "Gateway"
+msgstr "Πύλη"
+
+#: src/ui/main_window.rs:990 src/ui/main_window.rs:2103
+msgid "Automatic (from DHCP)"
+msgstr "Αυτόματα (από DHCP)"
+
+#. TRANSLATORS: DNS method or proxy mode: entered by hand
+#: src/ui/main_window.rs:992 src/ui/main_window.rs:1125
+#: src/ui/main_window.rs:2105 src/ui/main_window.rs:2278
+msgid "Manual"
+msgstr "Χειροκίνητα"
+
+#: src/ui/main_window.rs:995 src/ui/main_window.rs:2108
+msgid "DNS Configuration"
+msgstr "Ρύθμιση DNS"
+
+#: src/ui/main_window.rs:1002 src/ui/main_window.rs:2115
+msgid "Primary DNS"
+msgstr "Κύριος DNS"
+
+#: src/ui/main_window.rs:1008 src/ui/main_window.rs:2126
+msgid "Secondary DNS"
+msgstr "Δευτερεύων DNS"
+
+#: src/ui/main_window.rs:1016 src/ui/main_window.rs:2139
+msgid "WiFi Network (SSID)"
+msgstr "Δίκτυο Wi-Fi (SSID)"
+
+#: src/ui/main_window.rs:1090 src/ui/main_window.rs:2215
+msgid "VPN Connection"
+msgstr "Σύνδεση VPN"
+
+#: src/ui/main_window.rs:1092 src/ui/main_window.rs:2217
+msgid "Optionally connect to a VPN when this profile is active"
+msgstr "Προαιρετική σύνδεση σε VPN όταν αυτό το προφίλ είναι ενεργό"
+
+#: src/ui/main_window.rs:1096 src/ui/main_window.rs:2230
+msgid "Connect to VPN"
+msgstr "Σύνδεση σε VPN"
+
+#: src/ui/main_window.rs:1097 src/ui/main_window.rs:2231
+msgid "Use a VPN connection from NetworkManager"
+msgstr "Χρήση σύνδεσης VPN από το NetworkManager"
+
+#: src/ui/main_window.rs:1103 src/ui/main_window.rs:2237
+msgid "VPN Connection Name"
+msgstr "Όνομα σύνδεσης VPN"
+
+#: src/ui/main_window.rs:1118 src/ui/main_window.rs:2253
+msgid "Proxy Settings"
+msgstr "Ρυθμίσεις διακομιστή μεσολάβησης"
+
+#: src/ui/main_window.rs:1119 src/ui/main_window.rs:2254
+msgid "Configure system proxy via gsettings"
+msgstr "Ρύθμιση του διακομιστή μεσολάβησης του συστήματος μέσω gsettings"
+
+#. TRANSLATORS: proxy mode: no proxy is used
+#. TRANSLATORS: No fallback profile selected
+#: src/ui/main_window.rs:1123 src/ui/main_window.rs:2276
+#: src/ui/pages/settings_page.rs:502 src/ui/pages/settings_page.rs:1869
+msgid "None"
+msgstr "Κανένα"
+
+#: src/ui/main_window.rs:1126 src/ui/main_window.rs:2279
+msgid "Automatic (PAC)"
+msgstr "Αυτόματα (PAC)"
+
+#: src/ui/main_window.rs:1129 src/ui/main_window.rs:2282
+msgid "Proxy Mode"
+msgstr "Λειτουργία διακομιστή μεσολάβησης"
+
+#: src/ui/main_window.rs:1136 src/ui/main_window.rs:2289
+msgid "HTTP Proxy"
+msgstr "Διακομιστής μεσολάβησης HTTP"
+
+#: src/ui/main_window.rs:1142 src/ui/main_window.rs:2300
+msgid "HTTPS Proxy"
+msgstr "Διακομιστής μεσολάβησης HTTPS"
+
+#: src/ui/main_window.rs:1148 src/ui/main_window.rs:2311
+msgid "No Proxy For"
+msgstr "Χωρίς διακομιστή μεσολάβησης για"
+
+#: src/ui/main_window.rs:1154 src/ui/main_window.rs:2322
+msgid "PAC URL"
+msgstr "URL του PAC"
+
+#: src/ui/main_window.rs:1184 src/ui/main_window.rs:2358
+msgid "Scripts and Programs"
+msgstr "Σενάρια και προγράμματα"
+
+#: src/ui/main_window.rs:1185 src/ui/main_window.rs:2359
+msgid "Run scripts when profile activates"
+msgstr "Εκτέλεση σεναρίων κατά την ενεργοποίηση του προφίλ"
+
+#: src/ui/main_window.rs:1188 src/ui/main_window.rs:2387
+msgid "Run Pre-Script"
+msgstr "Εκτέλεση σεναρίου πριν"
+
+#: src/ui/main_window.rs:1189 src/ui/main_window.rs:2388
+msgid "Execute script before applying profile"
+msgstr "Εκτέλεση σεναρίου πριν από την εφαρμογή του προφίλ"
+
+#: src/ui/main_window.rs:1195 src/ui/main_window.rs:2394
+msgid "Pre-Script Path"
+msgstr "Διαδρομή σεναρίου πριν"
+
+#: src/ui/main_window.rs:1201 src/ui/main_window.rs:2401
+msgid "Run Post-Script"
+msgstr "Εκτέλεση σεναρίου μετά"
+
+#: src/ui/main_window.rs:1202 src/ui/main_window.rs:2402
+msgid "Execute script after applying profile"
+msgstr "Εκτέλεση σεναρίου μετά την εφαρμογή του προφίλ"
+
+#: src/ui/main_window.rs:1208 src/ui/main_window.rs:2408
+msgid "Post-Script Path"
+msgstr "Διαδρομή σεναρίου μετά"
+
+#: src/ui/main_window.rs:1214 src/ui/main_window.rs:2415
+msgid "Run Program"
+msgstr "Εκτέλεση προγράμματος"
+
+#: src/ui/main_window.rs:1215 src/ui/main_window.rs:2416
+msgid "Launch an application when profile activates"
+msgstr "Εκκίνηση εφαρμογής κατά την ενεργοποίηση του προφίλ"
+
+#: src/ui/main_window.rs:1221 src/ui/main_window.rs:2422
+msgid "Program Path"
+msgstr "Διαδρομή προγράμματος"
+
+#: src/ui/main_window.rs:1226 src/ui/main_window.rs:2433
+msgid "Program Arguments"
+msgstr "Ορίσματα προγράμματος"
+
+#: src/ui/main_window.rs:1587 src/ui/main_window.rs:4574
+#, rust-format
+msgid "Profile '{name}' created"
+msgstr "Το προφίλ «{name}» δημιουργήθηκε"
+
+#. TRANSLATORS: field name, listed in "{adapter}: invalid {fields}"
+#: src/ui/main_window.rs:1699
+msgid "IP address"
+msgstr "διεύθυνση IP"
+
+#. TRANSLATORS: field name, listed in "{adapter}: invalid {fields}"
+#: src/ui/main_window.rs:1706
+msgid "subnet mask or prefix"
+msgstr "μάσκα υποδικτύου ή πρόθεμα"
+
+#. TRANSLATORS: field name, listed in "{adapter}: invalid {fields}"
+#: src/ui/main_window.rs:1716
+msgid "gateway"
+msgstr "πύλη"
+
+#. TRANSLATORS: field name, listed in "{adapter}: invalid {fields}"
+#: src/ui/main_window.rs:1725
+msgid "primary DNS server"
+msgstr "κύριος διακομιστής DNS"
+
+#. TRANSLATORS: field name, listed in "{adapter}: invalid {fields}"
+#: src/ui/main_window.rs:1729
+msgid "secondary DNS server"
+msgstr "δευτερεύων διακομιστής DNS"
+
+#. TRANSLATORS: {adapter} is an interface name such as wlp2s0,
+#. {fields} a comma-separated list of the field names above
+#: src/ui/main_window.rs:1736
+#, rust-format
+msgid "{adapter}: invalid {fields}"
+msgstr "{adapter}: μη έγκυρες τιμές για {fields}"
+
+#: src/ui/main_window.rs:1875 src/ui/main_window.rs:2940
+#: src/ui/main_window.rs:3155
+msgid "Profile not found"
+msgstr "Το προφίλ δεν βρέθηκε"
+
+#: src/ui/main_window.rs:1879 src/ui/pages/profiles_page.rs:258
+msgid "Edit Profile"
+msgstr "Επεξεργασία προφίλ"
+
+#: src/ui/main_window.rs:1888 src/ui/pages/settings_page.rs:1163
+#: src/ui/pages/settings_page.rs:1541
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: src/ui/main_window.rs:2008
+msgid "Configure settings for each network adapter"
+msgstr "Ρυθμίστε κάθε προσαρμογέα δικτύου"
+
+#: src/ui/main_window.rs:2621
+msgid "Enter a profile name"
+msgstr "Εισαγάγετε ένα όνομα προφίλ"
+
+#: src/ui/main_window.rs:2886
+#, rust-format
+msgid "Profile '{name}' updated"
+msgstr "Το προφίλ «{name}» ενημερώθηκε"
+
+#: src/ui/main_window.rs:2945
+msgid "Delete Profile?"
+msgstr "Διαγραφή προφίλ;"
+
+#: src/ui/main_window.rs:2947
+#, rust-format
+msgid ""
+"Are you sure you want to delete \"{name}\"? This action cannot be undone."
+msgstr ""
+"Θέλετε σίγουρα να διαγράψετε το «{name}»; Η ενέργεια αυτή δεν μπορεί να "
+"αναιρεθεί."
+
+#: src/ui/main_window.rs:2953
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: src/ui/main_window.rs:3017
+#, rust-format
+msgid "Profile '{name}' deleted"
+msgstr "Το προφίλ «{name}» διαγράφηκε"
+
+#: src/ui/main_window.rs:3026
+msgid "No profiles available. Create one first!"
+msgstr "Δεν υπάρχουν διαθέσιμα προφίλ. Δημιουργήστε πρώτα ένα!"
+
+#: src/ui/main_window.rs:3045
+msgid "Select a profile to apply its network configuration:"
+msgstr "Επιλέξτε ένα προφίλ για να εφαρμόσετε τη ρύθμιση δικτύου του:"
+
+#: src/ui/main_window.rs:3141 src/ui/main_window.rs:3271
+msgid "Another profile is still being applied"
+msgstr "Εφαρμόζεται ακόμη άλλο προφίλ"
+
+#: src/ui/main_window.rs:3188
+#, rust-format
+msgid "This will apply {n} action to your system:"
+msgid_plural "This will apply {n} actions to your system:"
+msgstr[0] "Θα εφαρμοστεί {n} ενέργεια στο σύστημά σας:"
+msgstr[1] "Θα εφαρμοστούν {n} ενέργειες στο σύστημά σας:"
+
+#: src/ui/main_window.rs:3193
+#, rust-format
+msgid "{n} network action"
+msgid_plural "{n} network actions"
+msgstr[0] "{n} ενέργεια δικτύου"
+msgstr[1] "{n} ενέργειες δικτύου"
+
+#: src/ui/main_window.rs:3195
+#, rust-format
+msgid "{n} system action"
+msgid_plural "{n} system actions"
+msgstr[0] "{n} ενέργεια συστήματος"
+msgstr[1] "{n} ενέργειες συστήματος"
+
+#: src/ui/main_window.rs:3198
+#, rust-format
+msgid "{n} automation action"
+msgid_plural "{n} automation actions"
+msgstr[0] "{n} ενέργεια αυτοματισμού"
+msgstr[1] "{n} ενέργειες αυτοματισμού"
+
+#: src/ui/main_window.rs:3205
+#, rust-format
+msgid "Apply '{name}'?"
+msgstr "Εφαρμογή του «{name}»;"
+
+#: src/ui/main_window.rs:3210
+msgid "Apply"
+msgstr "Εφαρμογή"
+
+#: src/ui/main_window.rs:3232
+msgid "Security Warning"
+msgstr "Προειδοποίηση ασφαλείας"
+
+#: src/ui/main_window.rs:3234
+#, rust-format
+msgid ""
+"The profile '{name}' contains executable scripts or programs that have not "
+"been marked as trusted.\n"
+"\n"
+"Only run profiles from trusted sources."
+msgstr ""
+"Το προφίλ «{name}» περιέχει εκτελέσιμα σενάρια ή προγράμματα που δεν έχουν "
+"σημειωθεί ως αξιόπιστα.\n"
+"\n"
+"Εκτελείτε μόνο προφίλ από αξιόπιστες πηγές."
+
+#: src/ui/main_window.rs:3240
+msgid "Run Anyway"
+msgstr "Εκτέλεση παρ’ όλα αυτά"
+
+#: src/ui/main_window.rs:3295
+#, rust-format
+msgid "Applying profile '{name}'…"
+msgstr "Εφαρμογή του προφίλ «{name}»…"
+
+#: src/ui/main_window.rs:3322
+#, rust-format
+msgid "Profile '{name}' could not be applied"
+msgstr "Δεν ήταν δυνατή η εφαρμογή του προφίλ «{name}»"
+
+#: src/ui/main_window.rs:3409
+#, rust-format
+msgid "Profile '{name}' was not applied: a pre-script failed"
+msgstr ""
+"Το προφίλ «{name}» δεν εφαρμόστηκε: απέτυχε το σενάριο πριν από την εφαρμογή"
+
+#. TRANSLATORS: inserted as {skipped} at the end of the
+#. "Profile '{name}' applied …" messages
+#: src/ui/main_window.rs:3483
+#, rust-format
+msgid ", {n} skipped as unsupported or not applicable"
+msgid_plural ", {n} skipped as unsupported or not applicable"
+msgstr[0] ", {n} παραλείφθηκε ως μη υποστηριζόμενη ή μη εφαρμόσιμη"
+msgstr[1] ", {n} παραλείφθηκαν ως μη υποστηριζόμενες ή μη εφαρμόσιμες"
+
+#: src/ui/main_window.rs:3493
+#, rust-format
+msgid "Profile '{name}' applied with {n} error{skipped}"
+msgid_plural "Profile '{name}' applied with {n} errors{skipped}"
+msgstr[0] "Το προφίλ «{name}» εφαρμόστηκε με {n} σφάλμα{skipped}"
+msgstr[1] "Το προφίλ «{name}» εφαρμόστηκε με {n} σφάλματα{skipped}"
+
+#: src/ui/main_window.rs:3504
+#, rust-format
+msgid "Profile '{name}' applied ({n} action{skipped})"
+msgid_plural "Profile '{name}' applied ({n} actions{skipped})"
+msgstr[0] "Το προφίλ «{name}» εφαρμόστηκε ({n} ενέργεια{skipped})"
+msgstr[1] "Το προφίλ «{name}» εφαρμόστηκε ({n} ενέργειες{skipped})"
+
+#: src/ui/main_window.rs:3513
+#, rust-format
+msgid "Profile '{name}' activated"
+msgstr "Το προφίλ «{name}» ενεργοποιήθηκε"
+
+#. TRANSLATORS: theme button: follow the system style
+#. TRANSLATORS: Color scheme option that follows the system setting
+#: src/ui/main_window.rs:4066 src/ui/pages/settings_page.rs:128
+msgid "System"
+msgstr "Σύστημα"
+
+#: src/ui/main_window.rs:4195 src/ui/pages/settings_page.rs:842
+msgid "About"
+msgstr "Σχετικά"
+
+#: src/ui/main_window.rs:4394 src/ui/pages/settings_page.rs:762
+msgid "Unlock Profiles"
+msgstr "Ξεκλείδωμα προφίλ"
+
+#: src/ui/main_window.rs:4395
+msgid ""
+"Profile encryption is enabled. Enter your passphrase to load your profiles."
+msgstr ""
+"Η κρυπτογράφηση προφίλ είναι ενεργή. Εισαγάγετε τη φράση πρόσβασης για να "
+"φορτωθούν τα προφίλ σας."
+
+#: src/ui/main_window.rs:4397 src/ui/pages/settings_page.rs:765
+msgid "Unlock"
+msgstr "Ξεκλείδωμα"
+
+#: src/ui/main_window.rs:4402 src/ui/pages/settings_page.rs:653
+#: src/ui/pages/settings_page.rs:735 src/ui/pages/settings_page.rs:769
+msgid "Could not access the application."
+msgstr "Δεν ήταν δυνατή η πρόσβαση στην εφαρμογή."
+
+#: src/ui/main_window.rs:4408 src/ui/pages/settings_page.rs:777
+msgid "That passphrase is not correct."
+msgstr "Η φράση πρόσβασης δεν είναι σωστή."
+
+#: src/ui/main_window.rs:4464
+#, rust-format
+msgid "v{version} available"
+msgstr "Διατίθεται η έκδοση {version}"
+
+#: src/ui/main_window.rs:4479
+msgid "Profile changes were not saved. Unlock encryption in Settings first."
+msgstr ""
+"Οι αλλαγές στα προφίλ δεν αποθηκεύτηκαν. Ξεκλειδώστε πρώτα την κρυπτογράφηση "
+"στις Ρυθμίσεις."
+
+#. TRANSLATORS: name of a duplicated profile
+#: src/ui/main_window.rs:4551
+#, rust-format
+msgid "{name} (Copy)"
+msgstr "{name} (αντίγραφο)"
+
+#: src/ui/main_window.rs:4584
+msgid "Network Information"
+msgstr "Πληροφορίες δικτύου"
+
+#: src/ui/main_window.rs:4611
+msgid "Default Route:"
+msgstr "Προεπιλεγμένη διαδρομή:"
+
+#: src/ui/main_window.rs:4620
+msgid "DNS Servers:"
+msgstr "Διακομιστές DNS:"
+
+#: src/ui/main_window.rs:4632
+msgid "Network info copied to clipboard"
+msgstr "Οι πληροφορίες δικτύου αντιγράφηκαν στο πρόχειρο"
+
+#: src/ui/main_window.rs:4640
+msgid "Network Diagnostics"
+msgstr "Διαγνωστικά δικτύου"
+
+#: src/ui/main_window.rs:4655
+msgid "Connectivity Test"
+msgstr "Έλεγχος συνδεσιμότητας"
+
+#: src/ui/main_window.rs:4656
+msgid "Test network connectivity to common servers"
+msgstr "Έλεγχος της συνδεσιμότητας με γνωστούς διακομιστές"
+
+#: src/ui/main_window.rs:4659
+msgid "Host to ping"
+msgstr "Κεντρικός υπολογιστής για ping"
+
+#: src/ui/main_window.rs:4663
+msgid "Run Ping Test"
+msgstr "Εκτέλεση ελέγχου ping"
+
+#: src/ui/main_window.rs:4691
+msgid ""
+"Invalid host. Only alphanumeric characters, dots, hyphens, and colons are "
+"allowed."
+msgstr ""
+"Μη έγκυρος κεντρικός υπολογιστής. Επιτρέπονται μόνο αλφαριθμητικοί "
+"χαρακτήρες, τελείες, παύλες και άνω και κάτω τελείες."
+
+#: src/ui/main_window.rs:4695
+msgid "Running ping test..."
+msgstr "Εκτέλεση ελέγχου ping..."
+
+#: src/ui/main_window.rs:4710
+msgid "Ping failed:"
+msgstr "Το ping απέτυχε:"
+
+#: src/ui/main_window.rs:4713
+#, rust-format
+msgid "Error running ping: {error}"
+msgstr "Σφάλμα κατά την εκτέλεση του ping: {error}"
+
+#: src/ui/main_window.rs:4741
+msgid "DNS Lookup"
+msgstr "Αναζήτηση DNS"
+
+#: src/ui/main_window.rs:4742
+msgid "Resolve domain names"
+msgstr "Επίλυση ονομάτων τομέα"
+
+#: src/ui/main_window.rs:4746
+msgid "Domain to lookup"
+msgstr "Τομέας για αναζήτηση"
+
+#: src/ui/main_window.rs:4750
+msgid "Lookup DNS"
+msgstr "Αναζήτηση DNS"
+
+#: src/ui/main_window.rs:4778
+msgid ""
+"Invalid domain. Only alphanumeric characters, dots, and hyphens are allowed."
+msgstr ""
+"Μη έγκυρος τομέας. Επιτρέπονται μόνο αλφαριθμητικοί χαρακτήρες, τελείες και "
+"παύλες."
+
+#: src/ui/main_window.rs:4782
+msgid "Looking up…"
+msgstr "Αναζήτηση…"
+
+#: src/ui/main_window.rs:4794
+msgid "No DNS records found"
+msgstr "Δεν βρέθηκαν εγγραφές DNS"
+
+#: src/ui/main_window.rs:4799
+msgid "DNS lookup failed:"
+msgstr "Η αναζήτηση DNS απέτυχε:"
+
+#: src/ui/main_window.rs:4805
+msgid "DNS lookup tools (dig, host) not available"
+msgstr "Τα εργαλεία αναζήτησης DNS (dig, host) δεν είναι διαθέσιμα"
+
+#: src/ui/main_window.rs:4808
+msgid "DNS lookup failed"
+msgstr "Η αναζήτηση DNS απέτυχε"
+
+#: src/ui/main_window.rs:4826
+msgid "Quick Test Results"
+msgstr "Αποτελέσματα γρήγορου ελέγχου"
+
+#: src/ui/main_window.rs:4830
+msgid "Internet Connectivity"
+msgstr "Σύνδεση στο διαδίκτυο"
+
+#: src/ui/main_window.rs:4831 src/ui/main_window.rs:4837
+msgid "Checking…"
+msgstr "Έλεγχος…"
+
+#: src/ui/main_window.rs:4836
+msgid "DNS Resolution"
+msgstr "Επίλυση DNS"
+
+#. TRANSLATORS: internet connectivity test result
+#: src/ui/main_window.rs:4861 src/ui/widgets/network_card.rs:177
+msgid "Connected"
+msgstr "Συνδέθηκε"
+
+#. TRANSLATORS: internet connectivity test result
+#: src/ui/main_window.rs:4864
+msgid "No connection"
+msgstr "Χωρίς σύνδεση"
+
+#. TRANSLATORS: DNS resolution test result
+#: src/ui/main_window.rs:4870
+msgid "DNS Working"
+msgstr "Το DNS λειτουργεί"
+
+#. TRANSLATORS: DNS resolution test result
+#: src/ui/main_window.rs:4873
+msgid "DNS Failed"
+msgstr "Το DNS απέτυχε"
+
+#: src/ui/main_window.rs:4880
+msgid "Speed Test"
+msgstr "Έλεγχος ταχύτητας"
+
+#: src/ui/main_window.rs:4882
+msgid "Measure download/upload speed (uses speedtest-cli if available)"
+msgstr ""
+"Μέτρηση ταχύτητας λήψης/αποστολής (χρησιμοποιεί το speedtest-cli, αν είναι "
+"διαθέσιμο)"
+
+#: src/ui/main_window.rs:4886
+msgid "Run Speed Test"
+msgstr "Εκτέλεση ελέγχου ταχύτητας"
+
+#: src/ui/main_window.rs:4907
+msgid "Running speed test... (this may take a minute)"
+msgstr "Εκτέλεση ελέγχου ταχύτητας... (μπορεί να διαρκέσει ένα λεπτό)"
+
+#: src/ui/main_window.rs:4940
+#, rust-format
+msgid "Download: {speed} Mbps"
+msgstr "Λήψη: {speed} Mbps"
+
+#: src/ui/main_window.rs:4942
+msgid "(speedtest-cli not installed for full test)"
+msgstr "(το speedtest-cli δεν είναι εγκατεστημένο για πλήρη έλεγχο)"
+
+#: src/ui/main_window.rs:4945
+msgid "Could not parse speed result"
+msgstr "Δεν ήταν δυνατή η ανάλυση του αποτελέσματος ταχύτητας"
+
+#: src/ui/main_window.rs:4950
+msgid "Speed test tools not available."
+msgstr "Τα εργαλεία ελέγχου ταχύτητας δεν είναι διαθέσιμα."
+
+#: src/ui/main_window.rs:4951
+#, rust-format
+msgid "Install speedtest-cli: {command}"
+msgstr "Εγκαταστήστε το speedtest-cli: {command}"
+
+#: src/ui/main_window.rs:5023
+msgid "Refreshed"
+msgstr "Ανανεώθηκε"
+
+#: src/ui/main_window.rs:5032
+msgid "No profiles to export"
+msgstr "Δεν υπάρχουν προφίλ για εξαγωγή"
+
+#: src/ui/main_window.rs:5037 src/ui/pages/settings_page.rs:365
+#: src/ui/pages/settings_page.rs:391
+msgid "Export Profiles"
+msgstr "Εξαγωγή προφίλ"
+
+#: src/ui/main_window.rs:5063
+#, rust-format
+msgid "Exported {n} profile"
+msgid_plural "Exported {n} profiles"
+msgstr[0] "Εξήχθη {n} προφίλ"
+msgstr[1] "Εξήχθησαν {n} προφίλ"
+
+#: src/ui/main_window.rs:5069 src/ui/main_window.rs:5074
+msgid "Export failed. Check logs for details."
+msgstr "Η εξαγωγή απέτυχε. Ελέγξτε τα αρχεία καταγραφής για λεπτομέρειες."
+
+#: src/ui/main_window.rs:5082
+msgid "JSON Files"
+msgstr "Αρχεία JSON"
+
+#: src/ui/main_window.rs:5086
+msgid "All Files"
+msgstr "Όλα τα αρχεία"
+
+#: src/ui/main_window.rs:5094 src/ui/pages/settings_page.rs:377
+#: src/ui/pages/settings_page.rs:393
+msgid "Import Profiles"
+msgstr "Εισαγωγή προφίλ"
+
+#: src/ui/main_window.rs:5116
+msgid "Failed to read file. Check logs for details."
+msgstr ""
+"Η ανάγνωση του αρχείου απέτυχε. Ελέγξτε τα αρχεία καταγραφής για "
+"λεπτομέρειες."
+
+#: src/ui/main_window.rs:5134
+#, rust-format
+msgid "Invalid profile format: {error}"
+msgstr "Μη έγκυρη μορφή προφίλ: {error}"
+
+#: src/ui/main_window.rs:5144
+msgid "No profiles found in file"
+msgstr "Δεν βρέθηκαν προφίλ στο αρχείο"
+
+#: src/ui/main_window.rs:5153
+msgid "Import Warning"
+msgstr "Προειδοποίηση εισαγωγής"
+
+#: src/ui/main_window.rs:5154
+msgid ""
+"The imported file contains profiles with executable scripts or programs.\n"
+"\n"
+"Do you want to import them with or without these automation actions?"
+msgstr ""
+"Το αρχείο που εισάγεται περιέχει προφίλ με εκτελέσιμα σενάρια ή "
+"προγράμματα.\n"
+"\n"
+"Θέλετε να τα εισαγάγετε με ή χωρίς αυτές τις ενέργειες αυτοματισμού;"
+
+#: src/ui/main_window.rs:5158
+msgid "Import Without Scripts"
+msgstr "Εισαγωγή χωρίς σενάρια"
+
+#: src/ui/main_window.rs:5159
+msgid "Import With Scripts"
+msgstr "Εισαγωγή με σενάρια"
+
+#. TRANSLATORS: name of an imported profile
+#: src/ui/main_window.rs:5190
+#, rust-format
+msgid "{name} (Imported)"
+msgstr "{name} (εισαγόμενο)"
+
+#: src/ui/main_window.rs:5216
+#, rust-format
+msgid "Imported {n} profile without automation actions"
+msgid_plural "Imported {n} profiles without automation actions"
+msgstr[0] "Εισήχθη {n} προφίλ χωρίς ενέργειες αυτοματισμού"
+msgstr[1] "Εισήχθησαν {n} προφίλ χωρίς ενέργειες αυτοματισμού"
+
+#: src/ui/main_window.rs:5225
+#, rust-format
+msgid "Imported {n} profile"
+msgid_plural "Imported {n} profiles"
+msgstr[0] "Εισήχθη {n} προφίλ"
+msgstr[1] "Εισήχθησαν {n} προφίλ"
+
+#: src/ui/pages/dashboard_page.rs:154
+msgid "Decorative network topology graphic"
+msgstr "Διακοσμητικό γραφικό τοπολογίας δικτύου"
+
+#: src/ui/pages/dashboard_page.rs:257
+msgid "Manage your system connectivity"
+msgstr "Διαχειριστείτε τη συνδεσιμότητα του συστήματός σας"
+
+#: src/ui/pages/dashboard_page.rs:285
+msgid "Active Profile"
+msgstr "Ενεργό προφίλ"
+
+#: src/ui/pages/dashboard_page.rs:300 src/ui/pages/dashboard_page.rs:819
+#: src/ui/pages/profiles_page.rs:216 src/ui/widgets/profile_row.rs:75
+#: src/ui/widgets/profile_row.rs:122
+msgid "Inactive"
+msgstr "Ανενεργό"
+
+#: src/ui/pages/dashboard_page.rs:311 src/ui/pages/dashboard_page.rs:829
+msgid "Never applied"
+msgstr "Δεν έχει εφαρμοστεί ποτέ"
+
+#: src/ui/pages/dashboard_page.rs:332
+msgid "Service Status"
+msgstr "Κατάσταση υπηρεσίας"
+
+#: src/ui/pages/dashboard_page.rs:348
+msgid "Checking..."
+msgstr "Έλεγχος..."
+
+#: src/ui/pages/dashboard_page.rs:354
+msgid "NetworkManager handles network configuration"
+msgstr "Το NetworkManager διαχειρίζεται τη ρύθμιση του δικτύου"
+
+#: src/ui/pages/dashboard_page.rs:363 src/ui/pages/dashboard_page.rs:877
+msgid "Start Service"
+msgstr "Εκκίνηση υπηρεσίας"
+
+#: src/ui/pages/dashboard_page.rs:370
+msgid "Starting…"
+msgstr "Εκκίνηση…"
+
+#: src/ui/pages/dashboard_page.rs:422
+msgid "Current Network"
+msgstr "Τρέχον δίκτυο"
+
+#: src/ui/pages/dashboard_page.rs:460
+msgid "DNS Servers"
+msgstr "Διακομιστές DNS"
+
+#. TRANSLATORS: Label for the type and name of the active connection
+#: src/ui/pages/dashboard_page.rs:475
+msgid "Connection"
+msgstr "Σύνδεση"
+
+#: src/ui/pages/dashboard_page.rs:499
+msgid "Network Activity"
+msgstr "Δραστηριότητα δικτύου"
+
+#: src/ui/pages/dashboard_page.rs:549
+msgid "Network activity graph showing download and upload rates over time"
+msgstr ""
+"Γράφημα δραστηριότητας δικτύου με τους ρυθμούς λήψης και αποστολής στον χρόνο"
+
+#: src/ui/pages/dashboard_page.rs:711
+msgid "Quick Actions"
+msgstr "Γρήγορες ενέργειες"
+
+#: src/ui/pages/dashboard_page.rs:716
+msgid "Refresh status or switch to another profile"
+msgstr "Ανανέωση της κατάστασης ή αλλαγή σε άλλο προφίλ"
+
+#: src/ui/pages/dashboard_page.rs:730
+msgid "Refresh"
+msgstr "Ανανέωση"
+
+#: src/ui/pages/dashboard_page.rs:745
+msgid "New Profile"
+msgstr "Νέο προφίλ"
+
+#: src/ui/pages/dashboard_page.rs:815 src/ui/pages/profiles_page.rs:212
+#: src/ui/pages/profiles_page.rs:215 src/ui/widgets/profile_row.rs:121
+msgid "Active"
+msgstr "Ενεργό"
+
+#: src/ui/pages/dashboard_page.rs:827
+#, rust-format
+msgid "Applied: {time}"
+msgstr "Εφαρμόστηκε: {time}"
+
+#. TRANSLATORS: State of the NetworkManager system service
+#: src/ui/pages/dashboard_page.rs:868
+msgid "Running"
+msgstr "Εκτελείται"
+
+#. TRANSLATORS: State of the NetworkManager system service
+#: src/ui/pages/dashboard_page.rs:871
+msgid "Not Running"
+msgstr "Δεν εκτελείται"
+
+#. TRANSLATORS: Transfer rate in gigabytes per second
+#: src/ui/pages/dashboard_page.rs:937
+#, rust-format
+msgid "{speed} GB/s"
+msgstr "{speed} GB/s"
+
+#. TRANSLATORS: Transfer rate in megabytes per second
+#: src/ui/pages/dashboard_page.rs:940
+#, rust-format
+msgid "{speed} MB/s"
+msgstr "{speed} MB/s"
+
+#. TRANSLATORS: Transfer rate in kilobytes per second
+#: src/ui/pages/dashboard_page.rs:943
+#, rust-format
+msgid "{speed} KB/s"
+msgstr "{speed} KB/s"
+
+#. TRANSLATORS: Transfer rate in bytes per second
+#: src/ui/pages/dashboard_page.rs:946
+#, rust-format
+msgid "{speed} B/s"
+msgstr "{speed} B/s"
+
+#: src/ui/pages/dashboard_page.rs:969 src/ui/widgets/network_card.rs:125
+#: src/ui/widgets/network_card.rs:175
+msgid "Disconnected"
+msgstr "Αποσυνδέθηκε"
+
+#: src/ui/pages/dashboard_page.rs:995
+#, rust-format
+msgid "Wi-Fi ({name})"
+msgstr "Wi-Fi ({name})"
+
+#: src/ui/pages/dashboard_page.rs:996
+#, rust-format
+msgid "Ethernet ({name})"
+msgstr "Ethernet ({name})"
+
+#: src/ui/pages/dashboard_page.rs:997
+#, rust-format
+msgid "VPN ({name})"
+msgstr "VPN ({name})"
+
+#. TRANSLATORS: A network bridge connection and its name
+#: src/ui/pages/dashboard_page.rs:999
+#, rust-format
+msgid "Bridge ({name})"
+msgstr "Γέφυρα ({name})"
+
+#: src/ui/pages/help_page.rs:64
+msgid "Learn how to use Network Manager"
+msgstr "Μάθετε πώς να χρησιμοποιείτε τη Διαχείριση Δικτύου"
+
+#: src/ui/pages/help_page.rs:85
+msgid "About Network Manager"
+msgstr "Σχετικά με τη Διαχείριση Δικτύου"
+
+#: src/ui/pages/help_page.rs:86
+msgid ""
+"Network Manager is a comprehensive system and network profile manager for "
+"Linux. It allows you to create, manage, and quickly switch between different "
+"network and system configuration profiles. Perfect for users who need "
+"different settings for home, work, or different network environments."
+msgstr ""
+"Η Διαχείριση Δικτύου είναι μια ολοκληρωμένη εφαρμογή διαχείρισης προφίλ "
+"συστήματος και δικτύου για Linux. Σας επιτρέπει να δημιουργείτε, να "
+"διαχειρίζεστε και να εναλλάσσετε γρήγορα διαφορετικά προφίλ ρυθμίσεων "
+"δικτύου και συστήματος. Ιδανική για όσους χρειάζονται διαφορετικές ρυθμίσεις "
+"για το σπίτι, τη δουλειά ή διαφορετικά περιβάλλοντα δικτύου."
+
+#: src/ui/pages/help_page.rs:95
+msgid ""
+"The Dashboard provides an overview of your current network configuration. "
+"View your active network connections, IP addresses, and connection status. "
+"The active profile is displayed prominently, and you can quickly switch "
+"between profiles using the profile selector. Network statistics and "
+"connection health are updated in real-time."
+msgstr ""
+"Ο Πίνακας ελέγχου παρέχει μια επισκόπηση της τρέχουσας ρύθμισης του δικτύου "
+"σας. Δείτε τις ενεργές συνδέσεις δικτύου, τις διευθύνσεις IP και την "
+"κατάσταση της σύνδεσης. Το ενεργό προφίλ εμφανίζεται σε περίοπτη θέση και "
+"μπορείτε να αλλάζετε γρήγορα προφίλ από τον επιλογέα προφίλ. Τα στατιστικά "
+"δικτύου και η κατάσταση της σύνδεσης ενημερώνονται σε πραγματικό χρόνο."
+
+#: src/ui/pages/help_page.rs:105
+msgid ""
+"Profiles are the core feature of Network Manager. Each profile stores a "
+"complete set of network and system settings including:\n"
+"\n"
+"• Network configuration (IP, DNS, gateway)\n"
+"• Proxy settings\n"
+"• Firewall rules\n"
+"• System services to enable/disable\n"
+"• Custom scripts to run on activation\n"
+"\n"
+"Create profiles for different locations or use cases, then switch between "
+"them with a single click. Profiles can be exported and imported for backup "
+"or sharing."
+msgstr ""
+"Τα προφίλ είναι η βασική λειτουργία της Διαχείρισης Δικτύου. Κάθε προφίλ "
+"αποθηκεύει ένα πλήρες σύνολο ρυθμίσεων δικτύου και συστήματος, όπως:\n"
+"\n"
+"• Ρύθμιση δικτύου (IP, DNS, πύλη)\n"
+"• Ρυθμίσεις διακομιστή μεσολάβησης\n"
+"• Κανόνες τείχους προστασίας\n"
+"• Υπηρεσίες συστήματος προς ενεργοποίηση/απενεργοποίηση\n"
+"• Προσαρμοσμένα σενάρια προς εκτέλεση κατά την ενεργοποίηση\n"
+"\n"
+"Δημιουργήστε προφίλ για διαφορετικές τοποθεσίες ή χρήσεις και αλλάξτε μεταξύ "
+"τους με ένα μόνο κλικ. Τα προφίλ μπορούν να εξαχθούν και να εισαχθούν για "
+"αντίγραφα ασφαλείας ή κοινή χρήση."
+
+#: src/ui/pages/help_page.rs:119
+msgid ""
+"The Logs page shows network-related system events and profile switch "
+"history. View connection changes, profile activations, and any errors that "
+"occurred. Filter logs by type or search for specific events. Logs help you "
+"troubleshoot connectivity issues and track configuration changes over time."
+msgstr ""
+"Η σελίδα «Αρχεία καταγραφής» εμφανίζει συμβάντα συστήματος που σχετίζονται "
+"με το δίκτυο και το ιστορικό αλλαγών προφίλ. Δείτε αλλαγές συνδέσεων, "
+"ενεργοποιήσεις προφίλ και τυχόν σφάλματα. Φιλτράρετε τις καταγραφές κατά "
+"τύπο ή αναζητήστε συγκεκριμένα συμβάντα. Τα αρχεία καταγραφής σάς βοηθούν να "
+"εντοπίζετε προβλήματα συνδεσιμότητας και να παρακολουθείτε τις αλλαγές των "
+"ρυθμίσεων με την πάροδο του χρόνου."
+
+#: src/ui/pages/help_page.rs:128
+msgid ""
+"The Settings page allows you to configure application preferences. Set the "
+"default profile to activate at startup, configure automatic profile "
+"switching based on network detection, enable or disable system tray "
+"integration, and customize notification preferences. Advanced options "
+"include daemon configuration and privilege settings."
+msgstr ""
+"Η σελίδα «Ρυθμίσεις» σάς επιτρέπει να ορίσετε τις προτιμήσεις της εφαρμογής. "
+"Ορίστε το προεπιλεγμένο προφίλ που ενεργοποιείται κατά την εκκίνηση, "
+"ρυθμίστε την αυτόματη εναλλαγή προφίλ βάσει του δικτύου που εντοπίζεται, "
+"ενεργοποιήστε ή απενεργοποιήστε την ενσωμάτωση στην περιοχή ειδοποιήσεων και "
+"προσαρμόστε τις ειδοποιήσεις. Οι προχωρημένες επιλογές περιλαμβάνουν τη "
+"ρύθμιση της υπηρεσίας παρασκηνίου και των δικαιωμάτων."
+
+#: src/ui/pages/help_page.rs:137
+msgid "Profile Features"
+msgstr "Λειτουργίες προφίλ"
+
+#: src/ui/pages/help_page.rs:138
+msgid ""
+"Each profile can include:\n"
+"\n"
+"• Static or DHCP IP configuration\n"
+"• Custom DNS servers\n"
+"• HTTP/HTTPS/SOCKS proxy settings\n"
+"• Firewall zone assignment\n"
+"• VPN connection settings\n"
+"• System services to start/stop\n"
+"• Pre/post activation scripts\n"
+"• Network interface selection"
+msgstr ""
+"Κάθε προφίλ μπορεί να περιλαμβάνει:\n"
+"\n"
+"• Στατική ρύθμιση IP ή DHCP\n"
+"• Προσαρμοσμένους διακομιστές DNS\n"
+"• Ρυθμίσεις διακομιστή μεσολάβησης HTTP/HTTPS/SOCKS\n"
+"• Αντιστοίχιση ζώνης τείχους προστασίας\n"
+"• Ρυθμίσεις σύνδεσης VPN\n"
+"• Υπηρεσίες συστήματος προς εκκίνηση/διακοπή\n"
+"• Σενάρια πριν/μετά την ενεργοποίηση\n"
+"• Επιλογή διεπαφής δικτύου"
+
+#: src/ui/pages/help_page.rs:151
+msgid "Tips"
+msgstr "Συμβουλές"
+
+#: src/ui/pages/help_page.rs:152
+msgid ""
+"• Create a 'Default' profile as a baseline configuration.\n"
+"• Use descriptive profile names like 'Home WiFi' or 'Office Wired'.\n"
+"• Test profiles before relying on them in critical situations.\n"
+"• Export important profiles for backup.\n"
+"• Use the system tray for quick profile switching.\n"
+"• Check logs if a profile switch doesn't work as expected."
+msgstr ""
+"• Δημιουργήστε ένα προφίλ «Προεπιλογή» ως βασική ρύθμιση.\n"
+"• Χρησιμοποιήστε περιγραφικά ονόματα προφίλ, όπως «Wi-Fi σπιτιού» ή "
+"«Ενσύρματο γραφείου».\n"
+"• Δοκιμάστε τα προφίλ πριν βασιστείτε σε αυτά σε κρίσιμες καταστάσεις.\n"
+"• Εξαγάγετε τα σημαντικά προφίλ για αντίγραφα ασφαλείας.\n"
+"• Χρησιμοποιήστε την περιοχή ειδοποιήσεων για γρήγορη αλλαγή προφίλ.\n"
+"• Ελέγξτε τα αρχεία καταγραφής αν μια αλλαγή προφίλ δεν λειτουργεί όπως "
+"αναμενόταν."
+
+#: src/ui/pages/logs_page.rs:128
+msgid "Application Logs"
+msgstr "Αρχεία καταγραφής εφαρμογής"
+
+#: src/ui/pages/logs_page.rs:136
+msgid "Search logs..."
+msgstr "Αναζήτηση στα αρχεία καταγραφής..."
+
+#. TRANSLATORS: Log filter: show entries of every level
+#: src/ui/pages/logs_page.rs:145
+msgid "All"
+msgstr "Όλα"
+
+#. TRANSLATORS: Log level filter
+#: src/ui/pages/logs_page.rs:147
+msgid "Info"
+msgstr "Πληροφορίες"
+
+#. TRANSLATORS: Log level filter
+#: src/ui/pages/logs_page.rs:149
+msgid "Warning"
+msgstr "Προειδοποίηση"
+
+#. TRANSLATORS: Log level filter
+#: src/ui/pages/logs_page.rs:151 src/ui/pages/profiles_page.rs:218
+#: src/ui/widgets/network_card.rs:178 src/ui/widgets/profile_row.rs:124
+msgid "Error"
+msgstr "Σφάλμα"
+
+#: src/ui/pages/logs_page.rs:160
+msgid "Clear Logs"
+msgstr "Εκκαθάριση αρχείων καταγραφής"
+
+#: src/ui/pages/logs_page.rs:164 src/ui/pages/logs_page.rs:305
+msgid "Export Logs"
+msgstr "Εξαγωγή αρχείων καταγραφής"
+
+#: src/ui/pages/profiles_page.rs:72
+msgid "Search profiles..."
+msgstr "Αναζήτηση προφίλ..."
+
+#: src/ui/pages/profiles_page.rs:85
+msgid "Import profiles from file"
+msgstr "Εισαγωγή προφίλ από αρχείο"
+
+#: src/ui/pages/profiles_page.rs:91
+msgid "Export profiles to file"
+msgstr "Εξαγωγή προφίλ σε αρχείο"
+
+#: src/ui/pages/profiles_page.rs:143
+msgid "No Profiles Yet"
+msgstr "Δεν υπάρχουν ακόμη προφίλ"
+
+#: src/ui/pages/profiles_page.rs:144
+msgid "Create your first network profile to get started"
+msgstr "Δημιουργήστε το πρώτο σας προφίλ δικτύου για να ξεκινήσετε"
+
+#: src/ui/pages/profiles_page.rs:179
+msgid "Loading profiles..."
+msgstr "Φόρτωση προφίλ..."
+
+#: src/ui/pages/profiles_page.rs:217 src/ui/widgets/profile_row.rs:123
+msgid "Applying"
+msgstr "Εφαρμόζεται"
+
+#: src/ui/pages/profiles_page.rs:237
+msgid "Apply Profile (Enter)"
+msgstr "Εφαρμογή προφίλ (Enter)"
+
+#: src/ui/pages/profiles_page.rs:241
+msgid "Already active"
+msgstr "Ήδη ενεργό"
+
+#: src/ui/pages/profiles_page.rs:272
+msgid "Duplicate Profile"
+msgstr "Δημιουργία αντιγράφου προφίλ"
+
+#: src/ui/pages/profiles_page.rs:285
+msgid "Delete Profile"
+msgstr "Διαγραφή προφίλ"
+
+#: src/ui/pages/settings_page.rs:138
+msgid "Select the application color scheme"
+msgstr "Επιλέξτε το χρωματικό σχήμα της εφαρμογής"
+
+#: src/ui/pages/settings_page.rs:186
+msgid "Auto-Switch"
+msgstr "Αυτόματη εναλλαγή"
+
+#: src/ui/pages/settings_page.rs:187
+msgid "Automatically activate profiles based on conditions"
+msgstr "Αυτόματη ενεργοποίηση προφίλ βάσει συνθηκών"
+
+#: src/ui/pages/settings_page.rs:191
+msgid "Enable Auto-Switch"
+msgstr "Ενεργοποίηση αυτόματης εναλλαγής"
+
+#: src/ui/pages/settings_page.rs:192
+msgid "Activate profiles when conditions match"
+msgstr "Ενεργοποίηση προφίλ όταν ισχύουν οι συνθήκες"
+
+#: src/ui/pages/settings_page.rs:206 src/ui/pages/settings_page.rs:457
+msgid "Check Interval"
+msgstr "Διάστημα ελέγχου"
+
+#: src/ui/pages/settings_page.rs:207
+msgid "Seconds between condition checks"
+msgstr "Δευτερόλεπτα μεταξύ των ελέγχων συνθηκών"
+
+#: src/ui/pages/settings_page.rs:221
+msgid "Allow Scripts During Auto-Switch"
+msgstr "Να επιτρέπονται σενάρια κατά την αυτόματη εναλλαγή"
+
+#: src/ui/pages/settings_page.rs:222
+msgid "Run automation actions when auto-switching profiles"
+msgstr "Εκτέλεση ενεργειών αυτοματισμού κατά την αυτόματη εναλλαγή προφίλ"
+
+#: src/ui/pages/settings_page.rs:239 src/ui/pages/settings_page.rs:1694
+msgid "Auto-Switch Rules"
+msgstr "Κανόνες αυτόματης εναλλαγής"
+
+#: src/ui/pages/settings_page.rs:240
+msgid "Configure conditions for automatic profile switching"
+msgstr "Ρύθμιση των συνθηκών για την αυτόματη εναλλαγή προφίλ"
+
+#: src/ui/pages/settings_page.rs:265
+msgid "Desktop Notifications"
+msgstr "Ειδοποιήσεις επιφάνειας εργασίας"
+
+#: src/ui/pages/settings_page.rs:266
+msgid "Show notifications for profile changes"
+msgstr "Εμφάνιση ειδοποιήσεων για αλλαγές προφίλ"
+
+#: src/ui/pages/settings_page.rs:280
+msgid "Start Minimized"
+msgstr "Εκκίνηση σε ελαχιστοποίηση"
+
+#: src/ui/pages/settings_page.rs:281
+msgid "Minimize to system tray on startup"
+msgstr "Ελαχιστοποίηση στην περιοχή ειδοποιήσεων κατά την εκκίνηση"
+
+#: src/ui/pages/settings_page.rs:298
+msgid "Storage"
+msgstr "Αποθηκευτικός χώρος"
+
+#: src/ui/pages/settings_page.rs:303
+msgid "Profiles Directory"
+msgstr "Φάκελος προφίλ"
+
+#: src/ui/pages/settings_page.rs:308 src/ui/pages/settings_page.rs:336
+msgid "Open folder"
+msgstr "Άνοιγμα φακέλου"
+
+#: src/ui/pages/settings_page.rs:331
+msgid "Logs File"
+msgstr "Αρχείο καταγραφής"
+
+#. TRANSLATORS: Shown as Pango markup, so write "&" as "&amp;"
+#: src/ui/pages/settings_page.rs:361
+msgid "Backup &amp; Restore"
+msgstr "Αντίγραφα ασφαλείας και επαναφορά"
+
+#: src/ui/pages/settings_page.rs:366
+msgid "Save all profiles to a backup file"
+msgstr "Αποθήκευση όλων των προφίλ σε αρχείο αντιγράφου ασφαλείας"
+
+#: src/ui/pages/settings_page.rs:378
+msgid "Restore profiles from a backup file"
+msgstr "Επαναφορά προφίλ από αρχείο αντιγράφου ασφαλείας"
+
+#: src/ui/pages/settings_page.rs:399
+msgid "Scheduling"
+msgstr "Χρονοπρογραμματισμός"
+
+#: src/ui/pages/settings_page.rs:400
+msgid "Automatically activate profiles at specific times"
+msgstr "Αυτόματη ενεργοποίηση προφίλ σε συγκεκριμένες ώρες"
+
+#: src/ui/pages/settings_page.rs:404
+msgid "Enable Scheduled Activation"
+msgstr "Ενεργοποίηση βάσει χρονοδιαγράμματος"
+
+#: src/ui/pages/settings_page.rs:405
+msgid "Automatically switch profiles based on schedule"
+msgstr "Αυτόματη αλλαγή προφίλ βάσει χρονοδιαγράμματος"
+
+#: src/ui/pages/settings_page.rs:420 src/ui/pages/settings_page.rs:1003
+msgid "Manage Schedules"
+msgstr "Διαχείριση χρονοδιαγραμμάτων"
+
+#: src/ui/pages/settings_page.rs:421
+msgid "Configure time-based profile activations"
+msgstr "Ρύθμιση χρονικά προγραμματισμένων ενεργοποιήσεων προφίλ"
+
+#: src/ui/pages/settings_page.rs:442
+msgid "Connection Watchdog"
+msgstr "Επιτήρηση σύνδεσης"
+
+#: src/ui/pages/settings_page.rs:444
+msgid "Monitor network connectivity and take action on failures"
+msgstr ""
+"Παρακολούθηση της συνδεσιμότητας δικτύου και ανάληψη ενεργειών σε περίπτωση "
+"αποτυχίας"
+
+#: src/ui/pages/settings_page.rs:449
+msgid "Enable Watchdog"
+msgstr "Ενεργοποίηση επιτήρησης"
+
+#: src/ui/pages/settings_page.rs:450
+msgid "Periodically check network connectivity"
+msgstr "Περιοδικός έλεγχος της συνδεσιμότητας δικτύου"
+
+#: src/ui/pages/settings_page.rs:458
+msgid "Seconds between connectivity checks"
+msgstr "Δευτερόλεπτα μεταξύ των ελέγχων συνδεσιμότητας"
+
+#: src/ui/pages/settings_page.rs:465 src/ui/pages/settings_page.rs:1742
+msgid "Ping Target"
+msgstr "Στόχος ping"
+
+#: src/ui/pages/settings_page.rs:472
+msgid "Failure Threshold"
+msgstr "Όριο αποτυχιών"
+
+#: src/ui/pages/settings_page.rs:473
+msgid "Failed checks before taking action"
+msgstr "Αποτυχημένοι έλεγχοι πριν από την ανάληψη ενέργειας"
+
+#. TRANSLATORS: Watchdog failure action: show a notification
+#: src/ui/pages/settings_page.rs:482
+msgid "Notify"
+msgstr "Ειδοποίηση"
+
+#. TRANSLATORS: Watchdog failure action: reconnect the network
+#: src/ui/pages/settings_page.rs:484
+msgid "Reconnect"
+msgstr "Επανασύνδεση"
+
+#. TRANSLATORS: Watchdog failure action; "NetworkManager" is the
+#. name of the system service
+#: src/ui/pages/settings_page.rs:489
+msgid "Restart NetworkManager"
+msgstr "Επανεκκίνηση του NetworkManager"
+
+#: src/ui/pages/settings_page.rs:494
+msgid "Failure Action"
+msgstr "Ενέργεια σε περίπτωση αποτυχίας"
+
+#: src/ui/pages/settings_page.rs:495
+msgid "Action when connectivity is lost"
+msgstr "Ενέργεια όταν χάνεται η συνδεσιμότητα"
+
+#: src/ui/pages/settings_page.rs:504
+msgid "Fallback Profile"
+msgstr "Εφεδρικό προφίλ"
+
+#: src/ui/pages/settings_page.rs:505
+msgid "Profile to switch to when connectivity fails"
+msgstr "Προφίλ στο οποίο θα γίνει αλλαγή όταν χαθεί η συνδεσιμότητα"
+
+#: src/ui/pages/settings_page.rs:575
+msgid "Script execution and profile security settings"
+msgstr "Ρυθμίσεις εκτέλεσης σεναρίων και ασφάλειας προφίλ"
+
+#: src/ui/pages/settings_page.rs:580
+msgid "No Sandboxing"
+msgstr "Χωρίς απομόνωση"
+
+#: src/ui/pages/settings_page.rs:584
+msgid "Script Sandboxing"
+msgstr "Απομόνωση σεναρίων"
+
+#: src/ui/pages/settings_page.rs:585
+msgid "Method for isolating script execution"
+msgstr "Μέθοδος απομόνωσης της εκτέλεσης σεναρίων"
+
+#: src/ui/pages/settings_page.rs:594
+msgid "Profile Encryption"
+msgstr "Κρυπτογράφηση προφίλ"
+
+#: src/ui/pages/settings_page.rs:595
+msgid "Encrypt saved profiles with a passphrase"
+msgstr "Κρυπτογράφηση των αποθηκευμένων προφίλ με φράση πρόσβασης"
+
+#: src/ui/pages/settings_page.rs:602
+msgid "Change Passphrase…"
+msgstr "Αλλαγή φράσης πρόσβασης…"
+
+#: src/ui/pages/settings_page.rs:609
+msgid "Unlock Profiles…"
+msgstr "Ξεκλείδωμα προφίλ…"
+
+#: src/ui/pages/settings_page.rs:646
+msgid "Enable Profile Encryption"
+msgstr "Ενεργοποίηση κρυπτογράφησης προφίλ"
+
+#: src/ui/pages/settings_page.rs:647
+msgid ""
+"Choose a passphrase. It is never saved to disk, so you will need to enter it "
+"each time you start the app."
+msgstr ""
+"Επιλέξτε μια φράση πρόσβασης. Δεν αποθηκεύεται ποτέ στον δίσκο, οπότε θα "
+"πρέπει να την εισαγάγετε σε κάθε εκκίνηση της εφαρμογής."
+
+#: src/ui/pages/settings_page.rs:649
+msgid "Enable"
+msgstr "Ενεργοποίηση"
+
+#: src/ui/pages/settings_page.rs:674
+msgid "Disable Profile Encryption?"
+msgstr "Απενεργοποίηση κρυπτογράφησης προφίλ;"
+
+#: src/ui/pages/settings_page.rs:675
+msgid "Saved profiles will be written to disk without encryption."
+msgstr "Τα αποθηκευμένα προφίλ θα εγγράφονται στον δίσκο χωρίς κρυπτογράφηση."
+
+#: src/ui/pages/settings_page.rs:678
+msgid "Disable"
+msgstr "Απενεργοποίηση"
+
+#: src/ui/pages/settings_page.rs:728
+msgid "Change Encryption Passphrase"
+msgstr "Αλλαγή φράσης πρόσβασης κρυπτογράφησης"
+
+#: src/ui/pages/settings_page.rs:729
+msgid "Choose a new passphrase for your saved profiles."
+msgstr "Επιλέξτε μια νέα φράση πρόσβασης για τα αποθηκευμένα προφίλ σας."
+
+#: src/ui/pages/settings_page.rs:731
+msgid "Change"
+msgstr "Αλλαγή"
+
+#: src/ui/pages/settings_page.rs:763
+msgid "Enter the passphrase you chose when encryption was enabled."
+msgstr ""
+"Εισαγάγετε τη φράση πρόσβασης που επιλέξατε κατά την ενεργοποίηση της "
+"κρυπτογράφησης."
+
+#: src/ui/pages/settings_page.rs:800
+msgid "Keyboard Shortcuts"
+msgstr "Συντομεύσεις πληκτρολογίου"
+
+#: src/ui/pages/settings_page.rs:801
+msgid "Quick access shortcuts for profile switching"
+msgstr "Συντομεύσεις για γρήγορη αλλαγή προφίλ"
+
+#: src/ui/pages/settings_page.rs:805
+msgid "Enable Profile Hotkeys"
+msgstr "Ενεργοποίηση πλήκτρων συντόμευσης προφίλ"
+
+#: src/ui/pages/settings_page.rs:806
+msgid "Use keyboard shortcuts to switch profiles"
+msgstr "Χρήση συντομεύσεων πληκτρολογίου για αλλαγή προφίλ"
+
+#: src/ui/pages/settings_page.rs:821 src/ui/pages/settings_page.rs:1394
+msgid "Configure Hotkeys"
+msgstr "Ρύθμιση πλήκτρων συντόμευσης"
+
+#: src/ui/pages/settings_page.rs:822
+msgid "Assign keyboard shortcuts to profiles"
+msgstr "Αντιστοίχιση συντομεύσεων πληκτρολογίου σε προφίλ"
+
+#. TRANSLATORS: Application version row
+#: src/ui/pages/settings_page.rs:846
+msgid "Version"
+msgstr "Έκδοση"
+
+#: src/ui/pages/settings_page.rs:852
+msgid "Project Website"
+msgstr "Ιστότοπος του έργου"
+
+#: src/ui/pages/settings_page.rs:873
+msgid "Report an Issue"
+msgstr "Αναφορά προβλήματος"
+
+#: src/ui/pages/settings_page.rs:928
+msgid "(No profiles available)"
+msgstr "(Δεν υπάρχουν διαθέσιμα προφίλ)"
+
+#: src/ui/pages/settings_page.rs:1011 src/ui/pages/settings_page.rs:1157
+msgid "Add Schedule"
+msgstr "Προσθήκη χρονοδιαγράμματος"
+
+#: src/ui/pages/settings_page.rs:1043
+msgid "No Schedules"
+msgstr "Κανένα χρονοδιάγραμμα"
+
+#: src/ui/pages/settings_page.rs:1044
+msgid ""
+"Add a schedule to automatically activate profiles at specific times.\n"
+"\n"
+"Click the + button to create your first schedule."
+msgstr ""
+"Προσθέστε ένα χρονοδιάγραμμα για να ενεργοποιούνται αυτόματα προφίλ σε "
+"συγκεκριμένες ώρες.\n"
+"\n"
+"Πατήστε το κουμπί + για να δημιουργήσετε το πρώτο σας χρονοδιάγραμμα."
+
+#: src/ui/pages/settings_page.rs:1055
+msgid ""
+"Schedules use cron format: minute hour day-of-month month day-of-week\n"
+"Example: \"30 9 * * 1-5\" = 9:30 AM on weekdays"
+msgstr ""
+"Τα χρονοδιαγράμματα χρησιμοποιούν μορφή cron: λεπτό ώρα ημέρα-μήνα μήνας "
+"ημέρα-εβδομάδας\n"
+"Παράδειγμα: «30 9 * * 1-5» = 9:30 π.μ. τις καθημερινές"
+
+#: src/ui/pages/settings_page.rs:1101
+msgid "Unknown profile"
+msgstr "Άγνωστο προφίλ"
+
+#. TRANSLATORS: Appended to a schedule or hotkey that is turned off
+#: src/ui/pages/settings_page.rs:1106 src/ui/pages/settings_page.rs:1496
+msgid "disabled"
+msgstr "ανενεργό"
+
+#: src/ui/pages/settings_page.rs:1125
+msgid "Delete Schedule"
+msgstr "Διαγραφή χρονοδιαγράμματος"
+
+#: src/ui/pages/settings_page.rs:1174
+msgid "Schedule Information"
+msgstr "Πληροφορίες χρονοδιαγράμματος"
+
+#. TRANSLATORS: Default description for a new schedule
+#: src/ui/pages/settings_page.rs:1180
+msgid "Daily Work Profile"
+msgstr "Καθημερινό προφίλ εργασίας"
+
+#: src/ui/pages/settings_page.rs:1188 src/ui/pages/settings_page.rs:1559
+msgid "Profile"
+msgstr "Προφίλ"
+
+#: src/ui/pages/settings_page.rs:1189
+msgid "Profile to activate on schedule"
+msgstr "Προφίλ προς ενεργοποίηση βάσει χρονοδιαγράμματος"
+
+#: src/ui/pages/settings_page.rs:1198
+msgid "Activation Time"
+msgstr "Ώρα ενεργοποίησης"
+
+#: src/ui/pages/settings_page.rs:1202
+msgid "Hour (0-23)"
+msgstr "Ώρα (0-23)"
+
+#: src/ui/pages/settings_page.rs:1208
+msgid "Minute (0-59)"
+msgstr "Λεπτό (0-59)"
+
+#: src/ui/pages/settings_page.rs:1217
+msgid "Days of Week"
+msgstr "Ημέρες της εβδομάδας"
+
+#: src/ui/pages/settings_page.rs:1218
+msgid "Select days when the schedule should run"
+msgstr "Επιλέξτε τις ημέρες κατά τις οποίες θα εκτελείται το χρονοδιάγραμμα"
+
+#: src/ui/pages/settings_page.rs:1222
+msgid "Monday"
+msgstr "Δευτέρα"
+
+#: src/ui/pages/settings_page.rs:1226
+msgid "Tuesday"
+msgstr "Τρίτη"
+
+#: src/ui/pages/settings_page.rs:1230
+msgid "Wednesday"
+msgstr "Τετάρτη"
+
+#: src/ui/pages/settings_page.rs:1234
+msgid "Thursday"
+msgstr "Πέμπτη"
+
+#: src/ui/pages/settings_page.rs:1238
+msgid "Friday"
+msgstr "Παρασκευή"
+
+#: src/ui/pages/settings_page.rs:1242
+msgid "Saturday"
+msgstr "Σάββατο"
+
+#: src/ui/pages/settings_page.rs:1246
+msgid "Sunday"
+msgstr "Κυριακή"
+
+#: src/ui/pages/settings_page.rs:1262
+msgid "Options"
+msgstr "Επιλογές"
+
+#: src/ui/pages/settings_page.rs:1266
+msgid "Enabled"
+msgstr "Ενεργό"
+
+#: src/ui/pages/settings_page.rs:1267
+msgid "Schedule will trigger when enabled"
+msgstr "Το χρονοδιάγραμμα εκτελείται μόνο όταν είναι ενεργό"
+
+#. TRANSLATORS: A schedule that runs only once
+#: src/ui/pages/settings_page.rs:1274
+msgid "One-shot"
+msgstr "Μία φορά"
+
+#: src/ui/pages/settings_page.rs:1275
+msgid "Run once then disable"
+msgstr "Εκτέλεση μία φορά και έπειτα απενεργοποίηση"
+
+#: src/ui/pages/settings_page.rs:1402 src/ui/pages/settings_page.rs:1535
+msgid "Add Hotkey"
+msgstr "Προσθήκη πλήκτρου συντόμευσης"
+
+#: src/ui/pages/settings_page.rs:1414
+msgid "Profile Hotkeys"
+msgstr "Πλήκτρα συντόμευσης προφίλ"
+
+#: src/ui/pages/settings_page.rs:1415
+msgid "Global keyboard shortcuts for quick profile switching"
+msgstr "Καθολικές συντομεύσεις πληκτρολογίου για γρήγορη αλλαγή προφίλ"
+
+#: src/ui/pages/settings_page.rs:1425
+msgid "No hotkeys configured. Click the + button to add one."
+msgstr ""
+"Δεν έχουν οριστεί πλήκτρα συντόμευσης. Πατήστε το κουμπί + για να προσθέσετε "
+"ένα."
+
+#: src/ui/pages/settings_page.rs:1439
+msgid "How to Use"
+msgstr "Τρόπος χρήσης"
+
+#: src/ui/pages/settings_page.rs:1443
+msgid "About Hotkeys"
+msgstr "Σχετικά με τα πλήκτρα συντόμευσης"
+
+#: src/ui/pages/settings_page.rs:1444
+msgid ""
+"Hotkeys work globally when the app is running. Press the shortcut to "
+"instantly switch to the assigned profile."
+msgstr ""
+"Τα πλήκτρα συντόμευσης λειτουργούν καθολικά όσο εκτελείται η εφαρμογή. "
+"Πατήστε τη συντόμευση για άμεση αλλαγή στο αντιστοιχισμένο προφίλ."
+
+#. TRANSLATORS: Heading of a warning about conflicting shortcuts
+#: src/ui/pages/settings_page.rs:1450
+msgid "Note"
+msgstr "Σημείωση"
+
+#: src/ui/pages/settings_page.rs:1452
+msgid "Some shortcuts may conflict with system or other application shortcuts."
+msgstr ""
+"Ορισμένες συντομεύσεις μπορεί να συγκρούονται με συντομεύσεις του συστήματος "
+"ή άλλων εφαρμογών."
+
+#: src/ui/pages/settings_page.rs:1507
+msgid "Delete Hotkey"
+msgstr "Διαγραφή πλήκτρου συντόμευσης"
+
+#: src/ui/pages/settings_page.rs:1551
+msgid "Hotkey Configuration"
+msgstr "Ρύθμιση πλήκτρου συντόμευσης"
+
+#: src/ui/pages/settings_page.rs:1560
+msgid "Profile to activate with this hotkey"
+msgstr "Προφίλ προς ενεργοποίηση με αυτό το πλήκτρο συντόμευσης"
+
+#. TRANSLATORS: Keyboard modifier key name
+#: src/ui/pages/settings_page.rs:1569
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#. TRANSLATORS: Keyboard modifier key name
+#: src/ui/pages/settings_page.rs:1576
+msgid "Alt"
+msgstr "Alt"
+
+#. TRANSLATORS: Keyboard modifier key name
+#: src/ui/pages/settings_page.rs:1583
+msgid "Shift"
+msgstr "Shift"
+
+#. TRANSLATORS: Keyboard modifier key name (the Windows/logo key)
+#: src/ui/pages/settings_page.rs:1590
+msgid "Super"
+msgstr "Super"
+
+#. TRANSLATORS: The key pressed together with the modifiers
+#: src/ui/pages/settings_page.rs:1597
+msgid "Key"
+msgstr "Πλήκτρο"
+
+#. TRANSLATORS: Profile name shown when the hotkey's profile is missing
+#. TRANSLATORS: Placeholder for an interface whose name is not known yet
+#: src/ui/pages/settings_page.rs:1638 src/ui/widgets/network_card.rs:117
+msgid "Unknown"
+msgstr "Άγνωστο"
+
+#: src/ui/pages/settings_page.rs:1721
+msgid "Available Rule Types"
+msgstr "Διαθέσιμοι τύποι κανόνων"
+
+#: src/ui/pages/settings_page.rs:1722
+msgid "Rules are stored with each profile"
+msgstr "Οι κανόνες αποθηκεύονται μαζί με κάθε προφίλ"
+
+#: src/ui/pages/settings_page.rs:1726
+msgid "Wi-Fi SSID"
+msgstr "SSID Wi-Fi"
+
+#: src/ui/pages/settings_page.rs:1727
+msgid "Activate when connected to a specific network"
+msgstr "Ενεργοποίηση όταν υπάρχει σύνδεση σε συγκεκριμένο δίκτυο"
+
+#: src/ui/pages/settings_page.rs:1734
+msgid "Gateway MAC"
+msgstr "MAC πύλης"
+
+#: src/ui/pages/settings_page.rs:1735
+msgid "Match by router MAC address"
+msgstr "Αντιστοίχιση με βάση τη διεύθυνση MAC του δρομολογητή"
+
+#: src/ui/pages/settings_page.rs:1743
+msgid "Activate when a host is reachable"
+msgstr "Ενεργοποίηση όταν ένας κεντρικός υπολογιστής είναι προσβάσιμος"
+
+#: src/ui/pages/settings_page.rs:1750
+msgid "Time Window"
+msgstr "Χρονικό παράθυρο"
+
+#: src/ui/pages/settings_page.rs:1751
+msgid "Activate during specific hours/days"
+msgstr "Ενεργοποίηση σε συγκεκριμένες ώρες/ημέρες"
+
+#: src/ui/pages/settings_page.rs:1758
+msgid "Interface State"
+msgstr "Κατάσταση διεπαφής"
+
+#: src/ui/pages/settings_page.rs:1759
+msgid "Match network interface up/down state"
+msgstr ""
+"Αντιστοίχιση με βάση την κατάσταση της διεπαφής δικτύου (ενεργή/ανενεργή)"
+
+#: src/ui/pages/settings_page.rs:1770
+msgid ""
+"Rules cannot be edited in the app yet. Rules included in imported profiles "
+"are checked automatically while Auto-Switch is enabled.\n"
+"Rules can be combined with AND/OR logic for complex matching."
+msgstr ""
+"Οι κανόνες δεν μπορούν ακόμη να τροποποιηθούν στην εφαρμογή. Οι κανόνες που "
+"περιέχονται σε εισαγόμενα προφίλ ελέγχονται αυτόματα όσο είναι ενεργή η "
+"αυτόματη εναλλαγή.\n"
+"Οι κανόνες μπορούν να συνδυαστούν με λογική ΚΑΙ/Ή για σύνθετη αντιστοίχιση."
+
+#: src/ui/widgets/network_card.rs:176
+msgid "Connecting..."
+msgstr "Γίνεται σύνδεση..."
+
+#. TRANSLATORS: Connection state inside a screen-reader sentence
+#: src/ui/widgets/network_card.rs:211
+msgid "disconnected"
+msgstr "αποσυνδέθηκε"
+
+#. TRANSLATORS: Connection state inside a screen-reader sentence
+#: src/ui/widgets/network_card.rs:213
+msgid "connecting"
+msgstr "γίνεται σύνδεση"
+
+#. TRANSLATORS: Connection state inside a screen-reader sentence
+#: src/ui/widgets/network_card.rs:215
+msgid "connected"
+msgstr "συνδέθηκε"
+
+#. TRANSLATORS: Connection state inside a screen-reader sentence
+#. TRANSLATORS: Profile status inside a screen-reader sentence
+#: src/ui/widgets/network_card.rs:217 src/ui/widgets/profile_row.rs:109
+msgid "error"
+msgstr "σφάλμα"
+
+#: src/ui/widgets/network_card.rs:221
+msgid "no IP address"
+msgstr "χωρίς διεύθυνση IP"
+
+#: src/ui/widgets/network_card.rs:226
+msgid "VPN"
+msgstr "VPN"
+
+#. TRANSLATORS: Network bridge interface type
+#: src/ui/widgets/network_card.rs:228
+msgid "Bridge"
+msgstr "Γέφυρα"
+
+#. TRANSLATORS: Screen-reader label for a network interface card, e.g.
+#. "wlan0 Wi-Fi interface, connected, 192.168.1.5"
+#: src/ui/widgets/network_card.rs:234
+#, rust-format
+msgid "{name} {type} interface, {state}, {ip}"
+msgstr "Διεπαφή {name} ({type}), {state}, {ip}"
+
+#: src/ui/widgets/profile_row.rs:69
+msgid "Activate Profile"
+msgstr "Ενεργοποίηση προφίλ"
+
+#. TRANSLATORS: Profile status inside a screen-reader sentence
+#: src/ui/widgets/profile_row.rs:103
+msgid "active"
+msgstr "ενεργό"
+
+#. TRANSLATORS: Profile status inside a screen-reader sentence
+#: src/ui/widgets/profile_row.rs:105
+msgid "inactive"
+msgstr "ανενεργό"
+
+#. TRANSLATORS: Profile status inside a screen-reader sentence
+#: src/ui/widgets/profile_row.rs:107
+msgid "applying"
+msgstr "εφαρμόζεται"
+
+#. TRANSLATORS: Screen-reader label for a profile row, e.g.
+#. "Profile Home, status: active"
+#: src/ui/widgets/profile_row.rs:113
+#, rust-format
+msgid "Profile {name}, status: {status}"
+msgstr "Προφίλ {name}, κατάσταση: {status}"

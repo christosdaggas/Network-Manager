@@ -1,0 +1,2165 @@
+# de translation for Network Manager
+# Copyright (C) 2026 Christos A. Daggas
+# This file is distributed under the same license as the Network Manager package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: network-manager 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/christosdaggas/Network-Manager/"
+"issues\n"
+"POT-Creation-Date: 2026-10-22 15:24+0300\n"
+"PO-Revision-Date: 2026-10-22 15:00+0300\n"
+"Last-Translator: Christos A. Daggas <info@chrisdaggas.com>\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/application.rs:187
+msgid "First release, made for Fedora with the GNOME desktop"
+msgstr "Erste Veröffentlichung, entwickelt für Fedora mit dem GNOME-Desktop"
+
+#: src/application.rs:188
+msgid ""
+"Save network and system settings as profiles and switch between them in one "
+"click"
+msgstr ""
+"Netzwerk- und Systemeinstellungen als Profile speichern und mit einem Klick "
+"zwischen ihnen wechseln"
+
+#: src/application.rs:189
+msgid "Network settings: IP addresses, DNS, routes, Wi-Fi and VPN connections"
+msgstr ""
+"Netzwerkeinstellungen: IP-Adressen, DNS, Routen, Wi-Fi- und VPN-Verbindungen"
+
+#: src/application.rs:190
+msgid ""
+"System settings: hostname, proxy, firewall zone, default printer and timezone"
+msgstr ""
+"Systemeinstellungen: Rechnername, Proxy, Firewall-Zone, Standarddrucker und "
+"Zeitzone"
+
+#: src/application.rs:191
+msgid ""
+"Automatic switching based on the Wi-Fi network, the router or the time of day"
+msgstr ""
+"Automatischer Wechsel anhand des Wi-Fi-Netzwerks, des Routers oder der "
+"Tageszeit"
+
+#: src/application.rs:192
+msgid "Scheduled profile activation and a connection watchdog"
+msgstr "Zeitgesteuerte Profilaktivierung und Verbindungsüberwachung"
+
+#: src/application.rs:193
+msgid "Scripts before and after a profile is applied, optionally sandboxed"
+msgstr ""
+"Skripte vor und nach dem Anwenden eines Profils, optional in einer Sandbox"
+
+#: src/application.rs:194
+msgid "Optional profile encryption with a passphrase"
+msgstr "Optionale Profilverschlüsselung mit einer Passphrase"
+
+#: src/application.rs:195
+msgid "System tray icon for quick profile switching"
+msgstr "Systemleistensymbol für den schnellen Profilwechsel"
+
+#: src/application.rs:196
+msgid "Dashboard with live network status and activity"
+msgstr "Übersicht mit Netzwerkstatus und -aktivität in Echtzeit"
+
+#: src/application.rs:197
+msgid "Translated into 10 languages"
+msgstr "In 10 Sprachen übersetzt"
+
+#: src/application.rs:287
+msgid "Network and system profile manager for Linux"
+msgstr "Verwaltung von Netzwerk- und Systemprofilen für Linux"
+
+#: src/application.rs:299 src/ui/main_window.rs:4176
+msgid "Preferences"
+msgstr "Einstellungen"
+
+#: src/application.rs:302 src/ui/pages/settings_page.rs:123
+msgid "Appearance"
+msgstr "Erscheinungsbild"
+
+#: src/application.rs:306
+msgid "Theme"
+msgstr "Thema"
+
+#. TRANSLATORS: Color scheme option that follows the system setting
+#: src/application.rs:310
+msgid "Follow System"
+msgstr "System folgen"
+
+#. TRANSLATORS: Color scheme option
+#. TRANSLATORS: theme button: light style
+#. TRANSLATORS: Color scheme option
+#: src/application.rs:312 src/ui/main_window.rs:4073
+#: src/ui/pages/settings_page.rs:130
+msgid "Light"
+msgstr "Hell"
+
+#. TRANSLATORS: Color scheme option
+#. TRANSLATORS: theme button: dark style
+#. TRANSLATORS: Color scheme option
+#: src/application.rs:314 src/ui/main_window.rs:4080
+#: src/ui/pages/settings_page.rs:132
+msgid "Dark"
+msgstr "Dunkel"
+
+#: src/application.rs:319 src/ui/pages/settings_page.rs:137
+msgid "Color Scheme"
+msgstr "Farbschema"
+
+#: src/application.rs:320
+msgid "Choose the application's appearance"
+msgstr "Wählen Sie das Erscheinungsbild der Anwendung"
+
+#: src/application.rs:352 src/ui/pages/settings_page.rs:261
+msgid "Behavior"
+msgstr "Verhalten"
+
+#: src/application.rs:356
+msgid "Startup"
+msgstr "Start"
+
+#: src/application.rs:364
+msgid "Start on Login"
+msgstr "Bei Anmeldung starten"
+
+#: src/application.rs:365
+msgid "Automatically start Network Manager when you log in"
+msgstr "Netzwerk-Manager bei der Anmeldung automatisch starten"
+
+#: src/application.rs:386
+msgid "Show System Tray Icon"
+msgstr "Symbol in der Systemleiste anzeigen"
+
+#: src/application.rs:387
+msgid "Display an icon in the system tray (AppIndicator on GNOME)"
+msgstr "Ein Symbol in der Systemleiste anzeigen (AppIndicator unter GNOME)"
+
+#: src/application.rs:407
+msgid "Tray icon unavailable. On GNOME, install the AppIndicator extension."
+msgstr ""
+"Das Systemleistensymbol ist nicht verfügbar. Installieren Sie unter GNOME "
+"die Erweiterung AppIndicator."
+
+#: src/application.rs:423 src/ui/main_window.rs:51
+#: src/ui/pages/help_page.rs:104
+msgid "Profiles"
+msgstr "Profile"
+
+#: src/application.rs:426
+msgid "Confirm Profile Switch"
+msgstr "Profilwechsel bestätigen"
+
+#: src/application.rs:427
+msgid "Ask for confirmation before switching profiles"
+msgstr "Vor dem Wechsel des Profils nachfragen"
+
+#: src/application.rs:672
+msgid "Connection lost! Check your network."
+msgstr "Verbindung verloren! Überprüfen Sie Ihr Netzwerk."
+
+#: src/models/adapter.rs:48 src/ui/widgets/network_card.rs:224
+msgid "Ethernet"
+msgstr "Ethernet"
+
+#: src/models/adapter.rs:49 src/ui/widgets/network_card.rs:225
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+#. TRANSLATORS: Virtual network adapter type (bridges, VLANs)
+#: src/models/adapter.rs:51
+msgid "Virtual"
+msgstr "Virtuell"
+
+#. TRANSLATORS: Loopback network interface type
+#: src/models/adapter.rs:53
+msgid "Loopback"
+msgstr "Loopback"
+
+#. TRANSLATORS: Generic network interface type
+#: src/models/adapter.rs:55 src/ui/widgets/network_card.rs:230
+msgid "Network"
+msgstr "Netzwerk"
+
+#: src/models/templates.rs:63
+msgid "Basic home network setup with DHCP and default DNS"
+msgstr "Einfache Heimnetzwerk-Einrichtung mit DHCP und Standard-DNS"
+
+#: src/models/templates.rs:64
+msgid "Corporate network with static IP configuration"
+msgstr "Firmennetzwerk mit statischer IP-Konfiguration"
+
+#: src/models/templates.rs:65
+msgid "Secure configuration for untrusted public networks"
+msgstr ""
+"Sichere Konfiguration für nicht vertrauenswürdige öffentliche Netzwerke"
+
+#: src/models/templates.rs:66
+msgid "Route all traffic through VPN connection"
+msgstr "Gesamten Datenverkehr über eine VPN-Verbindung leiten"
+
+#: src/models/templates.rs:67
+msgid "Local development with custom hosts and DNS"
+msgstr "Lokale Entwicklung mit eigenen Hosts und DNS"
+
+#: src/models/templates.rs:68
+msgid "Start with an empty profile"
+msgstr "Mit einem leeren Profil beginnen"
+
+#. TRANSLATORS: Profile group name for the home network template
+#: src/models/templates.rs:94
+msgid "Home"
+msgstr "Zuhause"
+
+#. TRANSLATORS: Profile group name for the office network template
+#: src/models/templates.rs:119
+msgid "Work"
+msgstr "Arbeit"
+
+#. TRANSLATORS: Profile group name for the public Wi-Fi template
+#: src/models/templates.rs:159
+msgid "Travel"
+msgstr "Unterwegs"
+
+#: src/models/templates.rs:181
+msgid "Public WiFi Connected"
+msgstr "Mit öffentlichem Wi-Fi verbunden"
+
+#: src/models/templates.rs:182
+msgid "Remember: Use HTTPS and consider enabling VPN"
+msgstr "Hinweis: Verwenden Sie HTTPS und erwägen Sie, ein VPN zu aktivieren"
+
+#. TRANSLATORS: Profile group name for the VPN template
+#: src/models/templates.rs:191 src/ui/pages/settings_page.rs:574
+msgid "Security"
+msgstr "Sicherheit"
+
+#: src/models/templates.rs:201
+msgid "VPN Connected"
+msgstr "VPN verbunden"
+
+#: src/models/templates.rs:202
+msgid "All traffic is now routed through VPN"
+msgstr "Der gesamte Datenverkehr wird nun über das VPN geleitet"
+
+#. TRANSLATORS: Profile group name for the development template
+#. TRANSLATORS: profile template for software development work
+#: src/models/templates.rs:211 src/ui/main_window.rs:873
+msgid "Development"
+msgstr "Entwicklung"
+
+#: src/services/encryption.rs:269
+msgid "No encryption key set"
+msgstr "Kein Verschlüsselungsschlüssel festgelegt"
+
+#: src/services/encryption.rs:270
+#, rust-format
+msgid "Encryption failed: {error}"
+msgstr "Verschlüsselung fehlgeschlagen: {error}"
+
+#: src/services/encryption.rs:271
+msgid "Decryption failed (wrong key or corrupted data)"
+msgstr ""
+"Entschlüsselung fehlgeschlagen (falscher Schlüssel oder beschädigte Daten)"
+
+#: src/services/encryption.rs:272
+#, rust-format
+msgid "Invalid data: {error}"
+msgstr "Ungültige Daten: {error}"
+
+#: src/services/encryption.rs:274
+#, rust-format
+msgid "Serialization failed: {error}"
+msgstr "Serialisierung fehlgeschlagen: {error}"
+
+#: src/tray.rs:71 src/ui/pages/dashboard_page.rs:293
+#: src/ui/pages/dashboard_page.rs:809
+msgid "No profile active"
+msgstr "Kein Profil aktiv"
+
+#: src/tray.rs:84 src/ui/pages/dashboard_page.rs:253
+msgid "Network Manager"
+msgstr "Netzwerk-Manager"
+
+#: src/tray.rs:103
+msgid "Open Network Manager"
+msgstr "Netzwerk-Manager öffnen"
+
+#. TRANSLATORS: Tray menu entry naming the active profile
+#: src/tray.rs:112
+#, rust-format
+msgid "Active: {name}"
+msgstr "Aktiv: {name}"
+
+#. TRANSLATORS: Watchdog failure action: switch to the fallback profile
+#: src/tray.rs:138 src/ui/main_window.rs:3031
+#: src/ui/pages/dashboard_page.rs:741 src/ui/pages/settings_page.rs:486
+msgid "Switch Profile"
+msgstr "Profil wechseln"
+
+#: src/tray.rs:149 src/ui/main_window.rs:4214
+msgid "Quit"
+msgstr "Beenden"
+
+#: src/ui/encryption_dialog.rs:41 src/ui/main_window.rs:835
+#: src/ui/main_window.rs:1887 src/ui/main_window.rs:2952
+#: src/ui/main_window.rs:3209 src/ui/main_window.rs:3239
+#: src/ui/main_window.rs:5157 src/ui/pages/settings_page.rs:677
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: src/ui/encryption_dialog.rs:66
+msgid "Passphrase"
+msgstr "Passphrase"
+
+#: src/ui/encryption_dialog.rs:73
+msgid "Confirm passphrase"
+msgstr "Passphrase bestätigen"
+
+#: src/ui/encryption_dialog.rs:113
+#, rust-format
+msgid "Use at least {n} character."
+msgid_plural "Use at least {n} characters."
+msgstr[0] "Verwenden Sie mindestens {n} Zeichen."
+msgstr[1] "Verwenden Sie mindestens {n} Zeichen."
+
+#: src/ui/encryption_dialog.rs:124
+msgid "The passphrases do not match."
+msgstr "Die Passphrasen stimmen nicht überein."
+
+#: src/ui/main_window.rs:50 src/ui/main_window.rs:423
+#: src/ui/pages/help_page.rs:94
+msgid "Dashboard"
+msgstr "Übersicht"
+
+#: src/ui/main_window.rs:52 src/ui/pages/help_page.rs:118
+msgid "Logs"
+msgstr "Protokolle"
+
+#: src/ui/main_window.rs:53 src/ui/pages/help_page.rs:127
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: src/ui/main_window.rs:54 src/ui/pages/help_page.rs:59
+msgid "Help"
+msgstr "Hilfe"
+
+#: src/ui/main_window.rs:363 src/ui/main_window.rs:815
+msgid "Collapse sidebar"
+msgstr "Seitenleiste einklappen"
+
+#: src/ui/main_window.rs:430
+msgid "Main Menu"
+msgstr "Hauptmenü"
+
+#: src/ui/main_window.rs:750
+msgid "New version available"
+msgstr "Neue Version verfügbar"
+
+#: src/ui/main_window.rs:758
+#, rust-format
+msgid "Version {version}"
+msgstr "Version {version}"
+
+#: src/ui/main_window.rs:812
+msgid "Expand sidebar"
+msgstr "Seitenleiste ausklappen"
+
+#: src/ui/main_window.rs:826 src/ui/pages/profiles_page.rs:76
+#: src/ui/pages/profiles_page.rs:147
+msgid "Create Profile"
+msgstr "Profil erstellen"
+
+#: src/ui/main_window.rs:836
+msgid "Create"
+msgstr "Erstellen"
+
+#: src/ui/main_window.rs:862
+msgid "Start From Template"
+msgstr "Mit einer Vorlage beginnen"
+
+#: src/ui/main_window.rs:864
+msgid "Optionally start with a pre-configured template"
+msgstr "Optional mit einer vorkonfigurierten Vorlage beginnen"
+
+#: src/ui/main_window.rs:867
+msgid "Blank (Empty)"
+msgstr "Leer"
+
+#: src/ui/main_window.rs:868
+msgid "Home Network"
+msgstr "Heimnetzwerk"
+
+#: src/ui/main_window.rs:869
+msgid "Office Network"
+msgstr "Büronetzwerk"
+
+#: src/ui/main_window.rs:870
+msgid "Public WiFi"
+msgstr "Öffentliches Wi-Fi"
+
+#: src/ui/main_window.rs:871
+msgid "VPN Only"
+msgstr "Nur VPN"
+
+#: src/ui/main_window.rs:876
+msgid "Template"
+msgstr "Vorlage"
+
+#: src/ui/main_window.rs:877
+msgid "Pre-configured settings for common scenarios"
+msgstr "Vorkonfigurierte Einstellungen für häufige Szenarien"
+
+#: src/ui/main_window.rs:887 src/ui/main_window.rs:1912
+msgid "Profile Details"
+msgstr "Profildetails"
+
+#. TRANSLATORS: profile name field
+#: src/ui/main_window.rs:891 src/ui/main_window.rs:1916
+msgid "Name"
+msgstr "Name"
+
+#. TRANSLATORS: profile description field
+#. TRANSLATORS: Schedule description entry
+#: src/ui/main_window.rs:896 src/ui/main_window.rs:1922
+#: src/ui/pages/settings_page.rs:1178
+msgid "Description"
+msgstr "Beschreibung"
+
+#: src/ui/main_window.rs:900 src/ui/main_window.rs:1929
+msgid "Group (optional)"
+msgstr "Gruppe (optional)"
+
+#: src/ui/main_window.rs:914 src/ui/main_window.rs:2007
+msgid "Network Adapters"
+msgstr "Netzwerkadapter"
+
+#: src/ui/main_window.rs:915
+msgid ""
+"Configure settings for each network adapter. Each adapter can have its own "
+"IP, DNS, and state settings."
+msgstr ""
+"Konfigurieren Sie die Einstellungen für jeden Netzwerkadapter. Jeder Adapter "
+"kann eigene IP-, DNS- und Statuseinstellungen haben."
+
+#: src/ui/main_window.rs:918 src/ui/main_window.rs:2011
+msgid "No network adapters detected"
+msgstr "Keine Netzwerkadapter erkannt"
+
+#: src/ui/main_window.rs:944 src/ui/main_window.rs:2039
+msgid "Enable Adapter"
+msgstr "Adapter aktivieren"
+
+#: src/ui/main_window.rs:945 src/ui/main_window.rs:2040
+msgid "Configure this adapter in the profile"
+msgstr "Diesen Adapter im Profil konfigurieren"
+
+#: src/ui/main_window.rs:956 src/ui/main_window.rs:2047
+msgid "DHCP (Automatic)"
+msgstr "DHCP (automatisch)"
+
+#: src/ui/main_window.rs:957 src/ui/main_window.rs:2048
+msgid "Static (Manual)"
+msgstr "Statisch (manuell)"
+
+#. TRANSLATORS: IPv4 method: the adapter gets no IPv4 address
+#: src/ui/main_window.rs:959 src/ui/main_window.rs:2050
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: src/ui/main_window.rs:962 src/ui/main_window.rs:2053
+msgid "IPv4 Configuration"
+msgstr "IPv4-Konfiguration"
+
+#: src/ui/main_window.rs:963 src/ui/main_window.rs:2054
+msgid "How to obtain IP address"
+msgstr "Wie die IP-Adresse bezogen wird"
+
+#: src/ui/main_window.rs:971 src/ui/main_window.rs:2067
+#: src/ui/pages/dashboard_page.rs:436
+msgid "IP Address"
+msgstr "IP-Adresse"
+
+#: src/ui/main_window.rs:977 src/ui/main_window.rs:2079
+msgid "Subnet Mask"
+msgstr "Subnetzmaske"
+
+#: src/ui/main_window.rs:983 src/ui/main_window.rs:2090
+#: src/ui/pages/dashboard_page.rs:448
+msgid "Gateway"
+msgstr "Gateway"
+
+#: src/ui/main_window.rs:990 src/ui/main_window.rs:2103
+msgid "Automatic (from DHCP)"
+msgstr "Automatisch (über DHCP)"
+
+#. TRANSLATORS: DNS method or proxy mode: entered by hand
+#: src/ui/main_window.rs:992 src/ui/main_window.rs:1125
+#: src/ui/main_window.rs:2105 src/ui/main_window.rs:2278
+msgid "Manual"
+msgstr "Manuell"
+
+#: src/ui/main_window.rs:995 src/ui/main_window.rs:2108
+msgid "DNS Configuration"
+msgstr "DNS-Konfiguration"
+
+#: src/ui/main_window.rs:1002 src/ui/main_window.rs:2115
+msgid "Primary DNS"
+msgstr "Primärer DNS"
+
+#: src/ui/main_window.rs:1008 src/ui/main_window.rs:2126
+msgid "Secondary DNS"
+msgstr "Sekundärer DNS"
+
+#: src/ui/main_window.rs:1016 src/ui/main_window.rs:2139
+msgid "WiFi Network (SSID)"
+msgstr "Wi-Fi-Netzwerk (SSID)"
+
+#: src/ui/main_window.rs:1090 src/ui/main_window.rs:2215
+msgid "VPN Connection"
+msgstr "VPN-Verbindung"
+
+#: src/ui/main_window.rs:1092 src/ui/main_window.rs:2217
+msgid "Optionally connect to a VPN when this profile is active"
+msgstr "Optional mit einem VPN verbinden, wenn dieses Profil aktiv ist"
+
+#: src/ui/main_window.rs:1096 src/ui/main_window.rs:2230
+msgid "Connect to VPN"
+msgstr "Mit VPN verbinden"
+
+#: src/ui/main_window.rs:1097 src/ui/main_window.rs:2231
+msgid "Use a VPN connection from NetworkManager"
+msgstr "Eine VPN-Verbindung aus NetworkManager verwenden"
+
+#: src/ui/main_window.rs:1103 src/ui/main_window.rs:2237
+msgid "VPN Connection Name"
+msgstr "Name der VPN-Verbindung"
+
+#: src/ui/main_window.rs:1118 src/ui/main_window.rs:2253
+msgid "Proxy Settings"
+msgstr "Proxy-Einstellungen"
+
+#: src/ui/main_window.rs:1119 src/ui/main_window.rs:2254
+msgid "Configure system proxy via gsettings"
+msgstr "System-Proxy über gsettings konfigurieren"
+
+#. TRANSLATORS: proxy mode: no proxy is used
+#. TRANSLATORS: No fallback profile selected
+#: src/ui/main_window.rs:1123 src/ui/main_window.rs:2276
+#: src/ui/pages/settings_page.rs:502 src/ui/pages/settings_page.rs:1869
+msgid "None"
+msgstr "Keine"
+
+#: src/ui/main_window.rs:1126 src/ui/main_window.rs:2279
+msgid "Automatic (PAC)"
+msgstr "Automatisch (PAC)"
+
+#: src/ui/main_window.rs:1129 src/ui/main_window.rs:2282
+msgid "Proxy Mode"
+msgstr "Proxy-Modus"
+
+#: src/ui/main_window.rs:1136 src/ui/main_window.rs:2289
+msgid "HTTP Proxy"
+msgstr "HTTP-Proxy"
+
+#: src/ui/main_window.rs:1142 src/ui/main_window.rs:2300
+msgid "HTTPS Proxy"
+msgstr "HTTPS-Proxy"
+
+#: src/ui/main_window.rs:1148 src/ui/main_window.rs:2311
+msgid "No Proxy For"
+msgstr "Kein Proxy für"
+
+#: src/ui/main_window.rs:1154 src/ui/main_window.rs:2322
+msgid "PAC URL"
+msgstr "PAC-URL"
+
+#: src/ui/main_window.rs:1184 src/ui/main_window.rs:2358
+msgid "Scripts and Programs"
+msgstr "Skripte und Programme"
+
+#: src/ui/main_window.rs:1185 src/ui/main_window.rs:2359
+msgid "Run scripts when profile activates"
+msgstr "Skripte beim Aktivieren des Profils ausführen"
+
+#: src/ui/main_window.rs:1188 src/ui/main_window.rs:2387
+msgid "Run Pre-Script"
+msgstr "Vorab-Skript ausführen"
+
+#: src/ui/main_window.rs:1189 src/ui/main_window.rs:2388
+msgid "Execute script before applying profile"
+msgstr "Skript vor dem Anwenden des Profils ausführen"
+
+#: src/ui/main_window.rs:1195 src/ui/main_window.rs:2394
+msgid "Pre-Script Path"
+msgstr "Pfad des Vorab-Skripts"
+
+#: src/ui/main_window.rs:1201 src/ui/main_window.rs:2401
+msgid "Run Post-Script"
+msgstr "Abschluss-Skript ausführen"
+
+#: src/ui/main_window.rs:1202 src/ui/main_window.rs:2402
+msgid "Execute script after applying profile"
+msgstr "Skript nach dem Anwenden des Profils ausführen"
+
+#: src/ui/main_window.rs:1208 src/ui/main_window.rs:2408
+msgid "Post-Script Path"
+msgstr "Pfad des Abschluss-Skripts"
+
+#: src/ui/main_window.rs:1214 src/ui/main_window.rs:2415
+msgid "Run Program"
+msgstr "Programm ausführen"
+
+#: src/ui/main_window.rs:1215 src/ui/main_window.rs:2416
+msgid "Launch an application when profile activates"
+msgstr "Eine Anwendung beim Aktivieren des Profils starten"
+
+#: src/ui/main_window.rs:1221 src/ui/main_window.rs:2422
+msgid "Program Path"
+msgstr "Programmpfad"
+
+#: src/ui/main_window.rs:1226 src/ui/main_window.rs:2433
+msgid "Program Arguments"
+msgstr "Programmargumente"
+
+#: src/ui/main_window.rs:1587 src/ui/main_window.rs:4574
+#, rust-format
+msgid "Profile '{name}' created"
+msgstr "Profil „{name}“ erstellt"
+
+#. TRANSLATORS: field name, listed in "{adapter}: invalid {fields}"
+#: src/ui/main_window.rs:1699
+msgid "IP address"
+msgstr "IP-Adresse"
+
+#. TRANSLATORS: field name, listed in "{adapter}: invalid {fields}"
+#: src/ui/main_window.rs:1706
+msgid "subnet mask or prefix"
+msgstr "Subnetzmaske oder Präfix"
+
+#. TRANSLATORS: field name, listed in "{adapter}: invalid {fields}"
+#: src/ui/main_window.rs:1716
+msgid "gateway"
+msgstr "Gateway"
+
+#. TRANSLATORS: field name, listed in "{adapter}: invalid {fields}"
+#: src/ui/main_window.rs:1725
+msgid "primary DNS server"
+msgstr "primärer DNS-Server"
+
+#. TRANSLATORS: field name, listed in "{adapter}: invalid {fields}"
+#: src/ui/main_window.rs:1729
+msgid "secondary DNS server"
+msgstr "sekundärer DNS-Server"
+
+#. TRANSLATORS: {adapter} is an interface name such as wlp2s0,
+#. {fields} a comma-separated list of the field names above
+#: src/ui/main_window.rs:1736
+#, rust-format
+msgid "{adapter}: invalid {fields}"
+msgstr "{adapter}: ungültige Werte für {fields}"
+
+#: src/ui/main_window.rs:1875 src/ui/main_window.rs:2940
+#: src/ui/main_window.rs:3155
+msgid "Profile not found"
+msgstr "Profil nicht gefunden"
+
+#: src/ui/main_window.rs:1879 src/ui/pages/profiles_page.rs:258
+msgid "Edit Profile"
+msgstr "Profil bearbeiten"
+
+#: src/ui/main_window.rs:1888 src/ui/pages/settings_page.rs:1163
+#: src/ui/pages/settings_page.rs:1541
+msgid "Save"
+msgstr "Speichern"
+
+#: src/ui/main_window.rs:2008
+msgid "Configure settings for each network adapter"
+msgstr "Konfigurieren Sie die Einstellungen für jeden Netzwerkadapter"
+
+#: src/ui/main_window.rs:2621
+msgid "Enter a profile name"
+msgstr "Geben Sie einen Profilnamen ein"
+
+#: src/ui/main_window.rs:2886
+#, rust-format
+msgid "Profile '{name}' updated"
+msgstr "Profil „{name}“ aktualisiert"
+
+#: src/ui/main_window.rs:2945
+msgid "Delete Profile?"
+msgstr "Profil löschen?"
+
+#: src/ui/main_window.rs:2947
+#, rust-format
+msgid ""
+"Are you sure you want to delete \"{name}\"? This action cannot be undone."
+msgstr ""
+"Möchten Sie „{name}“ wirklich löschen? Dies kann nicht rückgängig gemacht "
+"werden."
+
+#: src/ui/main_window.rs:2953
+msgid "Delete"
+msgstr "Löschen"
+
+#: src/ui/main_window.rs:3017
+#, rust-format
+msgid "Profile '{name}' deleted"
+msgstr "Profil „{name}“ gelöscht"
+
+#: src/ui/main_window.rs:3026
+msgid "No profiles available. Create one first!"
+msgstr "Keine Profile verfügbar. Erstellen Sie zuerst eines!"
+
+#: src/ui/main_window.rs:3045
+msgid "Select a profile to apply its network configuration:"
+msgstr "Wählen Sie ein Profil, um dessen Netzwerkkonfiguration anzuwenden:"
+
+#: src/ui/main_window.rs:3141 src/ui/main_window.rs:3271
+msgid "Another profile is still being applied"
+msgstr "Ein anderes Profil wird noch angewendet"
+
+#: src/ui/main_window.rs:3188
+#, rust-format
+msgid "This will apply {n} action to your system:"
+msgid_plural "This will apply {n} actions to your system:"
+msgstr[0] "Dadurch wird {n} Aktion auf Ihr System angewendet:"
+msgstr[1] "Dadurch werden {n} Aktionen auf Ihr System angewendet:"
+
+#: src/ui/main_window.rs:3193
+#, rust-format
+msgid "{n} network action"
+msgid_plural "{n} network actions"
+msgstr[0] "{n} Netzwerkaktion"
+msgstr[1] "{n} Netzwerkaktionen"
+
+#: src/ui/main_window.rs:3195
+#, rust-format
+msgid "{n} system action"
+msgid_plural "{n} system actions"
+msgstr[0] "{n} Systemaktion"
+msgstr[1] "{n} Systemaktionen"
+
+#: src/ui/main_window.rs:3198
+#, rust-format
+msgid "{n} automation action"
+msgid_plural "{n} automation actions"
+msgstr[0] "{n} Automatisierungsaktion"
+msgstr[1] "{n} Automatisierungsaktionen"
+
+#: src/ui/main_window.rs:3205
+#, rust-format
+msgid "Apply '{name}'?"
+msgstr "„{name}“ anwenden?"
+
+#: src/ui/main_window.rs:3210
+msgid "Apply"
+msgstr "Anwenden"
+
+#: src/ui/main_window.rs:3232
+msgid "Security Warning"
+msgstr "Sicherheitswarnung"
+
+#: src/ui/main_window.rs:3234
+#, rust-format
+msgid ""
+"The profile '{name}' contains executable scripts or programs that have not "
+"been marked as trusted.\n"
+"\n"
+"Only run profiles from trusted sources."
+msgstr ""
+"Das Profil „{name}“ enthält ausführbare Skripte oder Programme, die nicht "
+"als vertrauenswürdig markiert wurden.\n"
+"\n"
+"Führen Sie nur Profile aus vertrauenswürdigen Quellen aus."
+
+#: src/ui/main_window.rs:3240
+msgid "Run Anyway"
+msgstr "Trotzdem ausführen"
+
+#: src/ui/main_window.rs:3295
+#, rust-format
+msgid "Applying profile '{name}'…"
+msgstr "Profil „{name}“ wird angewendet …"
+
+#: src/ui/main_window.rs:3322
+#, rust-format
+msgid "Profile '{name}' could not be applied"
+msgstr "Profil „{name}“ konnte nicht angewendet werden"
+
+#: src/ui/main_window.rs:3409
+#, rust-format
+msgid "Profile '{name}' was not applied: a pre-script failed"
+msgstr ""
+"Profil „{name}“ wurde nicht angewendet: Ein Vorab-Skript ist fehlgeschlagen"
+
+#. TRANSLATORS: inserted as {skipped} at the end of the
+#. "Profile '{name}' applied …" messages
+#: src/ui/main_window.rs:3483
+#, rust-format
+msgid ", {n} skipped as unsupported or not applicable"
+msgid_plural ", {n} skipped as unsupported or not applicable"
+msgstr[0] ", {n} übersprungen, da nicht unterstützt oder nicht zutreffend"
+msgstr[1] ", {n} übersprungen, da nicht unterstützt oder nicht zutreffend"
+
+#: src/ui/main_window.rs:3493
+#, rust-format
+msgid "Profile '{name}' applied with {n} error{skipped}"
+msgid_plural "Profile '{name}' applied with {n} errors{skipped}"
+msgstr[0] "Profil „{name}“ mit {n} Fehler angewendet{skipped}"
+msgstr[1] "Profil „{name}“ mit {n} Fehlern angewendet{skipped}"
+
+#: src/ui/main_window.rs:3504
+#, rust-format
+msgid "Profile '{name}' applied ({n} action{skipped})"
+msgid_plural "Profile '{name}' applied ({n} actions{skipped})"
+msgstr[0] "Profil „{name}“ angewendet ({n} Aktion{skipped})"
+msgstr[1] "Profil „{name}“ angewendet ({n} Aktionen{skipped})"
+
+#: src/ui/main_window.rs:3513
+#, rust-format
+msgid "Profile '{name}' activated"
+msgstr "Profil „{name}“ aktiviert"
+
+#. TRANSLATORS: theme button: follow the system style
+#. TRANSLATORS: Color scheme option that follows the system setting
+#: src/ui/main_window.rs:4066 src/ui/pages/settings_page.rs:128
+msgid "System"
+msgstr "System"
+
+#: src/ui/main_window.rs:4195 src/ui/pages/settings_page.rs:842
+msgid "About"
+msgstr "Info"
+
+#: src/ui/main_window.rs:4394 src/ui/pages/settings_page.rs:762
+msgid "Unlock Profiles"
+msgstr "Profile entsperren"
+
+#: src/ui/main_window.rs:4395
+msgid ""
+"Profile encryption is enabled. Enter your passphrase to load your profiles."
+msgstr ""
+"Die Profilverschlüsselung ist aktiviert. Geben Sie Ihre Passphrase ein, um "
+"Ihre Profile zu laden."
+
+#: src/ui/main_window.rs:4397 src/ui/pages/settings_page.rs:765
+msgid "Unlock"
+msgstr "Entsperren"
+
+#: src/ui/main_window.rs:4402 src/ui/pages/settings_page.rs:653
+#: src/ui/pages/settings_page.rs:735 src/ui/pages/settings_page.rs:769
+msgid "Could not access the application."
+msgstr "Auf die Anwendung konnte nicht zugegriffen werden."
+
+#: src/ui/main_window.rs:4408 src/ui/pages/settings_page.rs:777
+msgid "That passphrase is not correct."
+msgstr "Diese Passphrase ist nicht korrekt."
+
+#: src/ui/main_window.rs:4464
+#, rust-format
+msgid "v{version} available"
+msgstr "v{version} verfügbar"
+
+#: src/ui/main_window.rs:4479
+msgid "Profile changes were not saved. Unlock encryption in Settings first."
+msgstr ""
+"Profiländerungen wurden nicht gespeichert. Entsperren Sie zuerst die "
+"Verschlüsselung in den Einstellungen."
+
+#. TRANSLATORS: name of a duplicated profile
+#: src/ui/main_window.rs:4551
+#, rust-format
+msgid "{name} (Copy)"
+msgstr "{name} (Kopie)"
+
+#: src/ui/main_window.rs:4584
+msgid "Network Information"
+msgstr "Netzwerkinformationen"
+
+#: src/ui/main_window.rs:4611
+msgid "Default Route:"
+msgstr "Standardroute:"
+
+#: src/ui/main_window.rs:4620
+msgid "DNS Servers:"
+msgstr "DNS-Server:"
+
+#: src/ui/main_window.rs:4632
+msgid "Network info copied to clipboard"
+msgstr "Netzwerkinformationen in die Zwischenablage kopiert"
+
+#: src/ui/main_window.rs:4640
+msgid "Network Diagnostics"
+msgstr "Netzwerkdiagnose"
+
+#: src/ui/main_window.rs:4655
+msgid "Connectivity Test"
+msgstr "Verbindungstest"
+
+#: src/ui/main_window.rs:4656
+msgid "Test network connectivity to common servers"
+msgstr "Netzwerkverbindung zu gängigen Servern testen"
+
+#: src/ui/main_window.rs:4659
+msgid "Host to ping"
+msgstr "Host für Ping"
+
+#: src/ui/main_window.rs:4663
+msgid "Run Ping Test"
+msgstr "Ping-Test ausführen"
+
+#: src/ui/main_window.rs:4691
+msgid ""
+"Invalid host. Only alphanumeric characters, dots, hyphens, and colons are "
+"allowed."
+msgstr ""
+"Ungültiger Host. Nur alphanumerische Zeichen, Punkte, Bindestriche und "
+"Doppelpunkte sind erlaubt."
+
+#: src/ui/main_window.rs:4695
+msgid "Running ping test..."
+msgstr "Ping-Test wird ausgeführt ..."
+
+#: src/ui/main_window.rs:4710
+msgid "Ping failed:"
+msgstr "Ping fehlgeschlagen:"
+
+#: src/ui/main_window.rs:4713
+#, rust-format
+msgid "Error running ping: {error}"
+msgstr "Fehler beim Ausführen von ping: {error}"
+
+#: src/ui/main_window.rs:4741
+msgid "DNS Lookup"
+msgstr "DNS-Abfrage"
+
+#: src/ui/main_window.rs:4742
+msgid "Resolve domain names"
+msgstr "Domainnamen auflösen"
+
+#: src/ui/main_window.rs:4746
+msgid "Domain to lookup"
+msgstr "Abzufragende Domain"
+
+#: src/ui/main_window.rs:4750
+msgid "Lookup DNS"
+msgstr "DNS abfragen"
+
+#: src/ui/main_window.rs:4778
+msgid ""
+"Invalid domain. Only alphanumeric characters, dots, and hyphens are allowed."
+msgstr ""
+"Ungültige Domain. Nur alphanumerische Zeichen, Punkte und Bindestriche sind "
+"erlaubt."
+
+#: src/ui/main_window.rs:4782
+msgid "Looking up…"
+msgstr "Abfrage läuft …"
+
+#: src/ui/main_window.rs:4794
+msgid "No DNS records found"
+msgstr "Keine DNS-Einträge gefunden"
+
+#: src/ui/main_window.rs:4799
+msgid "DNS lookup failed:"
+msgstr "DNS-Abfrage fehlgeschlagen:"
+
+#: src/ui/main_window.rs:4805
+msgid "DNS lookup tools (dig, host) not available"
+msgstr "DNS-Abfragewerkzeuge (dig, host) nicht verfügbar"
+
+#: src/ui/main_window.rs:4808
+msgid "DNS lookup failed"
+msgstr "DNS-Abfrage fehlgeschlagen"
+
+#: src/ui/main_window.rs:4826
+msgid "Quick Test Results"
+msgstr "Ergebnisse des Schnelltests"
+
+#: src/ui/main_window.rs:4830
+msgid "Internet Connectivity"
+msgstr "Internetverbindung"
+
+#: src/ui/main_window.rs:4831 src/ui/main_window.rs:4837
+msgid "Checking…"
+msgstr "Wird geprüft …"
+
+#: src/ui/main_window.rs:4836
+msgid "DNS Resolution"
+msgstr "DNS-Auflösung"
+
+#. TRANSLATORS: internet connectivity test result
+#: src/ui/main_window.rs:4861 src/ui/widgets/network_card.rs:177
+msgid "Connected"
+msgstr "Verbunden"
+
+#. TRANSLATORS: internet connectivity test result
+#: src/ui/main_window.rs:4864
+msgid "No connection"
+msgstr "Keine Verbindung"
+
+#. TRANSLATORS: DNS resolution test result
+#: src/ui/main_window.rs:4870
+msgid "DNS Working"
+msgstr "DNS funktioniert"
+
+#. TRANSLATORS: DNS resolution test result
+#: src/ui/main_window.rs:4873
+msgid "DNS Failed"
+msgstr "DNS fehlgeschlagen"
+
+#: src/ui/main_window.rs:4880
+msgid "Speed Test"
+msgstr "Geschwindigkeitstest"
+
+#: src/ui/main_window.rs:4882
+msgid "Measure download/upload speed (uses speedtest-cli if available)"
+msgstr ""
+"Download-/Upload-Geschwindigkeit messen (verwendet speedtest-cli, falls "
+"verfügbar)"
+
+#: src/ui/main_window.rs:4886
+msgid "Run Speed Test"
+msgstr "Geschwindigkeitstest ausführen"
+
+#: src/ui/main_window.rs:4907
+msgid "Running speed test... (this may take a minute)"
+msgstr ""
+"Geschwindigkeitstest wird ausgeführt ... (dies kann eine Minute dauern)"
+
+#: src/ui/main_window.rs:4940
+#, rust-format
+msgid "Download: {speed} Mbps"
+msgstr "Download: {speed} Mbit/s"
+
+#: src/ui/main_window.rs:4942
+msgid "(speedtest-cli not installed for full test)"
+msgstr "(speedtest-cli für den vollständigen Test nicht installiert)"
+
+#: src/ui/main_window.rs:4945
+msgid "Could not parse speed result"
+msgstr "Das Geschwindigkeitsergebnis konnte nicht ausgewertet werden"
+
+#: src/ui/main_window.rs:4950
+msgid "Speed test tools not available."
+msgstr "Werkzeuge für den Geschwindigkeitstest sind nicht verfügbar."
+
+#: src/ui/main_window.rs:4951
+#, rust-format
+msgid "Install speedtest-cli: {command}"
+msgstr "Installieren Sie speedtest-cli: {command}"
+
+#: src/ui/main_window.rs:5023
+msgid "Refreshed"
+msgstr "Aktualisiert"
+
+#: src/ui/main_window.rs:5032
+msgid "No profiles to export"
+msgstr "Keine Profile zum Exportieren"
+
+#: src/ui/main_window.rs:5037 src/ui/pages/settings_page.rs:365
+#: src/ui/pages/settings_page.rs:391
+msgid "Export Profiles"
+msgstr "Profile exportieren"
+
+#: src/ui/main_window.rs:5063
+#, rust-format
+msgid "Exported {n} profile"
+msgid_plural "Exported {n} profiles"
+msgstr[0] "{n} Profil exportiert"
+msgstr[1] "{n} Profile exportiert"
+
+#: src/ui/main_window.rs:5069 src/ui/main_window.rs:5074
+msgid "Export failed. Check logs for details."
+msgstr "Export fehlgeschlagen. Details finden Sie in den Protokollen."
+
+#: src/ui/main_window.rs:5082
+msgid "JSON Files"
+msgstr "JSON-Dateien"
+
+#: src/ui/main_window.rs:5086
+msgid "All Files"
+msgstr "Alle Dateien"
+
+#: src/ui/main_window.rs:5094 src/ui/pages/settings_page.rs:377
+#: src/ui/pages/settings_page.rs:393
+msgid "Import Profiles"
+msgstr "Profile importieren"
+
+#: src/ui/main_window.rs:5116
+msgid "Failed to read file. Check logs for details."
+msgstr ""
+"Die Datei konnte nicht gelesen werden. Details finden Sie in den Protokollen."
+
+#: src/ui/main_window.rs:5134
+#, rust-format
+msgid "Invalid profile format: {error}"
+msgstr "Ungültiges Profilformat: {error}"
+
+#: src/ui/main_window.rs:5144
+msgid "No profiles found in file"
+msgstr "Keine Profile in der Datei gefunden"
+
+#: src/ui/main_window.rs:5153
+msgid "Import Warning"
+msgstr "Importwarnung"
+
+#: src/ui/main_window.rs:5154
+msgid ""
+"The imported file contains profiles with executable scripts or programs.\n"
+"\n"
+"Do you want to import them with or without these automation actions?"
+msgstr ""
+"Die importierte Datei enthält Profile mit ausführbaren Skripten oder "
+"Programmen.\n"
+"\n"
+"Möchten Sie sie mit oder ohne diese Automatisierungsaktionen importieren?"
+
+#: src/ui/main_window.rs:5158
+msgid "Import Without Scripts"
+msgstr "Ohne Skripte importieren"
+
+#: src/ui/main_window.rs:5159
+msgid "Import With Scripts"
+msgstr "Mit Skripten importieren"
+
+#. TRANSLATORS: name of an imported profile
+#: src/ui/main_window.rs:5190
+#, rust-format
+msgid "{name} (Imported)"
+msgstr "{name} (importiert)"
+
+#: src/ui/main_window.rs:5216
+#, rust-format
+msgid "Imported {n} profile without automation actions"
+msgid_plural "Imported {n} profiles without automation actions"
+msgstr[0] "{n} Profil ohne Automatisierungsaktionen importiert"
+msgstr[1] "{n} Profile ohne Automatisierungsaktionen importiert"
+
+#: src/ui/main_window.rs:5225
+#, rust-format
+msgid "Imported {n} profile"
+msgid_plural "Imported {n} profiles"
+msgstr[0] "{n} Profil importiert"
+msgstr[1] "{n} Profile importiert"
+
+#: src/ui/pages/dashboard_page.rs:154
+msgid "Decorative network topology graphic"
+msgstr "Dekorative Grafik einer Netzwerktopologie"
+
+#: src/ui/pages/dashboard_page.rs:257
+msgid "Manage your system connectivity"
+msgstr "Verwalten Sie die Konnektivität Ihres Systems"
+
+#: src/ui/pages/dashboard_page.rs:285
+msgid "Active Profile"
+msgstr "Aktives Profil"
+
+#: src/ui/pages/dashboard_page.rs:300 src/ui/pages/dashboard_page.rs:819
+#: src/ui/pages/profiles_page.rs:216 src/ui/widgets/profile_row.rs:75
+#: src/ui/widgets/profile_row.rs:122
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#: src/ui/pages/dashboard_page.rs:311 src/ui/pages/dashboard_page.rs:829
+msgid "Never applied"
+msgstr "Nie angewendet"
+
+#: src/ui/pages/dashboard_page.rs:332
+msgid "Service Status"
+msgstr "Dienststatus"
+
+#: src/ui/pages/dashboard_page.rs:348
+msgid "Checking..."
+msgstr "Wird geprüft ..."
+
+#: src/ui/pages/dashboard_page.rs:354
+msgid "NetworkManager handles network configuration"
+msgstr "NetworkManager verwaltet die Netzwerkkonfiguration"
+
+#: src/ui/pages/dashboard_page.rs:363 src/ui/pages/dashboard_page.rs:877
+msgid "Start Service"
+msgstr "Dienst starten"
+
+#: src/ui/pages/dashboard_page.rs:370
+msgid "Starting…"
+msgstr "Wird gestartet …"
+
+#: src/ui/pages/dashboard_page.rs:422
+msgid "Current Network"
+msgstr "Aktuelles Netzwerk"
+
+#: src/ui/pages/dashboard_page.rs:460
+msgid "DNS Servers"
+msgstr "DNS-Server"
+
+#. TRANSLATORS: Label for the type and name of the active connection
+#: src/ui/pages/dashboard_page.rs:475
+msgid "Connection"
+msgstr "Verbindung"
+
+#: src/ui/pages/dashboard_page.rs:499
+msgid "Network Activity"
+msgstr "Netzwerkaktivität"
+
+#: src/ui/pages/dashboard_page.rs:549
+msgid "Network activity graph showing download and upload rates over time"
+msgstr ""
+"Diagramm der Netzwerkaktivität mit Download- und Upload-Raten im Zeitverlauf"
+
+#: src/ui/pages/dashboard_page.rs:711
+msgid "Quick Actions"
+msgstr "Schnellaktionen"
+
+#: src/ui/pages/dashboard_page.rs:716
+msgid "Refresh status or switch to another profile"
+msgstr "Status aktualisieren oder zu einem anderen Profil wechseln"
+
+#: src/ui/pages/dashboard_page.rs:730
+msgid "Refresh"
+msgstr "Aktualisieren"
+
+#: src/ui/pages/dashboard_page.rs:745
+msgid "New Profile"
+msgstr "Neues Profil"
+
+#: src/ui/pages/dashboard_page.rs:815 src/ui/pages/profiles_page.rs:212
+#: src/ui/pages/profiles_page.rs:215 src/ui/widgets/profile_row.rs:121
+msgid "Active"
+msgstr "Aktiv"
+
+#: src/ui/pages/dashboard_page.rs:827
+#, rust-format
+msgid "Applied: {time}"
+msgstr "Angewendet: {time}"
+
+#. TRANSLATORS: State of the NetworkManager system service
+#: src/ui/pages/dashboard_page.rs:868
+msgid "Running"
+msgstr "Läuft"
+
+#. TRANSLATORS: State of the NetworkManager system service
+#: src/ui/pages/dashboard_page.rs:871
+msgid "Not Running"
+msgstr "Läuft nicht"
+
+#. TRANSLATORS: Transfer rate in gigabytes per second
+#: src/ui/pages/dashboard_page.rs:937
+#, rust-format
+msgid "{speed} GB/s"
+msgstr "{speed} GB/s"
+
+#. TRANSLATORS: Transfer rate in megabytes per second
+#: src/ui/pages/dashboard_page.rs:940
+#, rust-format
+msgid "{speed} MB/s"
+msgstr "{speed} MB/s"
+
+#. TRANSLATORS: Transfer rate in kilobytes per second
+#: src/ui/pages/dashboard_page.rs:943
+#, rust-format
+msgid "{speed} KB/s"
+msgstr "{speed} KB/s"
+
+#. TRANSLATORS: Transfer rate in bytes per second
+#: src/ui/pages/dashboard_page.rs:946
+#, rust-format
+msgid "{speed} B/s"
+msgstr "{speed} B/s"
+
+#: src/ui/pages/dashboard_page.rs:969 src/ui/widgets/network_card.rs:125
+#: src/ui/widgets/network_card.rs:175
+msgid "Disconnected"
+msgstr "Getrennt"
+
+#: src/ui/pages/dashboard_page.rs:995
+#, rust-format
+msgid "Wi-Fi ({name})"
+msgstr "Wi-Fi ({name})"
+
+#: src/ui/pages/dashboard_page.rs:996
+#, rust-format
+msgid "Ethernet ({name})"
+msgstr "Ethernet ({name})"
+
+#: src/ui/pages/dashboard_page.rs:997
+#, rust-format
+msgid "VPN ({name})"
+msgstr "VPN ({name})"
+
+#. TRANSLATORS: A network bridge connection and its name
+#: src/ui/pages/dashboard_page.rs:999
+#, rust-format
+msgid "Bridge ({name})"
+msgstr "Brücke ({name})"
+
+#: src/ui/pages/help_page.rs:64
+msgid "Learn how to use Network Manager"
+msgstr "Erfahren Sie, wie Sie Netzwerk-Manager verwenden"
+
+#: src/ui/pages/help_page.rs:85
+msgid "About Network Manager"
+msgstr "Über Netzwerk-Manager"
+
+#: src/ui/pages/help_page.rs:86
+msgid ""
+"Network Manager is a comprehensive system and network profile manager for "
+"Linux. It allows you to create, manage, and quickly switch between different "
+"network and system configuration profiles. Perfect for users who need "
+"different settings for home, work, or different network environments."
+msgstr ""
+"Netzwerk-Manager ist eine umfassende Verwaltung für System- und "
+"Netzwerkprofile unter Linux. Damit können Sie verschiedene Netzwerk- und "
+"Systemkonfigurationsprofile erstellen, verwalten und schnell zwischen ihnen "
+"wechseln. Ideal für alle, die unterschiedliche Einstellungen für Zuhause, "
+"die Arbeit oder verschiedene Netzwerkumgebungen benötigen."
+
+#: src/ui/pages/help_page.rs:95
+msgid ""
+"The Dashboard provides an overview of your current network configuration. "
+"View your active network connections, IP addresses, and connection status. "
+"The active profile is displayed prominently, and you can quickly switch "
+"between profiles using the profile selector. Network statistics and "
+"connection health are updated in real-time."
+msgstr ""
+"Die Übersicht zeigt Ihre aktuelle Netzwerkkonfiguration auf einen Blick. "
+"Sehen Sie Ihre aktiven Netzwerkverbindungen, IP-Adressen und den "
+"Verbindungsstatus. Das aktive Profil wird hervorgehoben angezeigt, und über "
+"die Profilauswahl können Sie schnell zwischen Profilen wechseln. "
+"Netzwerkstatistiken und Verbindungszustand werden in Echtzeit aktualisiert."
+
+#: src/ui/pages/help_page.rs:105
+msgid ""
+"Profiles are the core feature of Network Manager. Each profile stores a "
+"complete set of network and system settings including:\n"
+"\n"
+"• Network configuration (IP, DNS, gateway)\n"
+"• Proxy settings\n"
+"• Firewall rules\n"
+"• System services to enable/disable\n"
+"• Custom scripts to run on activation\n"
+"\n"
+"Create profiles for different locations or use cases, then switch between "
+"them with a single click. Profiles can be exported and imported for backup "
+"or sharing."
+msgstr ""
+"Profile sind die zentrale Funktion von Netzwerk-Manager. Jedes Profil "
+"speichert einen vollständigen Satz von Netzwerk- und Systemeinstellungen, "
+"darunter:\n"
+"\n"
+"• Netzwerkkonfiguration (IP, DNS, Gateway)\n"
+"• Proxy-Einstellungen\n"
+"• Firewall-Regeln\n"
+"• Zu aktivierende/deaktivierende Systemdienste\n"
+"• Eigene Skripte, die bei der Aktivierung ausgeführt werden\n"
+"\n"
+"Erstellen Sie Profile für verschiedene Orte oder Einsatzzwecke und wechseln "
+"Sie mit einem einzigen Klick zwischen ihnen. Profile können zur Sicherung "
+"oder Weitergabe exportiert und importiert werden."
+
+#: src/ui/pages/help_page.rs:119
+msgid ""
+"The Logs page shows network-related system events and profile switch "
+"history. View connection changes, profile activations, and any errors that "
+"occurred. Filter logs by type or search for specific events. Logs help you "
+"troubleshoot connectivity issues and track configuration changes over time."
+msgstr ""
+"Die Seite „Protokolle“ zeigt netzwerkbezogene Systemereignisse und den "
+"Verlauf der Profilwechsel. Sehen Sie Verbindungsänderungen, "
+"Profilaktivierungen und aufgetretene Fehler. Filtern Sie Protokolle nach Typ "
+"oder suchen Sie nach bestimmten Ereignissen. Protokolle helfen Ihnen, "
+"Verbindungsprobleme zu beheben und Konfigurationsänderungen im Zeitverlauf "
+"nachzuverfolgen."
+
+#: src/ui/pages/help_page.rs:128
+msgid ""
+"The Settings page allows you to configure application preferences. Set the "
+"default profile to activate at startup, configure automatic profile "
+"switching based on network detection, enable or disable system tray "
+"integration, and customize notification preferences. Advanced options "
+"include daemon configuration and privilege settings."
+msgstr ""
+"Auf der Seite „Einstellungen“ legen Sie die Einstellungen der Anwendung "
+"fest. Bestimmen Sie das Standardprofil, das beim Start aktiviert wird, "
+"richten Sie den automatischen Profilwechsel anhand der Netzwerkerkennung "
+"ein, aktivieren oder deaktivieren Sie die Integration in die Systemleiste "
+"und passen Sie die Benachrichtigungen an. Zu den erweiterten Optionen "
+"gehören die Konfiguration des Hintergrunddienstes und die "
+"Berechtigungseinstellungen."
+
+#: src/ui/pages/help_page.rs:137
+msgid "Profile Features"
+msgstr "Profilfunktionen"
+
+#: src/ui/pages/help_page.rs:138
+msgid ""
+"Each profile can include:\n"
+"\n"
+"• Static or DHCP IP configuration\n"
+"• Custom DNS servers\n"
+"• HTTP/HTTPS/SOCKS proxy settings\n"
+"• Firewall zone assignment\n"
+"• VPN connection settings\n"
+"• System services to start/stop\n"
+"• Pre/post activation scripts\n"
+"• Network interface selection"
+msgstr ""
+"Jedes Profil kann Folgendes enthalten:\n"
+"\n"
+"• Statische oder DHCP-IP-Konfiguration\n"
+"• Eigene DNS-Server\n"
+"• HTTP-/HTTPS-/SOCKS-Proxy-Einstellungen\n"
+"• Zuweisung einer Firewall-Zone\n"
+"• VPN-Verbindungseinstellungen\n"
+"• Zu startende/stoppende Systemdienste\n"
+"• Skripte vor/nach der Aktivierung\n"
+"• Auswahl der Netzwerkschnittstelle"
+
+#: src/ui/pages/help_page.rs:151
+msgid "Tips"
+msgstr "Tipps"
+
+#: src/ui/pages/help_page.rs:152
+msgid ""
+"• Create a 'Default' profile as a baseline configuration.\n"
+"• Use descriptive profile names like 'Home WiFi' or 'Office Wired'.\n"
+"• Test profiles before relying on them in critical situations.\n"
+"• Export important profiles for backup.\n"
+"• Use the system tray for quick profile switching.\n"
+"• Check logs if a profile switch doesn't work as expected."
+msgstr ""
+"• Erstellen Sie ein Profil „Standard“ als Ausgangskonfiguration.\n"
+"• Verwenden Sie aussagekräftige Profilnamen wie „Wi-Fi Zuhause“ oder „Büro "
+"kabelgebunden“.\n"
+"• Testen Sie Profile, bevor Sie sich in kritischen Situationen darauf "
+"verlassen.\n"
+"• Exportieren Sie wichtige Profile als Sicherung.\n"
+"• Nutzen Sie die Systemleiste für einen schnellen Profilwechsel.\n"
+"• Sehen Sie in den Protokollen nach, wenn ein Profilwechsel nicht wie "
+"erwartet funktioniert."
+
+#: src/ui/pages/logs_page.rs:128
+msgid "Application Logs"
+msgstr "Anwendungsprotokolle"
+
+#: src/ui/pages/logs_page.rs:136
+msgid "Search logs..."
+msgstr "Protokolle durchsuchen ..."
+
+#. TRANSLATORS: Log filter: show entries of every level
+#: src/ui/pages/logs_page.rs:145
+msgid "All"
+msgstr "Alle"
+
+#. TRANSLATORS: Log level filter
+#: src/ui/pages/logs_page.rs:147
+msgid "Info"
+msgstr "Info"
+
+#. TRANSLATORS: Log level filter
+#: src/ui/pages/logs_page.rs:149
+msgid "Warning"
+msgstr "Warnung"
+
+#. TRANSLATORS: Log level filter
+#: src/ui/pages/logs_page.rs:151 src/ui/pages/profiles_page.rs:218
+#: src/ui/widgets/network_card.rs:178 src/ui/widgets/profile_row.rs:124
+msgid "Error"
+msgstr "Fehler"
+
+#: src/ui/pages/logs_page.rs:160
+msgid "Clear Logs"
+msgstr "Protokolle leeren"
+
+#: src/ui/pages/logs_page.rs:164 src/ui/pages/logs_page.rs:305
+msgid "Export Logs"
+msgstr "Protokolle exportieren"
+
+#: src/ui/pages/profiles_page.rs:72
+msgid "Search profiles..."
+msgstr "Profile durchsuchen ..."
+
+#: src/ui/pages/profiles_page.rs:85
+msgid "Import profiles from file"
+msgstr "Profile aus Datei importieren"
+
+#: src/ui/pages/profiles_page.rs:91
+msgid "Export profiles to file"
+msgstr "Profile in Datei exportieren"
+
+#: src/ui/pages/profiles_page.rs:143
+msgid "No Profiles Yet"
+msgstr "Noch keine Profile"
+
+#: src/ui/pages/profiles_page.rs:144
+msgid "Create your first network profile to get started"
+msgstr "Erstellen Sie Ihr erstes Netzwerkprofil, um zu beginnen"
+
+#: src/ui/pages/profiles_page.rs:179
+msgid "Loading profiles..."
+msgstr "Profile werden geladen ..."
+
+#: src/ui/pages/profiles_page.rs:217 src/ui/widgets/profile_row.rs:123
+msgid "Applying"
+msgstr "Wird angewendet"
+
+#: src/ui/pages/profiles_page.rs:237
+msgid "Apply Profile (Enter)"
+msgstr "Profil anwenden (Enter)"
+
+#: src/ui/pages/profiles_page.rs:241
+msgid "Already active"
+msgstr "Bereits aktiv"
+
+#: src/ui/pages/profiles_page.rs:272
+msgid "Duplicate Profile"
+msgstr "Profil duplizieren"
+
+#: src/ui/pages/profiles_page.rs:285
+msgid "Delete Profile"
+msgstr "Profil löschen"
+
+#: src/ui/pages/settings_page.rs:138
+msgid "Select the application color scheme"
+msgstr "Wählen Sie das Farbschema der Anwendung"
+
+#: src/ui/pages/settings_page.rs:186
+msgid "Auto-Switch"
+msgstr "Automatischer Wechsel"
+
+#: src/ui/pages/settings_page.rs:187
+msgid "Automatically activate profiles based on conditions"
+msgstr "Profile anhand von Bedingungen automatisch aktivieren"
+
+#: src/ui/pages/settings_page.rs:191
+msgid "Enable Auto-Switch"
+msgstr "Automatischen Wechsel aktivieren"
+
+#: src/ui/pages/settings_page.rs:192
+msgid "Activate profiles when conditions match"
+msgstr "Profile aktivieren, wenn die Bedingungen zutreffen"
+
+#: src/ui/pages/settings_page.rs:206 src/ui/pages/settings_page.rs:457
+msgid "Check Interval"
+msgstr "Prüfintervall"
+
+#: src/ui/pages/settings_page.rs:207
+msgid "Seconds between condition checks"
+msgstr "Sekunden zwischen den Bedingungsprüfungen"
+
+#: src/ui/pages/settings_page.rs:221
+msgid "Allow Scripts During Auto-Switch"
+msgstr "Skripte beim automatischen Wechsel erlauben"
+
+#: src/ui/pages/settings_page.rs:222
+msgid "Run automation actions when auto-switching profiles"
+msgstr "Automatisierungsaktionen beim automatischen Profilwechsel ausführen"
+
+#: src/ui/pages/settings_page.rs:239 src/ui/pages/settings_page.rs:1694
+msgid "Auto-Switch Rules"
+msgstr "Regeln für den automatischen Wechsel"
+
+#: src/ui/pages/settings_page.rs:240
+msgid "Configure conditions for automatic profile switching"
+msgstr "Bedingungen für den automatischen Profilwechsel festlegen"
+
+#: src/ui/pages/settings_page.rs:265
+msgid "Desktop Notifications"
+msgstr "Desktop-Benachrichtigungen"
+
+#: src/ui/pages/settings_page.rs:266
+msgid "Show notifications for profile changes"
+msgstr "Benachrichtigungen bei Profiländerungen anzeigen"
+
+#: src/ui/pages/settings_page.rs:280
+msgid "Start Minimized"
+msgstr "Minimiert starten"
+
+#: src/ui/pages/settings_page.rs:281
+msgid "Minimize to system tray on startup"
+msgstr "Beim Start in die Systemleiste minimieren"
+
+#: src/ui/pages/settings_page.rs:298
+msgid "Storage"
+msgstr "Speicher"
+
+#: src/ui/pages/settings_page.rs:303
+msgid "Profiles Directory"
+msgstr "Profilverzeichnis"
+
+#: src/ui/pages/settings_page.rs:308 src/ui/pages/settings_page.rs:336
+msgid "Open folder"
+msgstr "Ordner öffnen"
+
+#: src/ui/pages/settings_page.rs:331
+msgid "Logs File"
+msgstr "Protokolldatei"
+
+#. TRANSLATORS: Shown as Pango markup, so write "&" as "&amp;"
+#: src/ui/pages/settings_page.rs:361
+msgid "Backup &amp; Restore"
+msgstr "Sicherung und Wiederherstellung"
+
+#: src/ui/pages/settings_page.rs:366
+msgid "Save all profiles to a backup file"
+msgstr "Alle Profile in einer Sicherungsdatei speichern"
+
+#: src/ui/pages/settings_page.rs:378
+msgid "Restore profiles from a backup file"
+msgstr "Profile aus einer Sicherungsdatei wiederherstellen"
+
+#: src/ui/pages/settings_page.rs:399
+msgid "Scheduling"
+msgstr "Zeitplanung"
+
+#: src/ui/pages/settings_page.rs:400
+msgid "Automatically activate profiles at specific times"
+msgstr "Profile zu bestimmten Zeiten automatisch aktivieren"
+
+#: src/ui/pages/settings_page.rs:404
+msgid "Enable Scheduled Activation"
+msgstr "Zeitgesteuerte Aktivierung einschalten"
+
+#: src/ui/pages/settings_page.rs:405
+msgid "Automatically switch profiles based on schedule"
+msgstr "Profile automatisch nach Zeitplan wechseln"
+
+#: src/ui/pages/settings_page.rs:420 src/ui/pages/settings_page.rs:1003
+msgid "Manage Schedules"
+msgstr "Zeitpläne verwalten"
+
+#: src/ui/pages/settings_page.rs:421
+msgid "Configure time-based profile activations"
+msgstr "Zeitgesteuerte Profilaktivierungen einrichten"
+
+#: src/ui/pages/settings_page.rs:442
+msgid "Connection Watchdog"
+msgstr "Verbindungsüberwachung"
+
+#: src/ui/pages/settings_page.rs:444
+msgid "Monitor network connectivity and take action on failures"
+msgstr "Netzwerkverbindung überwachen und bei Ausfällen reagieren"
+
+#: src/ui/pages/settings_page.rs:449
+msgid "Enable Watchdog"
+msgstr "Überwachung aktivieren"
+
+#: src/ui/pages/settings_page.rs:450
+msgid "Periodically check network connectivity"
+msgstr "Netzwerkverbindung regelmäßig prüfen"
+
+#: src/ui/pages/settings_page.rs:458
+msgid "Seconds between connectivity checks"
+msgstr "Sekunden zwischen den Verbindungsprüfungen"
+
+#: src/ui/pages/settings_page.rs:465 src/ui/pages/settings_page.rs:1742
+msgid "Ping Target"
+msgstr "Ping-Ziel"
+
+#: src/ui/pages/settings_page.rs:472
+msgid "Failure Threshold"
+msgstr "Fehlerschwelle"
+
+#: src/ui/pages/settings_page.rs:473
+msgid "Failed checks before taking action"
+msgstr "Fehlgeschlagene Prüfungen, bevor reagiert wird"
+
+#. TRANSLATORS: Watchdog failure action: show a notification
+#: src/ui/pages/settings_page.rs:482
+msgid "Notify"
+msgstr "Benachrichtigen"
+
+#. TRANSLATORS: Watchdog failure action: reconnect the network
+#: src/ui/pages/settings_page.rs:484
+msgid "Reconnect"
+msgstr "Neu verbinden"
+
+#. TRANSLATORS: Watchdog failure action; "NetworkManager" is the
+#. name of the system service
+#: src/ui/pages/settings_page.rs:489
+msgid "Restart NetworkManager"
+msgstr "NetworkManager neu starten"
+
+#: src/ui/pages/settings_page.rs:494
+msgid "Failure Action"
+msgstr "Aktion bei Ausfall"
+
+#: src/ui/pages/settings_page.rs:495
+msgid "Action when connectivity is lost"
+msgstr "Aktion bei Verbindungsverlust"
+
+#: src/ui/pages/settings_page.rs:504
+msgid "Fallback Profile"
+msgstr "Ausweichprofil"
+
+#: src/ui/pages/settings_page.rs:505
+msgid "Profile to switch to when connectivity fails"
+msgstr "Profil, zu dem bei Verbindungsausfall gewechselt wird"
+
+#: src/ui/pages/settings_page.rs:575
+msgid "Script execution and profile security settings"
+msgstr "Einstellungen zur Skriptausführung und Profilsicherheit"
+
+#: src/ui/pages/settings_page.rs:580
+msgid "No Sandboxing"
+msgstr "Keine Sandbox"
+
+#: src/ui/pages/settings_page.rs:584
+msgid "Script Sandboxing"
+msgstr "Skript-Sandbox"
+
+#: src/ui/pages/settings_page.rs:585
+msgid "Method for isolating script execution"
+msgstr "Methode zur Isolierung der Skriptausführung"
+
+#: src/ui/pages/settings_page.rs:594
+msgid "Profile Encryption"
+msgstr "Profilverschlüsselung"
+
+#: src/ui/pages/settings_page.rs:595
+msgid "Encrypt saved profiles with a passphrase"
+msgstr "Gespeicherte Profile mit einer Passphrase verschlüsseln"
+
+#: src/ui/pages/settings_page.rs:602
+msgid "Change Passphrase…"
+msgstr "Passphrase ändern …"
+
+#: src/ui/pages/settings_page.rs:609
+msgid "Unlock Profiles…"
+msgstr "Profile entsperren …"
+
+#: src/ui/pages/settings_page.rs:646
+msgid "Enable Profile Encryption"
+msgstr "Profilverschlüsselung aktivieren"
+
+#: src/ui/pages/settings_page.rs:647
+msgid ""
+"Choose a passphrase. It is never saved to disk, so you will need to enter it "
+"each time you start the app."
+msgstr ""
+"Wählen Sie eine Passphrase. Sie wird nie auf dem Datenträger gespeichert, "
+"daher müssen Sie sie bei jedem Start der Anwendung eingeben."
+
+#: src/ui/pages/settings_page.rs:649
+msgid "Enable"
+msgstr "Aktivieren"
+
+#: src/ui/pages/settings_page.rs:674
+msgid "Disable Profile Encryption?"
+msgstr "Profilverschlüsselung deaktivieren?"
+
+#: src/ui/pages/settings_page.rs:675
+msgid "Saved profiles will be written to disk without encryption."
+msgstr ""
+"Gespeicherte Profile werden unverschlüsselt auf den Datenträger geschrieben."
+
+#: src/ui/pages/settings_page.rs:678
+msgid "Disable"
+msgstr "Deaktivieren"
+
+#: src/ui/pages/settings_page.rs:728
+msgid "Change Encryption Passphrase"
+msgstr "Verschlüsselungs-Passphrase ändern"
+
+#: src/ui/pages/settings_page.rs:729
+msgid "Choose a new passphrase for your saved profiles."
+msgstr "Wählen Sie eine neue Passphrase für Ihre gespeicherten Profile."
+
+#: src/ui/pages/settings_page.rs:731
+msgid "Change"
+msgstr "Ändern"
+
+#: src/ui/pages/settings_page.rs:763
+msgid "Enter the passphrase you chose when encryption was enabled."
+msgstr ""
+"Geben Sie die Passphrase ein, die Sie beim Aktivieren der Verschlüsselung "
+"gewählt haben."
+
+#: src/ui/pages/settings_page.rs:800
+msgid "Keyboard Shortcuts"
+msgstr "Tastenkürzel"
+
+#: src/ui/pages/settings_page.rs:801
+msgid "Quick access shortcuts for profile switching"
+msgstr "Tastenkürzel für den schnellen Profilwechsel"
+
+#: src/ui/pages/settings_page.rs:805
+msgid "Enable Profile Hotkeys"
+msgstr "Profil-Tastenkürzel aktivieren"
+
+#: src/ui/pages/settings_page.rs:806
+msgid "Use keyboard shortcuts to switch profiles"
+msgstr "Profile per Tastenkürzel wechseln"
+
+#: src/ui/pages/settings_page.rs:821 src/ui/pages/settings_page.rs:1394
+msgid "Configure Hotkeys"
+msgstr "Tastenkürzel einrichten"
+
+#: src/ui/pages/settings_page.rs:822
+msgid "Assign keyboard shortcuts to profiles"
+msgstr "Profilen Tastenkürzel zuweisen"
+
+#. TRANSLATORS: Application version row
+#: src/ui/pages/settings_page.rs:846
+msgid "Version"
+msgstr "Version"
+
+#: src/ui/pages/settings_page.rs:852
+msgid "Project Website"
+msgstr "Projekt-Website"
+
+#: src/ui/pages/settings_page.rs:873
+msgid "Report an Issue"
+msgstr "Problem melden"
+
+#: src/ui/pages/settings_page.rs:928
+msgid "(No profiles available)"
+msgstr "(Keine Profile verfügbar)"
+
+#: src/ui/pages/settings_page.rs:1011 src/ui/pages/settings_page.rs:1157
+msgid "Add Schedule"
+msgstr "Zeitplan hinzufügen"
+
+#: src/ui/pages/settings_page.rs:1043
+msgid "No Schedules"
+msgstr "Keine Zeitpläne"
+
+#: src/ui/pages/settings_page.rs:1044
+msgid ""
+"Add a schedule to automatically activate profiles at specific times.\n"
+"\n"
+"Click the + button to create your first schedule."
+msgstr ""
+"Fügen Sie einen Zeitplan hinzu, um Profile zu bestimmten Zeiten automatisch "
+"zu aktivieren.\n"
+"\n"
+"Klicken Sie auf die Schaltfläche +, um Ihren ersten Zeitplan zu erstellen."
+
+#: src/ui/pages/settings_page.rs:1055
+msgid ""
+"Schedules use cron format: minute hour day-of-month month day-of-week\n"
+"Example: \"30 9 * * 1-5\" = 9:30 AM on weekdays"
+msgstr ""
+"Zeitpläne verwenden das cron-Format: Minute Stunde Tag-des-Monats Monat "
+"Wochentag\n"
+"Beispiel: „30 9 * * 1-5“ = 9:30 Uhr an Werktagen"
+
+#: src/ui/pages/settings_page.rs:1101
+msgid "Unknown profile"
+msgstr "Unbekanntes Profil"
+
+#. TRANSLATORS: Appended to a schedule or hotkey that is turned off
+#: src/ui/pages/settings_page.rs:1106 src/ui/pages/settings_page.rs:1496
+msgid "disabled"
+msgstr "deaktiviert"
+
+#: src/ui/pages/settings_page.rs:1125
+msgid "Delete Schedule"
+msgstr "Zeitplan löschen"
+
+#: src/ui/pages/settings_page.rs:1174
+msgid "Schedule Information"
+msgstr "Zeitplan-Informationen"
+
+#. TRANSLATORS: Default description for a new schedule
+#: src/ui/pages/settings_page.rs:1180
+msgid "Daily Work Profile"
+msgstr "Tägliches Arbeitsprofil"
+
+#: src/ui/pages/settings_page.rs:1188 src/ui/pages/settings_page.rs:1559
+msgid "Profile"
+msgstr "Profil"
+
+#: src/ui/pages/settings_page.rs:1189
+msgid "Profile to activate on schedule"
+msgstr "Profil, das nach Zeitplan aktiviert wird"
+
+#: src/ui/pages/settings_page.rs:1198
+msgid "Activation Time"
+msgstr "Aktivierungszeit"
+
+#: src/ui/pages/settings_page.rs:1202
+msgid "Hour (0-23)"
+msgstr "Stunde (0-23)"
+
+#: src/ui/pages/settings_page.rs:1208
+msgid "Minute (0-59)"
+msgstr "Minute (0-59)"
+
+#: src/ui/pages/settings_page.rs:1217
+msgid "Days of Week"
+msgstr "Wochentage"
+
+#: src/ui/pages/settings_page.rs:1218
+msgid "Select days when the schedule should run"
+msgstr "Wählen Sie die Tage, an denen der Zeitplan ausgeführt werden soll"
+
+#: src/ui/pages/settings_page.rs:1222
+msgid "Monday"
+msgstr "Montag"
+
+#: src/ui/pages/settings_page.rs:1226
+msgid "Tuesday"
+msgstr "Dienstag"
+
+#: src/ui/pages/settings_page.rs:1230
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+#: src/ui/pages/settings_page.rs:1234
+msgid "Thursday"
+msgstr "Donnerstag"
+
+#: src/ui/pages/settings_page.rs:1238
+msgid "Friday"
+msgstr "Freitag"
+
+#: src/ui/pages/settings_page.rs:1242
+msgid "Saturday"
+msgstr "Samstag"
+
+#: src/ui/pages/settings_page.rs:1246
+msgid "Sunday"
+msgstr "Sonntag"
+
+#: src/ui/pages/settings_page.rs:1262
+msgid "Options"
+msgstr "Optionen"
+
+#: src/ui/pages/settings_page.rs:1266
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: src/ui/pages/settings_page.rs:1267
+msgid "Schedule will trigger when enabled"
+msgstr "Der Zeitplan wird nur ausgelöst, wenn er aktiviert ist"
+
+#. TRANSLATORS: A schedule that runs only once
+#: src/ui/pages/settings_page.rs:1274
+msgid "One-shot"
+msgstr "Einmalig"
+
+#: src/ui/pages/settings_page.rs:1275
+msgid "Run once then disable"
+msgstr "Einmal ausführen, dann deaktivieren"
+
+#: src/ui/pages/settings_page.rs:1402 src/ui/pages/settings_page.rs:1535
+msgid "Add Hotkey"
+msgstr "Tastenkürzel hinzufügen"
+
+#: src/ui/pages/settings_page.rs:1414
+msgid "Profile Hotkeys"
+msgstr "Profil-Tastenkürzel"
+
+#: src/ui/pages/settings_page.rs:1415
+msgid "Global keyboard shortcuts for quick profile switching"
+msgstr "Globale Tastenkürzel für den schnellen Profilwechsel"
+
+#: src/ui/pages/settings_page.rs:1425
+msgid "No hotkeys configured. Click the + button to add one."
+msgstr ""
+"Keine Tastenkürzel eingerichtet. Klicken Sie auf die Schaltfläche +, um "
+"eines hinzuzufügen."
+
+#: src/ui/pages/settings_page.rs:1439
+msgid "How to Use"
+msgstr "Verwendung"
+
+#: src/ui/pages/settings_page.rs:1443
+msgid "About Hotkeys"
+msgstr "Über Tastenkürzel"
+
+#: src/ui/pages/settings_page.rs:1444
+msgid ""
+"Hotkeys work globally when the app is running. Press the shortcut to "
+"instantly switch to the assigned profile."
+msgstr ""
+"Tastenkürzel funktionieren systemweit, solange die Anwendung läuft. Drücken "
+"Sie das Tastenkürzel, um sofort zum zugewiesenen Profil zu wechseln."
+
+#. TRANSLATORS: Heading of a warning about conflicting shortcuts
+#: src/ui/pages/settings_page.rs:1450
+msgid "Note"
+msgstr "Hinweis"
+
+#: src/ui/pages/settings_page.rs:1452
+msgid "Some shortcuts may conflict with system or other application shortcuts."
+msgstr ""
+"Manche Tastenkürzel können mit Tastenkürzeln des Systems oder anderer "
+"Anwendungen kollidieren."
+
+#: src/ui/pages/settings_page.rs:1507
+msgid "Delete Hotkey"
+msgstr "Tastenkürzel löschen"
+
+#: src/ui/pages/settings_page.rs:1551
+msgid "Hotkey Configuration"
+msgstr "Tastenkürzel-Konfiguration"
+
+#: src/ui/pages/settings_page.rs:1560
+msgid "Profile to activate with this hotkey"
+msgstr "Profil, das mit diesem Tastenkürzel aktiviert wird"
+
+#. TRANSLATORS: Keyboard modifier key name
+#: src/ui/pages/settings_page.rs:1569
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#. TRANSLATORS: Keyboard modifier key name
+#: src/ui/pages/settings_page.rs:1576
+msgid "Alt"
+msgstr "Alt"
+
+#. TRANSLATORS: Keyboard modifier key name
+#: src/ui/pages/settings_page.rs:1583
+msgid "Shift"
+msgstr "Shift"
+
+#. TRANSLATORS: Keyboard modifier key name (the Windows/logo key)
+#: src/ui/pages/settings_page.rs:1590
+msgid "Super"
+msgstr "Super"
+
+#. TRANSLATORS: The key pressed together with the modifiers
+#: src/ui/pages/settings_page.rs:1597
+msgid "Key"
+msgstr "Taste"
+
+#. TRANSLATORS: Profile name shown when the hotkey's profile is missing
+#. TRANSLATORS: Placeholder for an interface whose name is not known yet
+#: src/ui/pages/settings_page.rs:1638 src/ui/widgets/network_card.rs:117
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#: src/ui/pages/settings_page.rs:1721
+msgid "Available Rule Types"
+msgstr "Verfügbare Regeltypen"
+
+#: src/ui/pages/settings_page.rs:1722
+msgid "Rules are stored with each profile"
+msgstr "Regeln werden mit jedem Profil gespeichert"
+
+#: src/ui/pages/settings_page.rs:1726
+msgid "Wi-Fi SSID"
+msgstr "Wi-Fi-SSID"
+
+#: src/ui/pages/settings_page.rs:1727
+msgid "Activate when connected to a specific network"
+msgstr "Aktivieren, wenn mit einem bestimmten Netzwerk verbunden"
+
+#: src/ui/pages/settings_page.rs:1734
+msgid "Gateway MAC"
+msgstr "Gateway-MAC"
+
+#: src/ui/pages/settings_page.rs:1735
+msgid "Match by router MAC address"
+msgstr "Anhand der MAC-Adresse des Routers erkennen"
+
+#: src/ui/pages/settings_page.rs:1743
+msgid "Activate when a host is reachable"
+msgstr "Aktivieren, wenn ein Host erreichbar ist"
+
+#: src/ui/pages/settings_page.rs:1750
+msgid "Time Window"
+msgstr "Zeitfenster"
+
+#: src/ui/pages/settings_page.rs:1751
+msgid "Activate during specific hours/days"
+msgstr "Zu bestimmten Stunden/Tagen aktivieren"
+
+#: src/ui/pages/settings_page.rs:1758
+msgid "Interface State"
+msgstr "Schnittstellenstatus"
+
+#: src/ui/pages/settings_page.rs:1759
+msgid "Match network interface up/down state"
+msgstr "Anhand des Zustands der Netzwerkschnittstelle (aktiv/inaktiv) erkennen"
+
+#: src/ui/pages/settings_page.rs:1770
+msgid ""
+"Rules cannot be edited in the app yet. Rules included in imported profiles "
+"are checked automatically while Auto-Switch is enabled.\n"
+"Rules can be combined with AND/OR logic for complex matching."
+msgstr ""
+"Regeln können in der Anwendung noch nicht bearbeitet werden. In importierten "
+"Profilen enthaltene Regeln werden automatisch geprüft, solange der "
+"automatische Wechsel aktiviert ist.\n"
+"Regeln lassen sich für komplexe Abgleiche mit UND/ODER-Logik kombinieren."
+
+#: src/ui/widgets/network_card.rs:176
+msgid "Connecting..."
+msgstr "Verbindung wird hergestellt ..."
+
+#. TRANSLATORS: Connection state inside a screen-reader sentence
+#: src/ui/widgets/network_card.rs:211
+msgid "disconnected"
+msgstr "getrennt"
+
+#. TRANSLATORS: Connection state inside a screen-reader sentence
+#: src/ui/widgets/network_card.rs:213
+msgid "connecting"
+msgstr "wird verbunden"
+
+#. TRANSLATORS: Connection state inside a screen-reader sentence
+#: src/ui/widgets/network_card.rs:215
+msgid "connected"
+msgstr "verbunden"
+
+#. TRANSLATORS: Connection state inside a screen-reader sentence
+#. TRANSLATORS: Profile status inside a screen-reader sentence
+#: src/ui/widgets/network_card.rs:217 src/ui/widgets/profile_row.rs:109
+msgid "error"
+msgstr "Fehler"
+
+#: src/ui/widgets/network_card.rs:221
+msgid "no IP address"
+msgstr "keine IP-Adresse"
+
+#: src/ui/widgets/network_card.rs:226
+msgid "VPN"
+msgstr "VPN"
+
+#. TRANSLATORS: Network bridge interface type
+#: src/ui/widgets/network_card.rs:228
+msgid "Bridge"
+msgstr "Brücke"
+
+#. TRANSLATORS: Screen-reader label for a network interface card, e.g.
+#. "wlan0 Wi-Fi interface, connected, 192.168.1.5"
+#: src/ui/widgets/network_card.rs:234
+#, rust-format
+msgid "{name} {type} interface, {state}, {ip}"
+msgstr "Schnittstelle {name} ({type}), {state}, {ip}"
+
+#: src/ui/widgets/profile_row.rs:69
+msgid "Activate Profile"
+msgstr "Profil aktivieren"
+
+#. TRANSLATORS: Profile status inside a screen-reader sentence
+#: src/ui/widgets/profile_row.rs:103
+msgid "active"
+msgstr "aktiv"
+
+#. TRANSLATORS: Profile status inside a screen-reader sentence
+#: src/ui/widgets/profile_row.rs:105
+msgid "inactive"
+msgstr "inaktiv"
+
+#. TRANSLATORS: Profile status inside a screen-reader sentence
+#: src/ui/widgets/profile_row.rs:107
+msgid "applying"
+msgstr "wird angewendet"
+
+#. TRANSLATORS: Screen-reader label for a profile row, e.g.
+#. "Profile Home, status: active"
+#: src/ui/widgets/profile_row.rs:113
+#, rust-format
+msgid "Profile {name}, status: {status}"
+msgstr "Profil {name}, Status: {status}"

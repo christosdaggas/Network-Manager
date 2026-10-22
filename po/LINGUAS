@@ -1,0 +1,17 @@
+# List of available languages
+# Each line contains a language code for which a .po file exists
+#
+# Network Manager - Localization
+# Copyright (C) 2026 Christos A. Daggas
+# SPDX-License-Identifier: MIT
+
+ar
+de
+el
+es
+fr
+hi
+it
+pt
+ru
+zh

@@ -1,0 +1,40 @@
+#!/usr/bin/make -f
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+export CARGO_HOME = $(CURDIR)/debian/.cargo
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	cargo build --release
+
+override_dh_auto_install:
+	# Install GUI application
+	install -Dm755 target/release/network-manager \
+		debian/cd-network-manager/usr/bin/network-manager
+	
+	# Install desktop file
+	install -Dm644 data/com.chrisdaggas.network-manager.desktop \
+		debian/cd-network-manager/usr/share/applications/com.chrisdaggas.network-manager.desktop
+	
+	# Install metainfo
+	install -Dm644 data/com.chrisdaggas.network-manager.metainfo.xml \
+		debian/cd-network-manager/usr/share/metainfo/com.chrisdaggas.network-manager.metainfo.xml
+	
+	# Install icons
+	install -Dm644 data/icons/hicolor/scalable/apps/com.chrisdaggas.network-manager.svg \
+		debian/cd-network-manager/usr/share/icons/hicolor/scalable/apps/com.chrisdaggas.network-manager.svg
+	install -Dm644 data/icons/hicolor/symbolic/apps/com.chrisdaggas.network-manager-symbolic.svg \
+		debian/cd-network-manager/usr/share/icons/hicolor/symbolic/apps/com.chrisdaggas.network-manager-symbolic.svg
+
+	# Install compiled gettext catalogs
+	install -d debian/cd-network-manager/usr/share/locale
+	cp -a target/locale/. debian/cd-network-manager/usr/share/locale/
+
+override_dh_auto_test:
+	cargo test --release
+
+override_dh_auto_clean:
+	cargo clean
+	rm -rf debian/.cargo

@@ -1,0 +1,102 @@
+/* Window background - let DE control it */
+window.background {
+    background-color: @window_bg_color;
+}
+
+/* Navigation sidebar - transparent for theme blending */
+.navigation-sidebar {
+    background-color: transparent;
+}
+
+/* Cards and containers */
+.card {
+    background-color: @card_bg_color;
+    border-radius: 12px;
+    padding: 12px;
+    border: 1px solid alpha(@window_fg_color, 0.08);
+}
+
+/* Text colors */
+.title-1, .title-2, .title-3, .title-4 {
+    color: @window_fg_color;
+}
+
+.dim-label {
+    color: alpha(@window_fg_color, 0.7);
+}
+
+/* Status indicators */
+.success {
+    color: @success_color;
+}
+
+.warning {
+    color: @warning_color;
+}
+
+.error {
+    color: @error_color;
+}
+
+/* Connected/active state */
+.connected-indicator {
+    background-color: @success_bg_color;
+    color: @success_fg_color;
+}
+
+/* Disconnected state */
+.disconnected-indicator {
+    background-color: alpha(@window_fg_color, 0.1);
+    color: alpha(@window_fg_color, 0.7);
+}
+
+/* Network strength bars */
+.signal-strength {
+    background-color: alpha(@accent_color, 0.3);
+}
+
+.signal-strength.active {
+    background-color: @accent_color;
+}
+
+/* Action buttons */
+.suggested-action {
+    background-color: @accent_bg_color;
+    color: @accent_fg_color;
+}
+
+.destructive-action {
+    background-color: @error_bg_color;
+    color: @error_fg_color;
+}
+
+/* List rows */
+.network-row {
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.network-row:hover {
+    background-color: alpha(@window_fg_color, 0.05);
+}
+
+.network-row:selected {
+    background-color: alpha(@accent_color, 0.15);
+}
+
+/* Popovers */
+popover.background {
+    background-color: @popover_bg_color;
+}
+
+/* Header bar */
+headerbar {
+    background-color: @headerbar_bg_color;
+}
+
+/* View backgrounds */
+.view {
+    background-color: @view_bg_color;
+    color: @view_fg_color;
+}

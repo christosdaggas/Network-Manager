@@ -1,0 +1,98 @@
+# AppImage Builder configuration for Network Manager
+# Build with: appimage-builder --recipe AppImageBuilder.yml
+
+version: 1
+script:
+  - rm -rf AppDir || true
+  - mkdir -p AppDir/usr/bin
+  - mkdir -p AppDir/usr/share/applications
+  - mkdir -p AppDir/usr/share/metainfo
+  - mkdir -p AppDir/usr/share/icons/hicolor/scalable/apps
+  - mkdir -p AppDir/usr/share/icons/hicolor/symbolic/apps
+  - mkdir -p AppDir/usr/share/glib-2.0/schemas
+  # Build the application
+  - cargo build --release
+  # Install files
+  - cp ../../target/release/network-manager AppDir/usr/bin/
+  - cp ../../data/com.chrisdaggas.network-manager.desktop AppDir/usr/share/applications/
+  - cp ../../data/com.chrisdaggas.network-manager.metainfo.xml AppDir/usr/share/metainfo/
+  - cp ../../data/icons/hicolor/scalable/apps/com.chrisdaggas.network-manager.svg AppDir/usr/share/icons/hicolor/scalable/apps/
+  - cp ../../data/icons/hicolor/symbolic/apps/com.chrisdaggas.network-manager-symbolic.svg AppDir/usr/share/icons/hicolor/symbolic/apps/
+  - mkdir -p AppDir/usr/share/locale
+  - cp -a ../../target/locale/. AppDir/usr/share/locale/
+
+AppDir:
+  path: ./AppDir
+
+  app_info:
+    id: com.chrisdaggas.network-manager
+    name: Network Manager
+    icon: com.chrisdaggas.network-manager
+    version: 1.0.0
+    exec: usr/bin/network-manager
+    exec_args: $@
+
+  apt:
+    arch: amd64
+    sources:
+      - sourceline: 'deb http://archive.ubuntu.com/ubuntu/ noble main restricted universe multiverse'
+        key_url: 'http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x871920D1991BC93C'
+      - sourceline: 'deb http://archive.ubuntu.com/ubuntu/ noble-updates main restricted universe multiverse'
+
+    include:
+      - libgtk-4-1
+      - libadwaita-1-0
+      - libglib2.0-0
+      - libgio2.0-cil
+      - libpango-1.0-0
+      - libcairo2
+      - libgdk-pixbuf-2.0-0
+      - libgraphene-1.0-0
+      - librsvg2-2
+      - libepoxy0
+      - libxkbcommon0
+      - libwayland-client0
+      - libwayland-cursor0
+      - libwayland-egl1
+      - libegl1
+      - libgl1
+      - shared-mime-info
+      - hicolor-icon-theme
+      - adwaita-icon-theme
+      - gsettings-desktop-schemas
+
+  files:
+    include:
+      - usr/share/glib-2.0/schemas/gschemas.compiled
+    exclude:
+      - usr/share/doc
+      - usr/share/man
+
+  runtime:
+    env:
+      # GTK settings
+      GTK_THEME: Adwaita
+      GDK_BACKEND: wayland,x11
+      # Ensure proper icon loading
+      XDG_DATA_DIRS: '${APPDIR}/usr/share:${XDG_DATA_DIRS}'
+      # GSettings schema directory
+      GSETTINGS_SCHEMA_DIR: '${APPDIR}/usr/share/glib-2.0/schemas'
+
+  test:
+    fedora-30:
+      image: appimagecrafters/tests-env:fedora-30
+      command: ./AppRun --version
+    debian-stable:
+      image: appimagecrafters/tests-env:debian-stable
+      command: ./AppRun --version
+    ubuntu-xenial:
+      image: appimagecrafters/tests-env:ubuntu-xenial
+      command: ./AppRun --version
+    archlinux-latest:
+      image: appimagecrafters/tests-env:archlinux-latest
+      command: ./AppRun --version
+
+AppImage:
+  arch: x86_64
+  update-information: gh-releases-zsync|chrisdaggas|network-manager|latest|network-manager-*x86_64.AppImage.zsync
+  sign-key: None

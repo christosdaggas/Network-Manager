@@ -1,0 +1,20 @@
+[Desktop Entry]
+Name=Network Manager
+Name[el]=Διαχείριση Δικτύου
+Name[de]=Netzwerk-Manager
+Name[es]=Gestor de Red
+Name[fr]=Gestionnaire Réseau
+Comment=Manage network and system profiles
+Comment[el]=Διαχείριση προφίλ δικτύου και συστήματος
+Comment[de]=Netzwerk- und Systemprofile verwalten
+Comment[es]=Gestionar perfiles de red y sistema
+Comment[fr]=Gérer les profils réseau et système
+Exec=network-manager
+Icon=com.chrisdaggas.network-manager
+Terminal=false
+Type=Application
+Categories=GTK;GNOME;Network;
+Keywords=network;manager;profile;switch;ip;dns;wifi;vpn;
+StartupNotify=true
+StartupWMClass=com.chrisdaggas.network-manager
+X-GNOME-UsesNotifications=true

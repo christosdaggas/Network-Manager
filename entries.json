@@ -1,0 +1,4246 @@
+[
+{
+"c": [],
+"r": [
+"src/application.rs:187"
+],
+"msgid": "Version 1.6.0 - October 2026",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:189"
+],
+"msgid": "Made for Fedora with the GNOME desktop, with a new native RPM package",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:190"
+],
+"msgid": "Profile edits are now saved, and editing no longer removes settings the editor does not show",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:191"
+],
+"msgid": "Applying a profile no longer freezes the window, and failed or unsupported steps are reported",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:192"
+],
+"msgid": "DNS changes take effect immediately; pre-scripts run before the other actions",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:193"
+],
+"msgid": "Auto-switch, scheduler and watchdog follow settings changes without a restart",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:194"
+],
+"msgid": "Auto-switch works on non-English systems and with special characters in Wi-Fi names",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:195"
+],
+"msgid": "Starting at login no longer fails, and the app starts in the background",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:196"
+],
+"msgid": "Settings and profiles are written safely, and damaged files are backed up instead of overwritten",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:197"
+],
+"msgid": "Settings no longer reset unrelated options when one option is changed",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:198"
+],
+"msgid": "Keyboard shortcuts, profile search, and schedule and hotkey lists now work",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:199"
+],
+"msgid": "Imported profiles must be trusted again before their scripts run",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:200"
+],
+"msgid": "Refreshed window layout with more spacing on the dashboard",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:201"
+],
+"msgid": "Security audit: hardened systemd service sandboxing (NoNewPrivileges, DynamicUser, restricted capabilities)",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:202"
+],
+"msgid": "Security audit: removed ApplyProfile from tray D-Bus interface to reduce attack surface",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:203"
+],
+"msgid": "Security audit: added auto-switch script safeguard toggle (default off) with user confirmation dialog",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:204"
+],
+"msgid": "Security audit: import validation warns when profiles contain executable scripts",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:205"
+],
+"msgid": "Security audit: replaced unsafe .profile environment writing with logging-only placeholder",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:206"
+],
+"msgid": "Security audit: added SHA-256 checksum verification to build scripts",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:207"
+],
+"msgid": "Reliability: D-Bus calls now use 30-second timeouts with explicit error handling",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:208"
+],
+"msgid": "Reliability: build.rs fails hard on GResource compilation error",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:209"
+],
+"msgid": "Reliability: mutex poisoning recovery in auto-switch background thread",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:210"
+],
+"msgid": "Reliability: sanitized error toasts — internal errors no longer leak to UI",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:211"
+],
+"msgid": "Accessibility: prefers-reduced-motion support for CSS animations",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:212"
+],
+"msgid": "Accessibility: screen-reader labels added to NetworkCard, StatusPill, ProfileRow, and network graphs",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:213"
+],
+"msgid": "Accessibility: all dialogs now dismissible with Escape key",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:214"
+],
+"msgid": "UX: removed author label from bottom-left corner",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:218"
+],
+"msgid": "Version 1.4.0 - February 2026",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:220"
+],
+"msgid": "Argon2id key derivation for profile encryption (replaces raw SHA-256)",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:221"
+],
+"msgid": "Random per-message salt added to every encrypted payload",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:222"
+],
+"msgid": "Encryption passphrase is no longer persisted to disk",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:223"
+],
+"msgid": "Config, cache, and log files set strict 0600/0700 permissions",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:224"
+],
+"msgid": "Key material zeroed from memory on drop (zeroize)",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:225"
+],
+"msgid": "Cryptographic nonces generated with OsRng",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:226"
+],
+"msgid": "Sandbox mode fails loudly when bwrap/firejail is missing",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:227"
+],
+"msgid": "Removed shell-injection-prone execute_command(sh -c) API",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:228"
+],
+"msgid": "Ping and DNS input validated against injection",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:229"
+],
+"msgid": "Proxy settings check for GNOME schema before applying",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:230"
+],
+"msgid": "Regex DoS protection with size-limited compilation",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:231"
+],
+"msgid": "Compiled regexes cached across auto-switch cycles",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:232"
+],
+"msgid": "Watchdog and auto-switch blocking calls offloaded from UI thread",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:233"
+],
+"msgid": "Update checker response body size-limited to 512 KiB",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:234"
+],
+"msgid": "Tokio runtime features narrowed to reduce binary size",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:235"
+],
+"msgid": "DEB/RPM packages now declare NetworkManager dependency",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:236"
+],
+"msgid": "Package architecture auto-detected (aarch64 support)",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:237"
+],
+"msgid": "Bubblewrap uses existence check for /lib64 instead of hard bind",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:241"
+],
+"msgid": "Version 1.2.0 - February 2026",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:243"
+],
+"msgid": "Schedule Profile Activation - Schedule entries now use real profiles from your configuration",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:244"
+],
+"msgid": "Hotkey Profile Binding - Hotkeys can be bound to actual profiles for quick switching",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:245"
+],
+"msgid": "Automatic Schedule Execution - Scheduler now properly activates profiles at scheduled times",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:246"
+],
+"msgid": "VPN Disconnect Support - Disconnect from VPN connections when switching profiles",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:247"
+],
+"msgid": "MTU Configuration - Set custom MTU values per interface",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:248"
+],
+"msgid": "MAC Address Cloning - Configure cloned/spoofed MAC addresses",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:249"
+],
+"msgid": "DNS Search Domains - Configure search domains for DNS resolution",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:250"
+],
+"msgid": "Hostname Configuration - Set static and pretty hostnames via profiles",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:251"
+],
+"msgid": "Timezone Configuration - Automatic timezone switching per profile",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:252"
+],
+"msgid": "Default Printer Selection - Set default printer when activating profiles",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:253"
+],
+"msgid": "Environment Variables - Configure environment variables per profile",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:254"
+],
+"msgid": "Sandbox Script Execution - Run automation scripts in a bubblewrap or firejail sandbox",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:255"
+],
+"msgid": "Profile Encryption - Encrypt sensitive profile data with AES-256-GCM",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:259"
+],
+"msgid": "Version 1.1.0 - February 2026",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:261"
+],
+"msgid": "Collapsible Sidebar - Navigation sidebar toggles between expanded and icon-only collapsed mode",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:262"
+],
+"msgid": "Automatic Update Check - Checks GitHub for newer releases on startup",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:263"
+],
+"msgid": "What's New Section - Release notes visible in the About dialog",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:264"
+],
+"msgid": "Improved Card Styling - Consistent shadow and border on all dashboard cards",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:265"
+],
+"msgid": "Center-Aligned Icons - Navigation icons are properly centered when sidebar is collapsed",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:269"
+],
+"msgid": "Version 1.0.0 - Initial Release",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:271"
+],
+"msgid": "Dashboard with network status overview",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:272"
+],
+"msgid": "Network profile management (create, edit, delete, apply)",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:273"
+],
+"msgid": "System log viewer",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:274"
+],
+"msgid": "Theme selector (system, light, dark)",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:275"
+],
+"msgid": "D-Bus integration for network configuration",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:276"
+],
+"msgid": "Autostart support",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:373"
+],
+"msgid": "Network and system profile manager for Linux",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:384 src/ui/main_window.rs:4188"
+],
+"msgid": "Preferences",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:387 src/ui/pages/settings_page.rs:122"
+],
+"msgid": "Appearance",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:391"
+],
+"msgid": "Theme",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Color scheme option that follows the system setting"
+],
+"r": [
+"src/application.rs:395"
+],
+"msgid": "Follow System",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Color scheme option",
+"TRANSLATORS: theme button: light style",
+"TRANSLATORS: Color scheme option"
+],
+"r": [
+"src/application.rs:397 src/ui/main_window.rs:4085",
+"src/ui/pages/settings_page.rs:129"
+],
+"msgid": "Light",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Color scheme option",
+"TRANSLATORS: theme button: dark style",
+"TRANSLATORS: Color scheme option"
+],
+"r": [
+"src/application.rs:399 src/ui/main_window.rs:4092",
+"src/ui/pages/settings_page.rs:131"
+],
+"msgid": "Dark",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:404 src/ui/pages/settings_page.rs:136"
+],
+"msgid": "Color Scheme",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:405"
+],
+"msgid": "Choose the application's appearance",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:437 src/ui/pages/settings_page.rs:260"
+],
+"msgid": "Behavior",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:441"
+],
+"msgid": "Startup",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:449"
+],
+"msgid": "Start on Login",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:450"
+],
+"msgid": "Automatically start Network Manager when you log in",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:471"
+],
+"msgid": "Show System Tray Icon",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:472"
+],
+"msgid": "Display an icon in the system tray (AppIndicator on GNOME)",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:492"
+],
+"msgid": "Tray icon unavailable. On GNOME, install the AppIndicator extension.",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:508 src/ui/main_window.rs:50",
+"src/ui/pages/help_page.rs:104"
+],
+"msgid": "Profiles",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:511"
+],
+"msgid": "Confirm Profile Switch",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:512"
+],
+"msgid": "Ask for confirmation before switching profiles",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/application.rs:739"
+],
+"msgid": "Connection lost! Check your network.",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/models/adapter.rs:48 src/ui/widgets/network_card.rs:224"
+],
+"msgid": "Ethernet",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/models/adapter.rs:49 src/ui/widgets/network_card.rs:225"
+],
+"msgid": "Wi-Fi",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Virtual network adapter type (bridges, VLANs)"
+],
+"r": [
+"src/models/adapter.rs:51"
+],
+"msgid": "Virtual",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Loopback network interface type"
+],
+"r": [
+"src/models/adapter.rs:53"
+],
+"msgid": "Loopback",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Generic network interface type"
+],
+"r": [
+"src/models/adapter.rs:55 src/ui/widgets/network_card.rs:230"
+],
+"msgid": "Network",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/models/templates.rs:63"
+],
+"msgid": "Basic home network setup with DHCP and default DNS",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/models/templates.rs:64"
+],
+"msgid": "Corporate network with static IP configuration",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/models/templates.rs:65"
+],
+"msgid": "Secure configuration for untrusted public networks",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/models/templates.rs:66"
+],
+"msgid": "Route all traffic through VPN connection",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/models/templates.rs:67"
+],
+"msgid": "Local development with custom hosts and DNS",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/models/templates.rs:68"
+],
+"msgid": "Start with an empty profile",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Profile group name for the home network template"
+],
+"r": [
+"src/models/templates.rs:94"
+],
+"msgid": "Home",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Profile group name for the office network template"
+],
+"r": [
+"src/models/templates.rs:119"
+],
+"msgid": "Work",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Profile group name for the public Wi-Fi template"
+],
+"r": [
+"src/models/templates.rs:159"
+],
+"msgid": "Travel",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/models/templates.rs:181"
+],
+"msgid": "Public WiFi Connected",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/models/templates.rs:182"
+],
+"msgid": "Remember: Use HTTPS and consider enabling VPN",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Profile group name for the VPN template"
+],
+"r": [
+"src/models/templates.rs:191 src/ui/pages/settings_page.rs:573"
+],
+"msgid": "Security",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/models/templates.rs:201"
+],
+"msgid": "VPN Connected",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/models/templates.rs:202"
+],
+"msgid": "All traffic is now routed through VPN",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Profile group name for the development template",
+"TRANSLATORS: profile template for software development work"
+],
+"r": [
+"src/models/templates.rs:211 src/ui/main_window.rs:876"
+],
+"msgid": "Development",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/services/encryption.rs:269"
+],
+"msgid": "No encryption key set",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/services/encryption.rs:270"
+],
+"msgid": "Encryption failed: {error}",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/services/encryption.rs:271"
+],
+"msgid": "Decryption failed (wrong key or corrupted data)",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/services/encryption.rs:272"
+],
+"msgid": "Invalid data: {error}",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/services/encryption.rs:274"
+],
+"msgid": "Serialization failed: {error}",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/tray.rs:71 src/ui/pages/dashboard_page.rs:291",
+"src/ui/pages/dashboard_page.rs:817"
+],
+"msgid": "No profile active",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/tray.rs:84 src/ui/pages/dashboard_page.rs:251"
+],
+"msgid": "Network Manager",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/tray.rs:103"
+],
+"msgid": "Open Network Manager",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Tray menu entry naming the active profile"
+],
+"r": [
+"src/tray.rs:112"
+],
+"msgid": "Active: {name}",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Watchdog failure action: switch to the fallback profile"
+],
+"r": [
+"src/tray.rs:138 src/ui/main_window.rs:3040",
+"src/ui/pages/dashboard_page.rs:749 src/ui/pages/settings_page.rs:485"
+],
+"msgid": "Switch Profile",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/tray.rs:149 src/ui/main_window.rs:4226"
+],
+"msgid": "Quit",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/encryption_dialog.rs:43 src/ui/main_window.rs:838",
+"src/ui/main_window.rs:1894 src/ui/main_window.rs:2959",
+"src/ui/main_window.rs:3221 src/ui/main_window.rs:3251",
+"src/ui/main_window.rs:5173 src/ui/pages/settings_page.rs:676"
+],
+"msgid": "Cancel",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/encryption_dialog.rs:68"
+],
+"msgid": "Passphrase",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/encryption_dialog.rs:75"
+],
+"msgid": "Confirm passphrase",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/encryption_dialog.rs:115"
+],
+"msgid": "Use at least {n} character.",
+"plural": "Use at least {n} characters."
+},
+{
+"c": [],
+"r": [
+"src/ui/encryption_dialog.rs:126"
+],
+"msgid": "The passphrases do not match.",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:49 src/ui/main_window.rs:422",
+"src/ui/pages/help_page.rs:94"
+],
+"msgid": "Dashboard",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:51 src/ui/pages/help_page.rs:118"
+],
+"msgid": "Logs",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:52 src/ui/pages/help_page.rs:127"
+],
+"msgid": "Settings",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:53 src/ui/pages/help_page.rs:59"
+],
+"msgid": "Help",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:362 src/ui/main_window.rs:814"
+],
+"msgid": "Collapse sidebar",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:429"
+],
+"msgid": "Main Menu",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:749"
+],
+"msgid": "New version available",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:757"
+],
+"msgid": "Version {version}",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:811"
+],
+"msgid": "Expand sidebar",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:827 src/ui/pages/profiles_page.rs:76",
+"src/ui/pages/profiles_page.rs:147"
+],
+"msgid": "Create Profile",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:839"
+],
+"msgid": "Create",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:865"
+],
+"msgid": "Start From Template",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:867"
+],
+"msgid": "Optionally start with a pre-configured template",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:870"
+],
+"msgid": "Blank (Empty)",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:871"
+],
+"msgid": "Home Network",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:872"
+],
+"msgid": "Office Network",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:873"
+],
+"msgid": "Public WiFi",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:874"
+],
+"msgid": "VPN Only",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:879"
+],
+"msgid": "Template",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:880"
+],
+"msgid": "Pre-configured settings for common scenarios",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:890 src/ui/main_window.rs:1919"
+],
+"msgid": "Profile Details",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: profile name field"
+],
+"r": [
+"src/ui/main_window.rs:894 src/ui/main_window.rs:1923"
+],
+"msgid": "Name",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: profile description field",
+"TRANSLATORS: Schedule description entry"
+],
+"r": [
+"src/ui/main_window.rs:899 src/ui/main_window.rs:1929",
+"src/ui/pages/settings_page.rs:1187"
+],
+"msgid": "Description",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:903 src/ui/main_window.rs:1936"
+],
+"msgid": "Group (optional)",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:917 src/ui/main_window.rs:2014"
+],
+"msgid": "Network Adapters",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:918"
+],
+"msgid": "Configure settings for each network adapter. Each adapter can have its own IP, DNS, and state settings.",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:921 src/ui/main_window.rs:2018"
+],
+"msgid": "No network adapters detected",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:947 src/ui/main_window.rs:2046"
+],
+"msgid": "Enable Adapter",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:948 src/ui/main_window.rs:2047"
+],
+"msgid": "Configure this adapter in the profile",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:959 src/ui/main_window.rs:2054"
+],
+"msgid": "DHCP (Automatic)",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:960 src/ui/main_window.rs:2055"
+],
+"msgid": "Static (Manual)",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: IPv4 method: the adapter gets no IPv4 address"
+],
+"r": [
+"src/ui/main_window.rs:962 src/ui/main_window.rs:2057"
+],
+"msgid": "Disabled",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:965 src/ui/main_window.rs:2060"
+],
+"msgid": "IPv4 Configuration",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:966 src/ui/main_window.rs:2061"
+],
+"msgid": "How to obtain IP address",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:974 src/ui/main_window.rs:2074",
+"src/ui/pages/dashboard_page.rs:435"
+],
+"msgid": "IP Address",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:980 src/ui/main_window.rs:2086"
+],
+"msgid": "Subnet Mask",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:986 src/ui/main_window.rs:2097",
+"src/ui/pages/dashboard_page.rs:447"
+],
+"msgid": "Gateway",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:993 src/ui/main_window.rs:2110"
+],
+"msgid": "Automatic (from DHCP)",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: DNS method or proxy mode: entered by hand"
+],
+"r": [
+"src/ui/main_window.rs:995 src/ui/main_window.rs:1128",
+"src/ui/main_window.rs:2112 src/ui/main_window.rs:2285"
+],
+"msgid": "Manual",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:998 src/ui/main_window.rs:2115"
+],
+"msgid": "DNS Configuration",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:1005 src/ui/main_window.rs:2122"
+],
+"msgid": "Primary DNS",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:1011 src/ui/main_window.rs:2133"
+],
+"msgid": "Secondary DNS",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:1019 src/ui/main_window.rs:2146"
+],
+"msgid": "WiFi Network (SSID)",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:1093 src/ui/main_window.rs:2222"
+],
+"msgid": "VPN Connection",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:1095 src/ui/main_window.rs:2224"
+],
+"msgid": "Optionally connect to a VPN when this profile is active",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:1099 src/ui/main_window.rs:2237"
+],
+"msgid": "Connect to VPN",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:1100 src/ui/main_window.rs:2238"
+],
+"msgid": "Use a VPN connection from NetworkManager",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:1106 src/ui/main_window.rs:2244"
+],
+"msgid": "VPN Connection Name",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:1121 src/ui/main_window.rs:2260"
+],
+"msgid": "Proxy Settings",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:1122 src/ui/main_window.rs:2261"
+],
+"msgid": "Configure system proxy via gsettings",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: proxy mode: no proxy is used",
+"TRANSLATORS: No fallback profile selected"
+],
+"r": [
+"src/ui/main_window.rs:1126 src/ui/main_window.rs:2283",
+"src/ui/pages/settings_page.rs:501 src/ui/pages/settings_page.rs:1892"
+],
+"msgid": "None",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:1129 src/ui/main_window.rs:2286"
+],
+"msgid": "Automatic (PAC)",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:1132 src/ui/main_window.rs:2289"
+],
+"msgid": "Proxy Mode",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:1139 src/ui/main_window.rs:2296"
+],
+"msgid": "HTTP Proxy",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:1145 src/ui/main_window.rs:2307"
+],
+"msgid": "HTTPS Proxy",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:1151 src/ui/main_window.rs:2318"
+],
+"msgid": "No Proxy For",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:1157 src/ui/main_window.rs:2329"
+],
+"msgid": "PAC URL",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:1187 src/ui/main_window.rs:2365"
+],
+"msgid": "Scripts and Programs",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:1188 src/ui/main_window.rs:2366"
+],
+"msgid": "Run scripts when profile activates",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:1191 src/ui/main_window.rs:2394"
+],
+"msgid": "Run Pre-Script",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:1192 src/ui/main_window.rs:2395"
+],
+"msgid": "Execute script before applying profile",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:1198 src/ui/main_window.rs:2401"
+],
+"msgid": "Pre-Script Path",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:1204 src/ui/main_window.rs:2408"
+],
+"msgid": "Run Post-Script",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:1205 src/ui/main_window.rs:2409"
+],
+"msgid": "Execute script after applying profile",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:1211 src/ui/main_window.rs:2415"
+],
+"msgid": "Post-Script Path",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:1217 src/ui/main_window.rs:2422"
+],
+"msgid": "Run Program",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:1218 src/ui/main_window.rs:2423"
+],
+"msgid": "Launch an application when profile activates",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:1224 src/ui/main_window.rs:2429"
+],
+"msgid": "Program Path",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:1229 src/ui/main_window.rs:2440"
+],
+"msgid": "Program Arguments",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:1590 src/ui/main_window.rs:4586"
+],
+"msgid": "Profile '{name}' created",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: field name, listed in \"{adapter}: invalid {fields}\""
+],
+"r": [
+"src/ui/main_window.rs:1702"
+],
+"msgid": "IP address",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: field name, listed in \"{adapter}: invalid {fields}\""
+],
+"r": [
+"src/ui/main_window.rs:1709"
+],
+"msgid": "subnet mask or prefix",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: field name, listed in \"{adapter}: invalid {fields}\""
+],
+"r": [
+"src/ui/main_window.rs:1719"
+],
+"msgid": "gateway",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: field name, listed in \"{adapter}: invalid {fields}\""
+],
+"r": [
+"src/ui/main_window.rs:1728"
+],
+"msgid": "primary DNS server",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: field name, listed in \"{adapter}: invalid {fields}\""
+],
+"r": [
+"src/ui/main_window.rs:1732"
+],
+"msgid": "secondary DNS server",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: {adapter} is an interface name such as wlp2s0,",
+"{fields} a comma-separated list of the field names above"
+],
+"r": [
+"src/ui/main_window.rs:1739"
+],
+"msgid": "{adapter}: invalid {fields}",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:1878 src/ui/main_window.rs:2947",
+"src/ui/main_window.rs:3167"
+],
+"msgid": "Profile not found",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:1884 src/ui/pages/profiles_page.rs:258"
+],
+"msgid": "Edit Profile",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:1895 src/ui/pages/settings_page.rs:1172",
+"src/ui/pages/settings_page.rs:1560"
+],
+"msgid": "Save",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:2015"
+],
+"msgid": "Configure settings for each network adapter",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:2628"
+],
+"msgid": "Enter a profile name",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:2893"
+],
+"msgid": "Profile '{name}' updated",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:2952"
+],
+"msgid": "Delete Profile?",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:2954"
+],
+"msgid": "Are you sure you want to delete \"{name}\"? This action cannot be undone.",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:2960"
+],
+"msgid": "Delete",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:3024"
+],
+"msgid": "Profile '{name}' deleted",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:3033"
+],
+"msgid": "No profiles available. Create one first!",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:3057"
+],
+"msgid": "Select a profile to apply its network configuration:",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:3153 src/ui/main_window.rs:3283"
+],
+"msgid": "Another profile is still being applied",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:3200"
+],
+"msgid": "This will apply {n} action to your system:",
+"plural": "This will apply {n} actions to your system:"
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:3205"
+],
+"msgid": "{n} network action",
+"plural": "{n} network actions"
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:3207"
+],
+"msgid": "{n} system action",
+"plural": "{n} system actions"
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:3210"
+],
+"msgid": "{n} automation action",
+"plural": "{n} automation actions"
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:3217"
+],
+"msgid": "Apply '{name}'?",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:3222"
+],
+"msgid": "Apply",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:3244"
+],
+"msgid": "Security Warning",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:3246"
+],
+"msgid": "The profile '{name}' contains executable scripts or programs that have not been marked as trusted.\n\nOnly run profiles from trusted sources.",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:3252"
+],
+"msgid": "Run Anyway",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:3307"
+],
+"msgid": "Applying profile '{name}'…",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:3334"
+],
+"msgid": "Profile '{name}' could not be applied",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:3421"
+],
+"msgid": "Profile '{name}' was not applied: a pre-script failed",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: inserted as {skipped} at the end of the",
+"\"Profile '{name}' applied …\" messages"
+],
+"r": [
+"src/ui/main_window.rs:3495"
+],
+"msgid": ", {n} skipped as unsupported or not applicable",
+"plural": ", {n} skipped as unsupported or not applicable"
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:3505"
+],
+"msgid": "Profile '{name}' applied with {n} error{skipped}",
+"plural": "Profile '{name}' applied with {n} errors{skipped}"
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:3516"
+],
+"msgid": "Profile '{name}' applied ({n} action{skipped})",
+"plural": "Profile '{name}' applied ({n} actions{skipped})"
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:3525"
+],
+"msgid": "Profile '{name}' activated",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: theme button: follow the system style",
+"TRANSLATORS: Color scheme option that follows the system setting"
+],
+"r": [
+"src/ui/main_window.rs:4078 src/ui/pages/settings_page.rs:127"
+],
+"msgid": "System",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4207 src/ui/pages/settings_page.rs:841"
+],
+"msgid": "About",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4406 src/ui/pages/settings_page.rs:761"
+],
+"msgid": "Unlock Profiles",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4407"
+],
+"msgid": "Profile encryption is enabled. Enter your passphrase to load your profiles.",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4409 src/ui/pages/settings_page.rs:764"
+],
+"msgid": "Unlock",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4414 src/ui/pages/settings_page.rs:652",
+"src/ui/pages/settings_page.rs:734 src/ui/pages/settings_page.rs:768"
+],
+"msgid": "Could not access the application.",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4420 src/ui/pages/settings_page.rs:776"
+],
+"msgid": "That passphrase is not correct.",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4476"
+],
+"msgid": "v{version} available",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4491"
+],
+"msgid": "Profile changes were not saved. Unlock encryption in Settings first.",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: name of a duplicated profile"
+],
+"r": [
+"src/ui/main_window.rs:4563"
+],
+"msgid": "{name} (Copy)",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4596"
+],
+"msgid": "Network Information",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4623"
+],
+"msgid": "Default Route:",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4632"
+],
+"msgid": "DNS Servers:",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4644"
+],
+"msgid": "Network info copied to clipboard",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4654"
+],
+"msgid": "Network Diagnostics",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4671"
+],
+"msgid": "Connectivity Test",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4672"
+],
+"msgid": "Test network connectivity to common servers",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4675"
+],
+"msgid": "Host to ping",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4679"
+],
+"msgid": "Run Ping Test",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4707"
+],
+"msgid": "Invalid host. Only alphanumeric characters, dots, hyphens, and colons are allowed.",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4711"
+],
+"msgid": "Running ping test...",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4726"
+],
+"msgid": "Ping failed:",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4729"
+],
+"msgid": "Error running ping: {error}",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4757"
+],
+"msgid": "DNS Lookup",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4758"
+],
+"msgid": "Resolve domain names",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4762"
+],
+"msgid": "Domain to lookup",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4766"
+],
+"msgid": "Lookup DNS",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4794"
+],
+"msgid": "Invalid domain. Only alphanumeric characters, dots, and hyphens are allowed.",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4798"
+],
+"msgid": "Looking up…",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4810"
+],
+"msgid": "No DNS records found",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4815"
+],
+"msgid": "DNS lookup failed:",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4821"
+],
+"msgid": "DNS lookup tools (dig, host) not available",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4824"
+],
+"msgid": "DNS lookup failed",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4842"
+],
+"msgid": "Quick Test Results",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4846"
+],
+"msgid": "Internet Connectivity",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4847 src/ui/main_window.rs:4853"
+],
+"msgid": "Checking…",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4852"
+],
+"msgid": "DNS Resolution",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: internet connectivity test result"
+],
+"r": [
+"src/ui/main_window.rs:4877 src/ui/widgets/network_card.rs:177"
+],
+"msgid": "Connected",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: internet connectivity test result"
+],
+"r": [
+"src/ui/main_window.rs:4880"
+],
+"msgid": "No connection",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: DNS resolution test result"
+],
+"r": [
+"src/ui/main_window.rs:4886"
+],
+"msgid": "DNS Working",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: DNS resolution test result"
+],
+"r": [
+"src/ui/main_window.rs:4889"
+],
+"msgid": "DNS Failed",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4896"
+],
+"msgid": "Speed Test",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4898"
+],
+"msgid": "Measure download/upload speed (uses speedtest-cli if available)",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4902"
+],
+"msgid": "Run Speed Test",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4923"
+],
+"msgid": "Running speed test... (this may take a minute)",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4956"
+],
+"msgid": "Download: {speed} Mbps",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4958"
+],
+"msgid": "(speedtest-cli not installed for full test)",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4961"
+],
+"msgid": "Could not parse speed result",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4966"
+],
+"msgid": "Speed test tools not available.",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:4967"
+],
+"msgid": "Install speedtest-cli: {command}",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:5039"
+],
+"msgid": "Refreshed",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:5048"
+],
+"msgid": "No profiles to export",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:5053 src/ui/pages/settings_page.rs:364",
+"src/ui/pages/settings_page.rs:390"
+],
+"msgid": "Export Profiles",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:5079"
+],
+"msgid": "Exported {n} profile",
+"plural": "Exported {n} profiles"
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:5085 src/ui/main_window.rs:5090"
+],
+"msgid": "Export failed. Check logs for details.",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:5098"
+],
+"msgid": "JSON Files",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:5102"
+],
+"msgid": "All Files",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:5110 src/ui/pages/settings_page.rs:376",
+"src/ui/pages/settings_page.rs:392"
+],
+"msgid": "Import Profiles",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:5132"
+],
+"msgid": "Failed to read file. Check logs for details.",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:5150"
+],
+"msgid": "Invalid profile format: {error}",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:5160"
+],
+"msgid": "No profiles found in file",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:5169"
+],
+"msgid": "Import Warning",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:5170"
+],
+"msgid": "The imported file contains profiles with executable scripts or programs.\n\nDo you want to import them with or without these automation actions?",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:5174"
+],
+"msgid": "Import Without Scripts",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:5175"
+],
+"msgid": "Import With Scripts",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: name of an imported profile"
+],
+"r": [
+"src/ui/main_window.rs:5206"
+],
+"msgid": "{name} (Imported)",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:5232"
+],
+"msgid": "Imported {n} profile without automation actions",
+"plural": "Imported {n} profiles without automation actions"
+},
+{
+"c": [],
+"r": [
+"src/ui/main_window.rs:5241"
+],
+"msgid": "Imported {n} profile",
+"plural": "Imported {n} profiles"
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/dashboard_page.rs:152"
+],
+"msgid": "Decorative network topology graphic",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/dashboard_page.rs:255"
+],
+"msgid": "Manage your system connectivity",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/dashboard_page.rs:283"
+],
+"msgid": "Active Profile",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/dashboard_page.rs:298 src/ui/pages/dashboard_page.rs:827",
+"src/ui/pages/profiles_page.rs:216 src/ui/widgets/profile_row.rs:75",
+"src/ui/widgets/profile_row.rs:122"
+],
+"msgid": "Inactive",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/dashboard_page.rs:309 src/ui/pages/dashboard_page.rs:837"
+],
+"msgid": "Never applied",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/dashboard_page.rs:330"
+],
+"msgid": "Service Status",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/dashboard_page.rs:346"
+],
+"msgid": "Checking...",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/dashboard_page.rs:352"
+],
+"msgid": "NetworkManager handles network configuration",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/dashboard_page.rs:361 src/ui/pages/dashboard_page.rs:885"
+],
+"msgid": "Start Service",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/dashboard_page.rs:368"
+],
+"msgid": "Starting…",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/dashboard_page.rs:420"
+],
+"msgid": "Current Network",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/dashboard_page.rs:459"
+],
+"msgid": "DNS Servers",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Label for the type and name of the active connection"
+],
+"r": [
+"src/ui/pages/dashboard_page.rs:474"
+],
+"msgid": "Connection",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/dashboard_page.rs:498"
+],
+"msgid": "Network Activity",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Badge showing that the activity graph updates in real time"
+],
+"r": [
+"src/ui/pages/dashboard_page.rs:512"
+],
+"msgid": "LIVE",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/dashboard_page.rs:528"
+],
+"msgid": "Network activity graph showing download and upload rates over time",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/dashboard_page.rs:719"
+],
+"msgid": "Quick Actions",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/dashboard_page.rs:724"
+],
+"msgid": "Refresh status or switch to another profile",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/dashboard_page.rs:738"
+],
+"msgid": "Refresh",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/dashboard_page.rs:753"
+],
+"msgid": "New Profile",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/dashboard_page.rs:823 src/ui/pages/profiles_page.rs:212",
+"src/ui/pages/profiles_page.rs:215 src/ui/widgets/profile_row.rs:121"
+],
+"msgid": "Active",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/dashboard_page.rs:835"
+],
+"msgid": "Applied: {time}",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: State of the NetworkManager system service"
+],
+"r": [
+"src/ui/pages/dashboard_page.rs:876"
+],
+"msgid": "Running",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: State of the NetworkManager system service"
+],
+"r": [
+"src/ui/pages/dashboard_page.rs:879"
+],
+"msgid": "Not Running",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Transfer rate in gigabytes per second"
+],
+"r": [
+"src/ui/pages/dashboard_page.rs:945"
+],
+"msgid": "{speed} GB/s",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Transfer rate in megabytes per second"
+],
+"r": [
+"src/ui/pages/dashboard_page.rs:948"
+],
+"msgid": "{speed} MB/s",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Transfer rate in kilobytes per second"
+],
+"r": [
+"src/ui/pages/dashboard_page.rs:951"
+],
+"msgid": "{speed} KB/s",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Transfer rate in bytes per second"
+],
+"r": [
+"src/ui/pages/dashboard_page.rs:954"
+],
+"msgid": "{speed} B/s",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/dashboard_page.rs:977 src/ui/widgets/network_card.rs:125",
+"src/ui/widgets/network_card.rs:175"
+],
+"msgid": "Disconnected",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/dashboard_page.rs:1003"
+],
+"msgid": "Wi-Fi ({name})",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/dashboard_page.rs:1004"
+],
+"msgid": "Ethernet ({name})",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/dashboard_page.rs:1005"
+],
+"msgid": "VPN ({name})",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: A network bridge connection and its name"
+],
+"r": [
+"src/ui/pages/dashboard_page.rs:1007"
+],
+"msgid": "Bridge ({name})",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/help_page.rs:64"
+],
+"msgid": "Learn how to use Network Manager",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/help_page.rs:85"
+],
+"msgid": "About Network Manager",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/help_page.rs:86"
+],
+"msgid": "CD Network Manager is a comprehensive system and network profile manager for Linux. It allows you to create, manage, and quickly switch between different network and system configuration profiles. Perfect for users who need different settings for home, work, or different network environments.",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/help_page.rs:95"
+],
+"msgid": "The Dashboard provides an overview of your current network configuration. View your active network connections, IP addresses, and connection status. The active profile is displayed prominently, and you can quickly switch between profiles using the profile selector. Network statistics and connection health are updated in real-time.",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/help_page.rs:105"
+],
+"msgid": "Profiles are the core feature of Network Manager. Each profile stores a complete set of network and system settings including:\n\n• Network configuration (IP, DNS, gateway)\n• Proxy settings\n• Firewall rules\n• System services to enable/disable\n• Custom scripts to run on activation\n\nCreate profiles for different locations or use cases, then switch between them with a single click. Profiles can be exported and imported for backup or sharing.",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/help_page.rs:119"
+],
+"msgid": "The Logs page shows network-related system events and profile switch history. View connection changes, profile activations, and any errors that occurred. Filter logs by type or search for specific events. Logs help you troubleshoot connectivity issues and track configuration changes over time.",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/help_page.rs:128"
+],
+"msgid": "The Settings page allows you to configure application preferences. Set the default profile to activate at startup, configure automatic profile switching based on network detection, enable or disable system tray integration, and customize notification preferences. Advanced options include daemon configuration and privilege settings.",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/help_page.rs:137"
+],
+"msgid": "Profile Features",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/help_page.rs:138"
+],
+"msgid": "Each profile can include:\n\n• Static or DHCP IP configuration\n• Custom DNS servers\n• HTTP/HTTPS/SOCKS proxy settings\n• Firewall zone assignment\n• VPN connection settings\n• System services to start/stop\n• Pre/post activation scripts\n• Network interface selection",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/help_page.rs:151"
+],
+"msgid": "Tips",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/help_page.rs:152"
+],
+"msgid": "• Create a 'Default' profile as a baseline configuration.\n• Use descriptive profile names like 'Home WiFi' or 'Office Wired'.\n• Test profiles before relying on them in critical situations.\n• Export important profiles for backup.\n• Use the system tray for quick profile switching.\n• Check logs if a profile switch doesn't work as expected.",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/logs_page.rs:128"
+],
+"msgid": "Application Logs",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/logs_page.rs:136"
+],
+"msgid": "Search logs...",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Log filter: show entries of every level"
+],
+"r": [
+"src/ui/pages/logs_page.rs:145"
+],
+"msgid": "All",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Log level filter"
+],
+"r": [
+"src/ui/pages/logs_page.rs:147"
+],
+"msgid": "Info",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Log level filter"
+],
+"r": [
+"src/ui/pages/logs_page.rs:149"
+],
+"msgid": "Warning",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Log level filter"
+],
+"r": [
+"src/ui/pages/logs_page.rs:151 src/ui/pages/profiles_page.rs:218",
+"src/ui/widgets/network_card.rs:178 src/ui/widgets/profile_row.rs:124"
+],
+"msgid": "Error",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/logs_page.rs:160"
+],
+"msgid": "Clear Logs",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/logs_page.rs:164 src/ui/pages/logs_page.rs:305"
+],
+"msgid": "Export Logs",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/profiles_page.rs:72"
+],
+"msgid": "Search profiles...",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/profiles_page.rs:85"
+],
+"msgid": "Import profiles from file",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/profiles_page.rs:91"
+],
+"msgid": "Export profiles to file",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/profiles_page.rs:143"
+],
+"msgid": "No Profiles Yet",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/profiles_page.rs:144"
+],
+"msgid": "Create your first network profile to get started",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/profiles_page.rs:179"
+],
+"msgid": "Loading profiles...",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/profiles_page.rs:217 src/ui/widgets/profile_row.rs:123"
+],
+"msgid": "Applying",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/profiles_page.rs:237"
+],
+"msgid": "Apply Profile (Enter)",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/profiles_page.rs:241"
+],
+"msgid": "Already active",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/profiles_page.rs:272"
+],
+"msgid": "Duplicate Profile",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/profiles_page.rs:285"
+],
+"msgid": "Delete Profile",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:137"
+],
+"msgid": "Select the application color scheme",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:185"
+],
+"msgid": "Auto-Switch",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:186"
+],
+"msgid": "Automatically activate profiles based on conditions",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:190"
+],
+"msgid": "Enable Auto-Switch",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:191"
+],
+"msgid": "Activate profiles when conditions match",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:205 src/ui/pages/settings_page.rs:456"
+],
+"msgid": "Check Interval",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:206"
+],
+"msgid": "Seconds between condition checks",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:220"
+],
+"msgid": "Allow Scripts During Auto-Switch",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:221"
+],
+"msgid": "Run automation actions when auto-switching profiles",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:238 src/ui/pages/settings_page.rs:1714"
+],
+"msgid": "Auto-Switch Rules",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:239"
+],
+"msgid": "Configure conditions for automatic profile switching",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:264"
+],
+"msgid": "Desktop Notifications",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:265"
+],
+"msgid": "Show notifications for profile changes",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:279"
+],
+"msgid": "Start Minimized",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:280"
+],
+"msgid": "Minimize to system tray on startup",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:297"
+],
+"msgid": "Storage",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:302"
+],
+"msgid": "Profiles Directory",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:307 src/ui/pages/settings_page.rs:335"
+],
+"msgid": "Open folder",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:330"
+],
+"msgid": "Logs File",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Shown as Pango markup, so write \"&\" as \"&amp;\""
+],
+"r": [
+"src/ui/pages/settings_page.rs:360"
+],
+"msgid": "Backup &amp; Restore",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:365"
+],
+"msgid": "Save all profiles to a backup file",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:377"
+],
+"msgid": "Restore profiles from a backup file",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:398"
+],
+"msgid": "Scheduling",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:399"
+],
+"msgid": "Automatically activate profiles at specific times",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:403"
+],
+"msgid": "Enable Scheduled Activation",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:404"
+],
+"msgid": "Automatically switch profiles based on schedule",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:419 src/ui/pages/settings_page.rs:1003"
+],
+"msgid": "Manage Schedules",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:420"
+],
+"msgid": "Configure time-based profile activations",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:441"
+],
+"msgid": "Connection Watchdog",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:443"
+],
+"msgid": "Monitor network connectivity and take action on failures",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:448"
+],
+"msgid": "Enable Watchdog",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:449"
+],
+"msgid": "Periodically check network connectivity",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:457"
+],
+"msgid": "Seconds between connectivity checks",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:464 src/ui/pages/settings_page.rs:1765"
+],
+"msgid": "Ping Target",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:471"
+],
+"msgid": "Failure Threshold",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:472"
+],
+"msgid": "Failed checks before taking action",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Watchdog failure action: show a notification"
+],
+"r": [
+"src/ui/pages/settings_page.rs:481"
+],
+"msgid": "Notify",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Watchdog failure action: reconnect the network"
+],
+"r": [
+"src/ui/pages/settings_page.rs:483"
+],
+"msgid": "Reconnect",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Watchdog failure action; \"NetworkManager\" is the",
+"name of the system service"
+],
+"r": [
+"src/ui/pages/settings_page.rs:488"
+],
+"msgid": "Restart NetworkManager",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:493"
+],
+"msgid": "Failure Action",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:494"
+],
+"msgid": "Action when connectivity is lost",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:503"
+],
+"msgid": "Fallback Profile",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:504"
+],
+"msgid": "Profile to switch to when connectivity fails",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:574"
+],
+"msgid": "Script execution and profile security settings",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:579"
+],
+"msgid": "No Sandboxing",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:583"
+],
+"msgid": "Script Sandboxing",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:584"
+],
+"msgid": "Method for isolating script execution",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:593"
+],
+"msgid": "Profile Encryption",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:594"
+],
+"msgid": "Encrypt saved profiles with a passphrase",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:601"
+],
+"msgid": "Change Passphrase…",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:608"
+],
+"msgid": "Unlock Profiles…",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:645"
+],
+"msgid": "Enable Profile Encryption",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:646"
+],
+"msgid": "Choose a passphrase. It is never saved to disk, so you will need to enter it each time you start the app.",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:648"
+],
+"msgid": "Enable",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:673"
+],
+"msgid": "Disable Profile Encryption?",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:674"
+],
+"msgid": "Saved profiles will be written to disk without encryption.",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:677"
+],
+"msgid": "Disable",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:727"
+],
+"msgid": "Change Encryption Passphrase",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:728"
+],
+"msgid": "Choose a new passphrase for your saved profiles.",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:730"
+],
+"msgid": "Change",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:762"
+],
+"msgid": "Enter the passphrase you chose when encryption was enabled.",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:799"
+],
+"msgid": "Keyboard Shortcuts",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:800"
+],
+"msgid": "Quick access shortcuts for profile switching",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:804"
+],
+"msgid": "Enable Profile Hotkeys",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:805"
+],
+"msgid": "Use keyboard shortcuts to switch profiles",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:820 src/ui/pages/settings_page.rs:1404"
+],
+"msgid": "Configure Hotkeys",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:821"
+],
+"msgid": "Assign keyboard shortcuts to profiles",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Application version row"
+],
+"r": [
+"src/ui/pages/settings_page.rs:845"
+],
+"msgid": "Version",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:851"
+],
+"msgid": "Project Website",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:872"
+],
+"msgid": "Report an Issue",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:927"
+],
+"msgid": "(No profiles available)",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1015 src/ui/pages/settings_page.rs:1162"
+],
+"msgid": "Add Schedule",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1047"
+],
+"msgid": "No Schedules",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1048"
+],
+"msgid": "Add a schedule to automatically activate profiles at specific times.\n\nClick the + button to create your first schedule.",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1059"
+],
+"msgid": "Schedules use cron format: minute hour day-of-month month day-of-week\nExample: \"30 9 * * 1-5\" = 9:30 AM on weekdays",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1105"
+],
+"msgid": "Unknown profile",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Appended to a schedule or hotkey that is turned off"
+],
+"r": [
+"src/ui/pages/settings_page.rs:1110 src/ui/pages/settings_page.rs:1510"
+],
+"msgid": "disabled",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1129"
+],
+"msgid": "Delete Schedule",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1183"
+],
+"msgid": "Schedule Information",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Default description for a new schedule"
+],
+"r": [
+"src/ui/pages/settings_page.rs:1189"
+],
+"msgid": "Daily Work Profile",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1197 src/ui/pages/settings_page.rs:1578"
+],
+"msgid": "Profile",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1198"
+],
+"msgid": "Profile to activate on schedule",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1207"
+],
+"msgid": "Activation Time",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1211"
+],
+"msgid": "Hour (0-23)",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1217"
+],
+"msgid": "Minute (0-59)",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1226"
+],
+"msgid": "Days of Week",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1227"
+],
+"msgid": "Select days when the schedule should run",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1231"
+],
+"msgid": "Monday",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1235"
+],
+"msgid": "Tuesday",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1239"
+],
+"msgid": "Wednesday",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1243"
+],
+"msgid": "Thursday",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1247"
+],
+"msgid": "Friday",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1251"
+],
+"msgid": "Saturday",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1255"
+],
+"msgid": "Sunday",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1271"
+],
+"msgid": "Options",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1275"
+],
+"msgid": "Enabled",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1276"
+],
+"msgid": "Schedule will trigger when enabled",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: A schedule that runs only once"
+],
+"r": [
+"src/ui/pages/settings_page.rs:1283"
+],
+"msgid": "One-shot",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1284"
+],
+"msgid": "Run once then disable",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1416 src/ui/pages/settings_page.rs:1550"
+],
+"msgid": "Add Hotkey",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1428"
+],
+"msgid": "Profile Hotkeys",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1429"
+],
+"msgid": "Global keyboard shortcuts for quick profile switching",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1439"
+],
+"msgid": "No hotkeys configured. Click the + button to add one.",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1453"
+],
+"msgid": "How to Use",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1457"
+],
+"msgid": "About Hotkeys",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1458"
+],
+"msgid": "Hotkeys work globally when the app is running. Press the shortcut to instantly switch to the assigned profile.",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Heading of a warning about conflicting shortcuts"
+],
+"r": [
+"src/ui/pages/settings_page.rs:1464"
+],
+"msgid": "Note",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1466"
+],
+"msgid": "Some shortcuts may conflict with system or other application shortcuts.",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1521"
+],
+"msgid": "Delete Hotkey",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1570"
+],
+"msgid": "Hotkey Configuration",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1579"
+],
+"msgid": "Profile to activate with this hotkey",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Keyboard modifier key name"
+],
+"r": [
+"src/ui/pages/settings_page.rs:1588"
+],
+"msgid": "Ctrl",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Keyboard modifier key name"
+],
+"r": [
+"src/ui/pages/settings_page.rs:1595"
+],
+"msgid": "Alt",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Keyboard modifier key name"
+],
+"r": [
+"src/ui/pages/settings_page.rs:1602"
+],
+"msgid": "Shift",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Keyboard modifier key name (the Windows/logo key)"
+],
+"r": [
+"src/ui/pages/settings_page.rs:1609"
+],
+"msgid": "Super",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: The key pressed together with the modifiers"
+],
+"r": [
+"src/ui/pages/settings_page.rs:1616"
+],
+"msgid": "Key",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Profile name shown when the hotkey's profile is missing",
+"TRANSLATORS: Placeholder for an interface whose name is not known yet"
+],
+"r": [
+"src/ui/pages/settings_page.rs:1657 src/ui/widgets/network_card.rs:117"
+],
+"msgid": "Unknown",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1744"
+],
+"msgid": "Available Rule Types",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1745"
+],
+"msgid": "Rules are stored with each profile",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1749"
+],
+"msgid": "Wi-Fi SSID",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1750"
+],
+"msgid": "Activate when connected to a specific network",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1757"
+],
+"msgid": "Gateway MAC",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1758"
+],
+"msgid": "Match by router MAC address",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1766"
+],
+"msgid": "Activate when a host is reachable",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1773"
+],
+"msgid": "Time Window",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1774"
+],
+"msgid": "Activate during specific hours/days",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1781"
+],
+"msgid": "Interface State",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1782"
+],
+"msgid": "Match network interface up/down state",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/pages/settings_page.rs:1793"
+],
+"msgid": "Rules cannot be edited in the app yet. Rules included in imported profiles are checked automatically while Auto-Switch is enabled.\nRules can be combined with AND/OR logic for complex matching.",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/widgets/network_card.rs:176"
+],
+"msgid": "Connecting...",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Connection state inside a screen-reader sentence"
+],
+"r": [
+"src/ui/widgets/network_card.rs:211"
+],
+"msgid": "disconnected",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Connection state inside a screen-reader sentence"
+],
+"r": [
+"src/ui/widgets/network_card.rs:213"
+],
+"msgid": "connecting",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Connection state inside a screen-reader sentence"
+],
+"r": [
+"src/ui/widgets/network_card.rs:215"
+],
+"msgid": "connected",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Connection state inside a screen-reader sentence",
+"TRANSLATORS: Profile status inside a screen-reader sentence"
+],
+"r": [
+"src/ui/widgets/network_card.rs:217 src/ui/widgets/profile_row.rs:109"
+],
+"msgid": "error",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/widgets/network_card.rs:221"
+],
+"msgid": "no IP address",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/widgets/network_card.rs:226"
+],
+"msgid": "VPN",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Network bridge interface type"
+],
+"r": [
+"src/ui/widgets/network_card.rs:228"
+],
+"msgid": "Bridge",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Screen-reader label for a network interface card, e.g.",
+"\"wlan0 Wi-Fi interface, connected, 192.168.1.5\""
+],
+"r": [
+"src/ui/widgets/network_card.rs:234"
+],
+"msgid": "{name} {type} interface, {state}, {ip}",
+"plural": null
+},
+{
+"c": [],
+"r": [
+"src/ui/widgets/profile_row.rs:69"
+],
+"msgid": "Activate Profile",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Profile status inside a screen-reader sentence"
+],
+"r": [
+"src/ui/widgets/profile_row.rs:103"
+],
+"msgid": "active",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Profile status inside a screen-reader sentence"
+],
+"r": [
+"src/ui/widgets/profile_row.rs:105"
+],
+"msgid": "inactive",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Profile status inside a screen-reader sentence"
+],
+"r": [
+"src/ui/widgets/profile_row.rs:107"
+],
+"msgid": "applying",
+"plural": null
+},
+{
+"c": [
+"TRANSLATORS: Screen-reader label for a profile row, e.g.",
+"\"Profile Home, status: active\""
+],
+"r": [
+"src/ui/widgets/profile_row.rs:113"
+],
+"msgid": "Profile {name}, status: {status}",
+"plural": null
+}
+]

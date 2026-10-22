@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Network Manager
+Comment=Network and system profile manager
+Exec=network-manager
+Icon=com.chrisdaggas.network-manager
+Terminal=false
+Categories=GTK;GNOME;Network;
+Keywords=network;profile;manager;vpn;dns;ip;
+StartupWMClass=com.chrisdaggas.network-manager
+X-AppImage-Version=0.1.0
